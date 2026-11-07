@@ -1,4 +1,8 @@
 (() => {
+  if (!document.querySelector('[data-day]') && !document.querySelector('#course-index') && /^#(?:day-\d{3}|unit-\d{2})$/.test(location.hash)) {
+    location.replace(`grades/grade-6/index.html${location.hash}`);
+    return;
+  }
   const jump = document.querySelector('[data-jump]');
   if (jump) jump.addEventListener('change', () => { window.location.href = jump.value; });
   document.querySelectorAll('[data-print]').forEach(button => button.addEventListener('click', () => window.print()));
@@ -101,7 +105,8 @@
     const saved = Number(localStorage.getItem('math-coach-day'));
     const resume = document.querySelector('[data-resume]');
     if (resume && Number.isInteger(saved) && saved >= 1 && saved <= 140) {
-      resume.href = `lessons/day-${String(saved).padStart(3, '0')}.html#lesson-top`;
+      const courseBase = document.querySelector('[data-course-base]')?.dataset.courseBase || '';
+      resume.href = `${courseBase}lessons/day-${String(saved).padStart(3, '0')}.html#lesson-top`;
       resume.textContent = `Continue Day ${String(saved).padStart(3, '0')} →`;
       resume.hidden = false;
     }
