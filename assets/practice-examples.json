@@ -1,0 +1,1331 @@
+{
+  "1": {
+    "title": "Long Division and Place Value",
+    "question": "Use long division: 8,365 ÷ 35. Show the algorithm and check.",
+    "steps": [
+      "Estimate how many digits the quotient should have. Work from the leftmost digits of the dividend.",
+      "83 ÷ 35: write 2, subtract 70, remainder 13",
+      "bring down the next digit: 136 ÷ 35: write 3, subtract 105, remainder 31",
+      "bring down the next digit: 315 ÷ 35: write 9, subtract 315, remainder 0.",
+      "Check: 35 × 239 = 8365."
+    ],
+    "answer": "239"
+  },
+  "2": {
+    "title": "Quotients with Zero Digits",
+    "question": "Use long division: 11,666 ÷ 38. Show the algorithm and check.",
+    "steps": [
+      "Estimate how many digits the quotient should have. Work from the leftmost digits of the dividend.",
+      "116 ÷ 38: write 3, subtract 114, remainder 2",
+      "bring down the next digit: 26 ÷ 38: write 0, subtract 0, remainder 26",
+      "bring down the next digit: 266 ÷ 38: write 7, subtract 266, remainder 0.",
+      "Check: 38 × 307 = 11666."
+    ],
+    "answer": "307"
+  },
+  "3": {
+    "title": "Adding Decimals",
+    "question": "Use the standard algorithm: 4.89 + 8. Show your regrouping or division steps.",
+    "steps": [
+      "Line up the decimal points. Add placeholder zeros so the numbers are 4.89 and 8.00.",
+      "Column 1 from the right: 9 + 0 = 9. Write 9.",
+      "Column 2 from the right: 8 + 0 = 8. Write 8.",
+      "Column 3 from the right: 4 + 8 = 12. Write 2 and carry 1 to the next column.",
+      "Write the final carried 1 in a new leftmost column.",
+      "Bring the decimal point straight down, keeping 2 decimal places: 12.89. The simplified decimal answer is 12.89."
+    ],
+    "answer": "12.89"
+  },
+  "4": {
+    "title": "Subtracting Decimals",
+    "question": "Use the standard algorithm: 8.5 - 4.52. Show your regrouping or division steps.",
+    "steps": [
+      "Line up the decimal points. Add placeholder zeros so the numbers are 8.50 and 4.52.",
+      "Column 1 from the right needs regrouping. Exchange one unit from a column to the left for ten units here, so this digit becomes 10.",
+      "Column 1 from the right: 10 − 2 = 8. Write 8.",
+      "Column 2 from the right needs regrouping. Exchange one unit from a column to the left for ten units here, so this digit becomes 14.",
+      "Column 2 from the right: 14 − 5 = 9. Write 9.",
+      "Column 3 from the right: 7 − 4 = 3. Write 3.",
+      "Bring the decimal point straight down, keeping 2 decimal places: 3.98. The simplified decimal answer is 3.98.",
+      "Check: 3.98 + 4.52 = 8.5."
+    ],
+    "answer": "3.98"
+  },
+  "6": {
+    "title": "Multiplying Decimals",
+    "question": "Use the standard algorithm: 4.5 × 5.5. Show your regrouping or division steps.",
+    "steps": [
+      "Estimate the size first. Treat the factors as whole numbers: 4.5 becomes 45, and 5.5 becomes 55.",
+      "Multiply the whole numbers: 45 × 55 = 2475.",
+      "Count decimal places: 1 in 4.5 plus 1 in 5.5 gives 2.",
+      "Place the decimal point 2 places from the right in 2475, adding leading zeros if necessary: 24.75. Remove only unnecessary trailing zeros."
+    ],
+    "answer": "24.75"
+  },
+  "7": {
+    "title": "Decimal Products in Context",
+    "question": "Use the standard algorithm: 9.36 × 8.5. Show your regrouping or division steps.",
+    "steps": [
+      "Estimate the size first. Treat the factors as whole numbers: 9.36 becomes 936, and 8.5 becomes 85.",
+      "Multiply the whole numbers: 936 × 85 = 79560.",
+      "Count decimal places: 2 in 9.36 plus 1 in 8.5 gives 3.",
+      "Place the decimal point 3 places from the right in 79560, adding leading zeros if necessary: 79.56. Remove only unnecessary trailing zeros."
+    ],
+    "answer": "79.56"
+  },
+  "8": {
+    "title": "Dividing by Decimals",
+    "question": "Use the standard algorithm: 11.52 ÷ 3.2. Show your regrouping or division steps.",
+    "steps": [
+      "Make the divisor a whole number. Multiply BOTH numbers by 10: 11.52 ÷ 3.2 = 115.2 ÷ 32. This keeps the quotient unchanged.",
+      "32 goes into 115 3 times. Write 3; multiply 3 × 32 = 96; subtract 115 − 96 = 19.",
+      "Bring the decimal point straight up into the quotient before dividing the tenths.",
+      "Bring down the next digit, 2, to make 192. 32 goes into 192 6 times. Write 6; multiply 6 × 32 = 192; subtract 192 − 192 = 0.",
+      "Check using multiplication: 3.2 × 3.6 = 11.52. The quotient is 3.6."
+    ],
+    "answer": "3.6"
+  },
+  "9": {
+    "title": "Decimal Quotients and Checks",
+    "question": "Use the standard algorithm: 2.88 ÷ 1.2. Show your regrouping or division steps.",
+    "steps": [
+      "Make the divisor a whole number. Multiply BOTH numbers by 10: 2.88 ÷ 1.2 = 28.8 ÷ 12. This keeps the quotient unchanged.",
+      "12 goes into 28 2 times. Write 2; multiply 2 × 12 = 24; subtract 28 − 24 = 4.",
+      "Bring the decimal point straight up into the quotient before dividing the tenths.",
+      "Bring down the next digit, 8, to make 48. 12 goes into 48 4 times. Write 4; multiply 4 × 12 = 48; subtract 48 − 48 = 0.",
+      "Check using multiplication: 1.2 × 2.4 = 2.88. The quotient is 2.4."
+    ],
+    "answer": "2.4"
+  },
+  "11": {
+    "title": "Greatest Common Factors",
+    "question": "Find the GCF of 70 and 100. Show factor pairs or prime factors.",
+    "steps": [
+      "List factor pairs or use prime factorizations.",
+      "The greatest factor shared by both numbers is the GCF.",
+      "Common factors: 1, 2, 5, 10",
+      "greatest is 10.",
+      "State the result in the form requested: 10."
+    ],
+    "answer": "10"
+  },
+  "12": {
+    "title": "Least Common Multiples",
+    "question": "Find the LCM of 4 and 10 by listing multiples.",
+    "steps": [
+      "List positive multiples of both numbers.",
+      "The smallest shared multiple is the LCM.",
+      "The first positive multiple shared by 4 and 10 is 20.",
+      "State the result in the form requested: 20."
+    ],
+    "answer": "20"
+  },
+  "13": {
+    "title": "Factoring Sums",
+    "question": "Factor 32 + 48 using its GCF. Make the inside numbers relatively prime.",
+    "steps": [
+      "Find the GCF of the two addends.",
+      "Divide each addend by that factor and place the quotients inside parentheses.",
+      "GCF = 16",
+      "32 = 16 × 2 and 48 = 16 × 3.",
+      "State the result in the form requested: 16(2 + 3)."
+    ],
+    "answer": "16(2 + 3)"
+  },
+  "14": {
+    "title": "Division with Remainders in Context",
+    "question": "Use long division: 6,403 ÷ 19. Show the algorithm and check.",
+    "steps": [
+      "Estimate how many digits the quotient should have. Work from the leftmost digits of the dividend.",
+      "64 ÷ 19: write 3, subtract 57, remainder 7",
+      "bring down the next digit: 70 ÷ 19: write 3, subtract 57, remainder 13",
+      "bring down the next digit: 133 ÷ 19: write 7, subtract 133, remainder 0.",
+      "Check: 19 × 337 = 6403."
+    ],
+    "answer": "337"
+  },
+  "16": {
+    "title": "Fraction Products as Preparation",
+    "question": "Calculate 1/6 × 5/8. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 1/6 = 1/6 and 5/8 = 5/8.",
+      "Keep multiplication and multiply the fractions: 1/6 × 5/8.",
+      "Multiply numerators and denominators: (1 × 5) / (6 × 8) = 5/48.",
+      "Simplify by dividing top and bottom by 1: 5/48.",
+      "Check the result: The product of 1/6 and 5/8 is 5/48. A positive factor below 1 makes the other positive factor smaller."
+    ],
+    "answer": "5/48"
+  },
+  "17": {
+    "title": "Mixed Number Products",
+    "question": "Calculate 3 1/2 × 2 1/2. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 3 1/2 = 7/2 and 2 1/2 = 5/2.",
+      "Keep multiplication and multiply the fractions: 7/2 × 5/2.",
+      "Multiply numerators and denominators: (7 × 5) / (2 × 2) = 35/4.",
+      "Simplify by dividing top and bottom by 1: 35/4.",
+      "Check the result: The product of 7/2 and 5/2 is 35/4. A positive factor below 1 makes the other positive factor smaller."
+    ],
+    "answer": "35/4"
+  },
+  "18": {
+    "title": "Equal Groups in Fraction Bars",
+    "question": "Draw a bar partitioned into 12 equal parts. Shade 4 parts. Circle groups of 2 parts. Use the model to find 1/3 ÷ 1/6.",
+    "steps": [
+      "A quotient asks how many groups of the divisor fit in the dividend.",
+      "Rename both fractions with a common denominator, draw equal parts, and count groups.",
+      "Each small part is 1/12",
+      "4 shaded parts divided into groups of 2 gives 4/2 = 2 groups.",
+      "State the result in the form requested: 2."
+    ],
+    "answer": "2"
+  },
+  "19": {
+    "title": "Partial Groups in Fraction Bars",
+    "question": "Draw a bar partitioned into 6 equal parts. Shade 4 parts. Circle groups of 1 parts. Use the model to find 2/3 ÷ 1/6.",
+    "steps": [
+      "A quotient asks how many groups of the divisor fit in the dividend.",
+      "Rename both fractions with a common denominator, draw equal parts, and count groups.",
+      "Each small part is 1/6",
+      "4 shaded parts divided into groups of 1 gives 4/1 = 4 groups.",
+      "State the result in the form requested: 4."
+    ],
+    "answer": "4"
+  },
+  "21": {
+    "title": "Fraction Division and Reciprocals",
+    "question": "Calculate 1/3 ÷ 2. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 1/3 = 1/3 and 2 = 2.",
+      "Keep the first fraction and multiply by the reciprocal of the second: 1/3 × 1/2.",
+      "Multiply numerators and denominators: (1 × 1) / (3 × 2) = 1/6.",
+      "Simplify by dividing top and bottom by 1: 1/6.",
+      "Check the result: 2 × 1/6 = 1/3, so the quotient is correct."
+    ],
+    "answer": "1/6"
+  },
+  "22": {
+    "title": "Checking Fraction Quotients",
+    "question": "Calculate 1/2 ÷ 5/2. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 1/2 = 1/2 and 5/2 = 5/2.",
+      "Keep the first fraction and multiply by the reciprocal of the second: 1/2 × 2/5.",
+      "Multiply numerators and denominators: (1 × 2) / (2 × 5) = 2/10.",
+      "Simplify by dividing top and bottom by 2: 1/5.",
+      "Check the result: 5/2 × 1/5 = 1/2, so the quotient is correct."
+    ],
+    "answer": "1/5"
+  },
+  "23": {
+    "title": "Dividing Mixed Numbers",
+    "question": "Calculate 2 ÷ 2 3/5. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 2 = 2 and 2 3/5 = 13/5.",
+      "Keep the first fraction and multiply by the reciprocal of the second: 2 × 5/13.",
+      "Multiply numerators and denominators: (2 × 5) / (1 × 13) = 10/13.",
+      "Simplify by dividing top and bottom by 1: 10/13.",
+      "Check the result: 13/5 × 10/13 = 2, so the quotient is correct."
+    ],
+    "answer": "10/13"
+  },
+  "24": {
+    "title": "Mixed Number Quotients and Checks",
+    "question": "Calculate 2 3/8 ÷ 1 1/2. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 2 3/8 = 19/8 and 1 1/2 = 3/2.",
+      "Keep the first fraction and multiply by the reciprocal of the second: 19/8 × 2/3.",
+      "Multiply numerators and denominators: (19 × 2) / (8 × 3) = 38/24.",
+      "Simplify by dividing top and bottom by 2: 19/12.",
+      "Check the result: 3/2 × 19/12 = 19/8, so the quotient is correct."
+    ],
+    "answer": "19/12"
+  },
+  "26": {
+    "title": "Interpreting Fraction Division Stories",
+    "question": "A ribbon is 2/3 m long. Each piece is 1 m. How many piece-lengths are in the ribbon? Include any fractional piece.",
+    "steps": [
+      "Identify the total amount and the size of one group.",
+      "Use total ÷ group size for the number of groups.",
+      "2/3 ÷ 1 = 2/3 × 1 = 2/3.",
+      "State the result in the form requested: 2/3 piece-lengths."
+    ],
+    "answer": "2/3 piece-lengths"
+  },
+  "27": {
+    "title": "Full Containers and Leftovers",
+    "question": "A ribbon is 1 1/2 m long. Each piece is 1/2 m. How many piece-lengths are in the ribbon? Include any fractional piece.",
+    "steps": [
+      "Identify the total amount and the size of one group.",
+      "Use total ÷ group size for the number of groups.",
+      "3/2 ÷ 1/2 = 3/2 × 2 = 3.",
+      "State the result in the form requested: 3 piece-lengths."
+    ],
+    "answer": "3 piece-lengths"
+  },
+  "28": {
+    "title": "Missing Factors and Quotients",
+    "question": "The equation 1 × n = 5/8 represents equally sized portions. Find n, write the related division equation, and check.",
+    "steps": [
+      "Division and multiplication are inverse operations.",
+      "For T ÷ s = n, the related equation is s × n = T.",
+      "5/8 ÷ 1 = 5/8 × 1 = 5/8.",
+      "Check: 1 × 5/8 = 5/8.",
+      "State the result in the form requested: n = 5/8; 5/8 ÷ 1 = 5/8."
+    ],
+    "answer": "n = 5/8; 5/8 ÷ 1 = 5/8"
+  },
+  "29": {
+    "title": "Explaining Fraction Division",
+    "question": "Calculate 7/3 ÷ 1/8. Simplify.",
+    "steps": [
+      "Rename the numbers as fractions: 7/3 = 7/3 and 1/8 = 1/8.",
+      "Keep the first fraction and multiply by the reciprocal of the second: 7/3 × 8.",
+      "Multiply numerators and denominators: (7 × 8) / (3 × 1) = 56/3.",
+      "Simplify by dividing top and bottom by 1: 56/3.",
+      "Check the result: 1/8 × 56/3 = 7/3, so the quotient is correct."
+    ],
+    "answer": "56/3"
+  },
+  "31": {
+    "title": "Ratio Language and Order",
+    "question": "A tray has 16 red tiles and 10 blue tiles. Write the red-to-blue ratio in simplest form.",
+    "steps": [
+      "A ratio compares two quantities multiplicatively.",
+      "In a:b, a names the first quantity and b names the second.",
+      "Keep red first",
+      "divide 16:10 by 2.",
+      "State the result in the form requested: 8:5."
+    ],
+    "answer": "8:5"
+  },
+  "32": {
+    "title": "Parts and the Whole",
+    "question": "A collection has 8 green and 24 yellow counters. Write the fraction that is green.",
+    "steps": [
+      "For a:b, the total is a+b equal parts.",
+      "The first part is a/(a+b) of the total; a/b compares it to the second part.",
+      "Total = 32",
+      "green fraction = 8/32 = 1/4.",
+      "State the result in the form requested: 1/4."
+    ],
+    "answer": "1/4"
+  },
+  "33": {
+    "title": "Tape Diagrams and Totals",
+    "question": "The ratio of oak trees to pine trees is 4:4. There are 24 trees altogether. Draw a tape diagram and find each count.",
+    "steps": [
+      "For a ratio a:b, draw a sections for one quantity and b sections for the other.",
+      "A total covers a+b sections.",
+      "8 equal sections total",
+      "each section is 24 ÷ 8 = 3.",
+      "State the result in the form requested: 12 oaks and 12 pines."
+    ],
+    "answer": "12 oaks and 12 pines"
+  },
+  "34": {
+    "title": "Equivalent Ratio Tables",
+    "question": "A mix uses 5 cups of oats for 2 cups of seeds. Complete the table (oats, seeds): (5, 2), (10, ___), (15, ___).",
+    "steps": [
+      "Multiply both values in a ratio by the same scale factor.",
+      "Organize pairs in a table and check that every row compares the same quantities in the same order.",
+      "Multiply both parts by 2 and by 3.",
+      "State the result in the form requested: 4; 6."
+    ],
+    "answer": "4; 6"
+  },
+  "36": {
+    "title": "Missing Values in Ratio Tables",
+    "question": "A mix uses 4 cups of oats for 7 cups of seeds. Complete the table (oats, seeds): (4, 7), (8, ___), (12, ___).",
+    "steps": [
+      "Multiply both values in a ratio by the same scale factor.",
+      "Organize pairs in a table and check that every row compares the same quantities in the same order.",
+      "Multiply both parts by 2 and by 3.",
+      "State the result in the form requested: 14; 21."
+    ],
+    "answer": "14; 21"
+  },
+  "37": {
+    "title": "Double Number Lines",
+    "question": "Draw aligned number lines for 4 liters of paint covering 3 square meters. Mark 0, one batch, and 5 batches. How much area do 20 liters cover?",
+    "steps": [
+      "Place zero on both parallel number lines.",
+      "Align a known pair above and below one tick.",
+      "20 ÷ 4 = 5 batches",
+      "5 × 3 = 15.",
+      "State the result in the form requested: 15 square meters; aligned pairs (0,0), (4,3), (20,15)."
+    ],
+    "answer": "15 square meters; aligned pairs (0,0), (4,3), (20,15)"
+  },
+  "38": {
+    "title": "Comparing Mixtures",
+    "question": "Mix A has 4 cups juice for 3 cups water. Mix B has 26 cups juice for 18 cups water. Which is stronger in juice? Show equivalent ratios.",
+    "steps": [
+      "Scale two ratios until one quantity matches, then compare the other quantity.",
+      "The larger count alone is not enough: compare the amount per equal-sized batch or per one item.",
+      "For 18 cups water, A uses 24 cups juice",
+      "B uses 26.",
+      "B has more juice per equal water amount.",
+      "State the result in the form requested: Mix B."
+    ],
+    "answer": "Mix B"
+  },
+  "39": {
+    "title": "Plotting Ratio Pairs",
+    "question": "For every 8 tickets sold, a club earns $4. Make a table for 0, 1, 2, and 6 batches. Plot (tickets, dollars), label axes, and interpret (48, 24).",
+    "steps": [
+      "Put the first quantity on the horizontal axis and the second on the vertical axis.",
+      "Build a table, label units, and plot ordered pairs.",
+      "Scale both quantities by each batch count",
+      "plot horizontal tickets and vertical dollars.",
+      "State the result in the form requested: (0,0), (8,4), (16,8), (48,24); 48 tickets earns $24."
+    ],
+    "answer": "(0,0), (8,4), (16,8), (48,24); 48 tickets earns $24"
+  },
+  "41": {
+    "title": "Ratios in Larger Batches",
+    "question": "The ratio of oak trees to pine trees is 4:3. There are 42 trees altogether. Draw a tape diagram and find each count.",
+    "steps": [
+      "For a ratio a:b, draw a sections for one quantity and b sections for the other.",
+      "A total covers a+b sections.",
+      "7 equal sections total",
+      "each section is 42 ÷ 7 = 6.",
+      "State the result in the form requested: 24 oaks and 18 pines."
+    ],
+    "answer": "24 oaks and 18 pines"
+  },
+  "42": {
+    "title": "Customary and Metric Conversions",
+    "question": "Convert 48 inches to feet. Show the conversion ratio.",
+    "steps": [
+      "Write an equality such as 1 foot = 12 inches.",
+      "Multiply to change larger units into smaller units; divide for the reverse.",
+      "48 ÷ 12 = 4",
+      "1 feet = 12 inches.",
+      "State the result in the form requested: 4 feet."
+    ],
+    "answer": "4 feet"
+  },
+  "43": {
+    "title": "Conversions with Fractional Amounts",
+    "question": "Convert 7000 milliliters to liters. Show the conversion ratio.",
+    "steps": [
+      "Write an equality such as 1 foot = 12 inches.",
+      "Multiply to change larger units into smaller units; divide for the reverse.",
+      "7000 ÷ 1000 = 7",
+      "1 liters = 1000 milliliters.",
+      "State the result in the form requested: 7 liters."
+    ],
+    "answer": "7 liters"
+  },
+  "44": {
+    "title": "Explaining Conversion Ratios",
+    "question": "Convert 6 feet to yards. Show the conversion ratio.",
+    "steps": [
+      "Write an equality such as 1 foot = 12 inches.",
+      "Multiply to change larger units into smaller units; divide for the reverse.",
+      "6 ÷ 3 = 2",
+      "1 yards = 3 feet.",
+      "State the result in the form requested: 2 yards."
+    ],
+    "answer": "2 yards"
+  },
+  "46": {
+    "title": "Unit Rates with Labels",
+    "question": "3 identical notebooks cost $6. Find the cost per notebook.",
+    "steps": [
+      "A unit rate compares an amount with one unit of another quantity.",
+      "Divide the first quantity by the second.",
+      "Unit rate = 6 ÷ 3 = 2 dollars per notebook.",
+      "State the result in the form requested: $2 per notebook."
+    ],
+    "answer": "$2 per notebook"
+  },
+  "47": {
+    "title": "Using a Unit Rate",
+    "question": "5 identical notebooks cost $25. Find the cost per notebook.",
+    "steps": [
+      "A unit rate compares an amount with one unit of another quantity.",
+      "Divide the first quantity by the second.",
+      "Unit rate = 25 ÷ 5 = 5 dollars per notebook.",
+      "State the result in the form requested: $5 per notebook."
+    ],
+    "answer": "$5 per notebook"
+  },
+  "48": {
+    "title": "Constant Speed",
+    "question": "A bus travels at 30 km/h. How long does 150 km take?",
+    "steps": [
+      "At a constant speed, distance = speed × time.",
+      "Divide distance by time to find speed, or distance by speed to find time.",
+      "Time = distance ÷ speed = 150 ÷ 30 = 5.",
+      "State the result in the form requested: 5 hours."
+    ],
+    "answer": "5 hours"
+  },
+  "49": {
+    "title": "Distance and Time",
+    "question": "A bus travels at 30 km/h. How long does 210 km take?",
+    "steps": [
+      "At a constant speed, distance = speed × time.",
+      "Divide distance by time to find speed, or distance by speed to find time.",
+      "Time = distance ÷ speed = 210 ÷ 30 = 7.",
+      "State the result in the form requested: 7 hours."
+    ],
+    "answer": "7 hours"
+  },
+  "51": {
+    "title": "Finding Unit Prices",
+    "question": "Pack A has 5 markers for $10; Pack B has 11 markers for $27.5. Find each unit price and the better buy.",
+    "steps": [
+      "Divide total cost by the number of items or units.",
+      "Compare costs for exactly one of the same unit.",
+      "Divide each price by its marker count",
+      "compare 2 with 2.5.",
+      "State the result in the form requested: A $2/marker; B $2.5/marker; A is cheaper."
+    ],
+    "answer": "A $2/marker; B $2.5/marker; A is cheaper"
+  },
+  "52": {
+    "title": "Comparing Package Sizes",
+    "question": "Pack A has 7 markers for $14; Pack B has 10 markers for $25. Find each unit price and the better buy.",
+    "steps": [
+      "Divide total cost by the number of items or units.",
+      "Compare costs for exactly one of the same unit.",
+      "Divide each price by its marker count",
+      "compare 2 with 2.5.",
+      "State the result in the form requested: A $2/marker; B $2.5/marker; A is cheaper."
+    ],
+    "answer": "A $2/marker; B $2.5/marker; A is cheaper"
+  },
+  "53": {
+    "title": "Percents Fractions and Decimals",
+    "question": "Write 30% as a simplified fraction and decimal.",
+    "steps": [
+      "Percent means per 100.",
+      "Write p% as p/100, simplify the fraction, and divide by 100 to write a decimal.",
+      "30% = 30/100 = 3/10",
+      "divide by 100 for 0.3.",
+      "State the result in the form requested: 3/10; 0.3."
+    ],
+    "answer": "3/10; 0.3"
+  },
+  "54": {
+    "title": "Finding the Percent Part",
+    "question": "Find 25% of 120.",
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "You may also find 10%, 5%, or 1% and combine equal pieces.",
+      "25/100 × 120 = 30.",
+      "State the result in the form requested: 30."
+    ],
+    "answer": "30"
+  },
+  "56": {
+    "title": "Percent Parts in Context",
+    "question": "Find 12% of 180.",
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "You may also find 10%, 5%, or 1% and combine equal pieces.",
+      "12/100 × 180 = 108/5.",
+      "State the result in the form requested: 108/5."
+    ],
+    "answer": "108/5"
+  },
+  "57": {
+    "title": "Finding the Whole",
+    "question": "20% of a number is 44. Find the number and check.",
+    "steps": [
+      "Write part = decimal rate × whole.",
+      "Divide the part by the decimal rate to find the whole.",
+      "Whole = 44 ÷ 1/5 = 220.",
+      "Check 20% × 220 = 44.",
+      "State the result in the form requested: 220."
+    ],
+    "answer": "220"
+  },
+  "58": {
+    "title": "Finding the Percent Rate",
+    "question": "6 is what percent of 120?",
+    "steps": [
+      "Divide the part by the whole, then multiply by 100.",
+      "Keep the same units in part and whole.",
+      "6 ÷ 120 × 100 = 5%",
+      "the reference whole is 120.",
+      "State the result in the form requested: 5%."
+    ],
+    "answer": "5%"
+  },
+  "59": {
+    "title": "Choosing a Percent Strategy",
+    "question": "30% of a number is 60. Find the number and check.",
+    "steps": [
+      "Write part = decimal rate × whole.",
+      "Divide the part by the decimal rate to find the whole.",
+      "Whole = 60 ÷ 3/10 = 200.",
+      "Check 30% × 200 = 60.",
+      "State the result in the form requested: 200."
+    ],
+    "answer": "200"
+  },
+  "61": {
+    "title": "Signed Quantities and Zero",
+    "question": "A marker is 21 m below sea level. Write its signed elevation and explain what elevation 0 means.",
+    "steps": [
+      "Choose a reference point for zero.",
+      "Opposite directions or values use opposite signs: above sea level is positive and below sea level is negative.",
+      "Sea level is the reference.",
+      "Below is negative and above is positive.",
+      "State the result in the form requested: -21 m; 0 means at sea level."
+    ],
+    "answer": "-21 m; 0 means at sea level"
+  },
+  "62": {
+    "title": "Opposites and Double Opposites",
+    "question": "Find the opposite of -8 and the opposite of that result. Locate all values on a number line.",
+    "steps": [
+      "Opposites are equally far from zero on opposite sides of a number line.",
+      "The opposite of 0 is 0.",
+      "-8 and 8 are each 8 units from 0 on opposite sides.",
+      "State the result in the form requested: 8; opposite again -8."
+    ],
+    "answer": "8; opposite again -8"
+  },
+  "63": {
+    "title": "Integers on Number Lines",
+    "question": "Draw a horizontal or vertical number line. Plot and label -1, 0, and 3/2.",
+    "steps": [
+      "Mark zero and equally spaced whole-number ticks.",
+      "Partition each interval into equal parts for the denominator.",
+      "Negative -1 is left of or below 0",
+      "3/2 is right of or above 0.",
+      "Use equal intervals.",
+      "State the result in the form requested: -1 < 0 < 3/2; use steps of 1/2."
+    ],
+    "answer": "-1 < 0 < 3/2; use steps of 1/2"
+  },
+  "64": {
+    "title": "Negative Fractions on Number Lines",
+    "question": "Draw a horizontal or vertical number line. Plot and label -2, 0, and 7/4.",
+    "steps": [
+      "Mark zero and equally spaced whole-number ticks.",
+      "Partition each interval into equal parts for the denominator.",
+      "Negative -2 is left of or below 0",
+      "7/4 is right of or above 0.",
+      "Use equal intervals.",
+      "State the result in the form requested: -2 < 0 < 7/4; use steps of 1/4."
+    ],
+    "answer": "-2 < 0 < 7/4; use steps of 1/4"
+  },
+  "66": {
+    "title": "Comparing Negative Values",
+    "question": "Compare -1/2 ___ -1/5 using <, >, or =. Sketch a number line to justify.",
+    "steps": [
+      "A number farther right is greater.",
+      "Among negative numbers, the value closer to zero is greater.",
+      "-1/2 < -1/5",
+      "greater numbers lie farther right.",
+      "State the result in the form requested: <."
+    ],
+    "answer": "<"
+  },
+  "67": {
+    "title": "Ordering Temperatures",
+    "question": "Compare -4 ___ -3 using <, >, or =. Sketch a number line to justify.",
+    "steps": [
+      "A number farther right is greater.",
+      "Among negative numbers, the value closer to zero is greater.",
+      "-4 < -3",
+      "greater numbers lie farther right.",
+      "State the result in the form requested: <."
+    ],
+    "answer": "<"
+  },
+  "68": {
+    "title": "Absolute Value as Distance",
+    "question": "Find |-10| and compare it with |5/2|.",
+    "steps": [
+      "The absolute value |x| is the distance from x to zero, so it cannot be negative.",
+      "A larger absolute value means farther from zero, but does not necessarily mean a greater number.",
+      "-10 is 10 units from 0",
+      "distance is nonnegative.",
+      "State the result in the form requested: 10; 10 > 5/2."
+    ],
+    "answer": "10; 10 > 5/2"
+  },
+  "69": {
+    "title": "Magnitude and Order",
+    "question": "Find |-9/2| and compare it with |3/2|.",
+    "steps": [
+      "The absolute value |x| is the distance from x to zero, so it cannot be negative.",
+      "A larger absolute value means farther from zero, but does not necessarily mean a greater number.",
+      "-9/2 is 9/2 units from 0",
+      "distance is nonnegative.",
+      "State the result in the form requested: 9/2; 9/2 > 3/2."
+    ],
+    "answer": "9/2; 9/2 > 3/2"
+  },
+  "71": {
+    "title": "Points in Four Quadrants",
+    "question": "Plot P(5, 6) on a coordinate plane and name its quadrant.",
+    "steps": [
+      "Start at the origin.",
+      "Move horizontally by x, then vertically by y.",
+      "Move 5 right, then 6 up.",
+      "State the result in the form requested: Quadrant I."
+    ],
+    "answer": "Quadrant I"
+  },
+  "72": {
+    "title": "Reflections and Coordinate Signs",
+    "question": "Plot (-8, -3), reflect it across y-axis, and give the reflected coordinates.",
+    "steps": [
+      "Across the x-axis, keep x and reverse the sign of y.",
+      "Across the y-axis, reverse x and keep y.",
+      "Reverse the x sign: (8, -3).",
+      "State the result in the form requested: (8, -3)."
+    ],
+    "answer": "(8, -3)"
+  },
+  "73": {
+    "title": "Horizontal and Vertical Distances",
+    "question": "Plot (-8, 5) and (4, 5). Find their distance.",
+    "steps": [
+      "Plot both points.",
+      "If x-coordinates match, count the vertical units; if y-coordinates match, count horizontal units.",
+      "Only one coordinate changes.",
+      "Opposite sides of 0: 8 + 4 = 12.",
+      "State the result in the form requested: 12 units."
+    ],
+    "answer": "12 units"
+  },
+  "74": {
+    "title": "Distances Across the Axes",
+    "question": "Plot (-4, 4) and (4, 4). Find their distance.",
+    "steps": [
+      "Plot both points.",
+      "If x-coordinates match, count the vertical units; if y-coordinates match, count horizontal units.",
+      "Only one coordinate changes.",
+      "Opposite sides of 0: 4 + 4 = 8.",
+      "State the result in the form requested: 8 units."
+    ],
+    "answer": "8 units"
+  },
+  "76": {
+    "title": "Repeated Factors and Exponents",
+    "question": "Write 8^4 as repeated multiplication and evaluate.",
+    "steps": [
+      "The base is the repeated factor and the exponent tells how many copies to multiply.",
+      "For a positive exponent, 4^3 = 4 × 4 × 4, not 4 × 3.",
+      "The exponent counts 4 factors of 8",
+      "multiply all factors.",
+      "State the result in the form requested: 8 × 8 × 8 × 8 = 4096."
+    ],
+    "answer": "8 × 8 × 8 × 8 = 4096"
+  },
+  "77": {
+    "title": "Powers and Their Values",
+    "question": "Write 6^2 as repeated multiplication and evaluate.",
+    "steps": [
+      "The base is the repeated factor and the exponent tells how many copies to multiply.",
+      "For a positive exponent, 4^3 = 4 × 4 × 4, not 4 × 3.",
+      "The exponent counts 2 factors of 6",
+      "multiply all factors.",
+      "State the result in the form requested: 6 × 6 = 36."
+    ],
+    "answer": "6 × 6 = 36"
+  },
+  "78": {
+    "title": "Order of Operations",
+    "question": "Evaluate (3 + 4) × 4^2. Show the intermediate steps.",
+    "steps": [
+      "Work inside parentheses, then evaluate exponents.",
+      "Multiply and divide from left to right; then add and subtract from left to right.",
+      "Use parentheses and exponents first, then × and ÷ left to right, then + and -.",
+      "Result: 112.",
+      "State the result in the form requested: 112."
+    ],
+    "answer": "112"
+  },
+  "79": {
+    "title": "Grouping and Left to Right Operations",
+    "question": "Evaluate (5 + 3) × 4^2. Show the intermediate steps.",
+    "steps": [
+      "Work inside parentheses, then evaluate exponents.",
+      "Multiply and divide from left to right; then add and subtract from left to right.",
+      "Use parentheses and exponents first, then × and ÷ left to right, then + and -.",
+      "Result: 128.",
+      "State the result in the form requested: 128."
+    ],
+    "answer": "128"
+  },
+  "81": {
+    "title": "Parts of an Expression",
+    "question": "For 3x + 2y + 5, list terms, coefficients, and the constant.",
+    "steps": [
+      "Addition and subtraction separate terms.",
+      "A coefficient multiplies a variable; a constant has no variable.",
+      "Terms are separated by addition",
+      "coefficients multiply variables.",
+      "State the result in the form requested: Terms 3x, 2y, 5; coefficients 3, 2; constant 5."
+    ],
+    "answer": "Terms 3x, 2y, 5; coefficients 3, 2; constant 5"
+  },
+  "82": {
+    "title": "Words to Expressions",
+    "question": "Write an expression for 3 times the sum of x and 4.",
+    "steps": [
+      "Define the variable first.",
+      "Use parentheses for a sum or difference that must stay together.",
+      "Group the sum before multiplying.",
+      "State the result in the form requested: 3(x + 4)."
+    ],
+    "answer": "3(x + 4)"
+  },
+  "83": {
+    "title": "Expressions for Costs",
+    "question": "Write an expression for 8 times the sum of x and 6.",
+    "steps": [
+      "Define the variable first.",
+      "Use parentheses for a sum or difference that must stay together.",
+      "Group the sum before multiplying.",
+      "State the result in the form requested: 8(x + 6)."
+    ],
+    "answer": "8(x + 6)"
+  },
+  "84": {
+    "title": "Substitution and Evaluation",
+    "question": "Evaluate x^2 + 6y for x = 6 and y = 5.",
+    "steps": [
+      "Replace every variable with its assigned value, using parentheses.",
+      "Apply the order of operations.",
+      "Substitute first: 6^2 + 6 × 5 = 66.",
+      "State the result in the form requested: 66."
+    ],
+    "answer": "66"
+  },
+  "86": {
+    "title": "Evaluating Formulas",
+    "question": "Evaluate x^2 + 7y for x = 5 and y = 4.",
+    "steps": [
+      "Replace every variable with its assigned value, using parentheses.",
+      "Apply the order of operations.",
+      "Substitute first: 5^2 + 7 × 4 = 53.",
+      "State the result in the form requested: 53."
+    ],
+    "answer": "53"
+  },
+  "87": {
+    "title": "Distributing a Factor",
+    "question": "Expand 2(7x + 2).",
+    "steps": [
+      "Multiply the factor outside parentheses by every term inside.",
+      "The two expressions have the same value for every allowed input.",
+      "Multiply the outside factor by every inside term, including the constant.",
+      "State the result in the form requested: 14x + 4."
+    ],
+    "answer": "14x + 4"
+  },
+  "88": {
+    "title": "Combining Like Terms",
+    "question": "Simplify 8x + 4 + 3x + 8. Explain which terms combine.",
+    "steps": [
+      "Terms with the same variable part count the same kind of object.",
+      "Add their coefficients.",
+      "Add coefficients of x terms",
+      "add only constants to constants.",
+      "Distribute first if needed.",
+      "State the result in the form requested: 11x + 12."
+    ],
+    "answer": "11x + 12"
+  },
+  "89": {
+    "title": "Proving or Disproving Equivalence",
+    "question": "Are 6(x + 7) and 6x + 42 equivalent for every x? Use a property or a counterexample.",
+    "steps": [
+      "Use operation properties to rewrite an expression.",
+      "Matching values at one input do not prove equivalence for all inputs.",
+      "6(x + 7) = 6x + 42.",
+      "This matches.",
+      "State the result in the form requested: Yes; distribution gives 6x + 42."
+    ],
+    "answer": "Yes; distribution gives 6x + 42"
+  },
+  "91": {
+    "title": "Testing Equation Solutions",
+    "question": "Does x = 3 solve 2x + 5 = 11? Show substitution.",
+    "steps": [
+      "Replace the variable with the proposed value, compute each side, and compare.",
+      "A number is a solution only when it makes the original equation true.",
+      "2 × 3 + 5 = 11",
+      "compare with 11.",
+      "State the result in the form requested: Yes; left side = 11."
+    ],
+    "answer": "Yes; left side = 11"
+  },
+  "92": {
+    "title": "Solving Addition Equations",
+    "question": "Solve x + 8 = 9. Check in the original equation.",
+    "steps": [
+      "Subtract p from both sides to preserve equality.",
+      "Then substitute the answer into the original equation.",
+      "Subtract 8 on both sides.",
+      "Then x = 1",
+      "substitution gives 9 on each side.",
+      "State the result in the form requested: x = 1."
+    ],
+    "answer": "x = 1"
+  },
+  "93": {
+    "title": "Solving Subtraction Equations",
+    "question": "Solve x - 3 = 3/2. Check in the original equation.",
+    "steps": [
+      "Add p to both sides to undo subtraction.",
+      "Check by subtracting p from your answer.",
+      "Add 3 on both sides.",
+      "Then x = 9/2",
+      "substitution gives 3/2 on each side.",
+      "State the result in the form requested: x = 9/2."
+    ],
+    "answer": "x = 9/2"
+  },
+  "94": {
+    "title": "Solving Multiplication Equations",
+    "question": "Solve 8 × x = 28. Check in the original equation.",
+    "steps": [
+      "Divide both sides by the nonzero coefficient p.",
+      "Keep the equation balanced.",
+      "Divide by 8 on both sides.",
+      "Then x = 7/2",
+      "substitution gives 28 on each side.",
+      "State the result in the form requested: x = 7/2."
+    ],
+    "answer": "x = 7/2"
+  },
+  "96": {
+    "title": "Solving Division Equations",
+    "question": "Solve x ÷ 4 = 1/2. Check in the original equation.",
+    "steps": [
+      "Multiply both sides by the nonzero divisor p.",
+      "Check by dividing the solution by p.",
+      "Multiply by 4 on both sides.",
+      "Then x = 2",
+      "substitution gives 1/2 on each side.",
+      "State the result in the form requested: x = 2."
+    ],
+    "answer": "x = 2"
+  },
+  "97": {
+    "title": "One Step Equation Models",
+    "question": "7 identical lengths of rope total 35 m. Let x be the length of one piece. Write and solve an equation, then check.",
+    "steps": [
+      "Define the unknown quantity.",
+      "Translate the relationship into an equation before calculating.",
+      "Divide the total by 7: 35 ÷ 7 = 5.",
+      "State the result in the form requested: 7x = 35; x = 5 m."
+    ],
+    "answer": "7x = 35; x = 5 m"
+  },
+  "98": {
+    "title": "Writing and Graphing Inequalities",
+    "question": "Let x be any real number. Write and graph: x is more than 48. Label the endpoint and shade the solution ray.",
+    "steps": [
+      "Use > or < for a strict bound and ≥ or ≤ when the endpoint is included.",
+      "Graph a strict bound with an open circle; use a closed circle for an included endpoint.",
+      "“more than” means >",
+      "exclude the endpoint. ",
+      "State the result in the form requested: x > 48; open circle at 48, shade right."
+    ],
+    "answer": "x > 48; open circle at 48, shade right"
+  },
+  "99": {
+    "title": "Testing Inequality Solutions",
+    "question": "Which values in {12, 13, 14} satisfy x ≤ 13? Test each by substitution.",
+    "steps": [
+      "Substitute each value and decide whether the comparison is true.",
+      "A continuous number-line ray represents infinitely many real-number solutions.",
+      "Values below 13 work",
+      "the endpoint works too.",
+      "State the result in the form requested: 12, 13."
+    ],
+    "answer": "12, 13"
+  },
+  "101": {
+    "title": "Endpoints and Infinite Solutions",
+    "question": "Let x be any real number. Write and graph: x is less than 36. Label the endpoint and shade the solution ray.",
+    "steps": [
+      "Use > or < for a strict bound and ≥ or ≤ when the endpoint is included.",
+      "Graph a strict bound with an open circle; use a closed circle for an included endpoint.",
+      "“less than” means <",
+      "exclude the endpoint. ",
+      "State the result in the form requested: x < 36; open circle at 36, shade left."
+    ],
+    "answer": "x < 36; open circle at 36, shade left"
+  },
+  "102": {
+    "title": "Dependent and Independent Variables",
+    "question": "A shop charges $8 for each of n notebooks plus a single $4 delivery fee. Name the independent and dependent variables and write a cost rule.",
+    "steps": [
+      "The independent variable is the input you choose; the dependent variable changes with it.",
+      "Define both and write the output in terms of the input.",
+      "The chosen notebook count is the input",
+      "multiply it by price and add any fixed fee to get the cost.",
+      "State the result in the form requested: Independent n = notebooks; dependent C = cost; C = 8n + 4."
+    ],
+    "answer": "Independent n = notebooks; dependent C = cost; C = 8n + 4"
+  },
+  "103": {
+    "title": "Rules Tables and Graphs",
+    "question": "For y = 6x + 4, make a table for x = 0, 1, 2, 2. Plot the ordered pairs and label both axes.",
+    "steps": [
+      "Choose input values, substitute to find outputs, and write ordered pairs.",
+      "Label horizontal input and vertical output axes.",
+      "Substitute each input into y = 6x + 4",
+      "x is horizontal and y vertical.",
+      "State the result in the form requested: (0, 4); (1, 10); (2, 16)."
+    ],
+    "answer": "(0, 4); (1, 10); (2, 16)"
+  },
+  "104": {
+    "title": "Interpreting Input Output Patterns",
+    "question": "For y = 6x + 2, make a table for x = 0, 1, 2, 5. Plot the ordered pairs and label both axes.",
+    "steps": [
+      "Choose input values, substitute to find outputs, and write ordered pairs.",
+      "Label horizontal input and vertical output axes.",
+      "Substitute each input into y = 6x + 2",
+      "x is horizontal and y vertical.",
+      "State the result in the form requested: (0, 2); (1, 8); (2, 14); (5, 32)."
+    ],
+    "answer": "(0, 2); (1, 8); (2, 14); (5, 32)"
+  },
+  "106": {
+    "title": "Triangle Areas by Decomposition",
+    "question": "Sketch a triangle with base 8 cm and perpendicular height 2 cm. Find its area.",
+    "steps": [
+      "Two matching triangles form a parallelogram, so A = (base × perpendicular height)/2.",
+      "A slanted side is not necessarily the height.",
+      "A = bh/2 = 8 × 2 ÷ 2 = 8.",
+      "Two such triangles make a parallelogram.",
+      "State the result in the form requested: 8 cm²."
+    ],
+    "answer": "8 cm²"
+  },
+  "107": {
+    "title": "Triangle Heights and Fractional Measures",
+    "question": "Sketch a triangle with base 16 cm and perpendicular height 4 cm. Find its area.",
+    "steps": [
+      "Two matching triangles form a parallelogram, so A = (base × perpendicular height)/2.",
+      "A slanted side is not necessarily the height.",
+      "A = bh/2 = 16 × 4 ÷ 2 = 32.",
+      "Two such triangles make a parallelogram.",
+      "State the result in the form requested: 32 cm²."
+    ],
+    "answer": "32 cm²"
+  },
+  "108": {
+    "title": "Parallelograms and Trapezoids",
+    "question": "A trapezoid has parallel bases 6 m and 12 m and perpendicular height 2 m. Sketch it and find its area.",
+    "steps": [
+      "Cut and move a corner of a parallelogram to make a rectangle: A = bh.",
+      "Two matching trapezoids form a parallelogram, giving A = (b1 + b2)h/2.",
+      "A = (6 + 12) × 2 ÷ 2 = 18.",
+      "State the result in the form requested: 18 m²."
+    ],
+    "answer": "18 m²"
+  },
+  "109": {
+    "title": "Composite Polygon Areas",
+    "question": "An L-shaped garden is a 12 m by 8 m rectangle with an 6 m by 2 m corner rectangle removed. Sketch and find the garden area.",
+    "steps": [
+      "Sketch the figure and label every given length.",
+      "Split the region into nonoverlapping rectangles and triangles, or subtract a cutout from a larger rectangle.",
+      "Outer area 96 minus cutout 12 = 84.",
+      "State the result in the form requested: 84 m²."
+    ],
+    "answer": "84 m²"
+  },
+  "111": {
+    "title": "Polygons on the Coordinate Plane",
+    "question": "Plot and connect (-4,-5), (6,-5), (6,6), (-4,6). Find the side lengths and area.",
+    "steps": [
+      "Plot vertices in order and connect them, including the last to the first.",
+      "Equal x-values make a vertical side; equal y-values make a horizontal side.",
+      "Horizontal length 6 - (-4) = 10",
+      "vertical length 6 - (-5) = 11",
+      "area = 10 × 11.",
+      "State the result in the form requested: Sides 10 and 11; area 110 square units."
+    ],
+    "answer": "Sides 10 and 11; area 110 square units"
+  },
+  "112": {
+    "title": "Volume with Fractional Edges",
+    "question": "A rectangular prism has edges 4, 2, and 4 cm. Sketch it and find its volume.",
+    "steps": [
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Fractional edge lengths still multiply.",
+      "B = 4 × 2 = 8 cm²",
+      "V = B × 4 = 32 cm³.",
+      "State the result in the form requested: 32 cm³."
+    ],
+    "answer": "32 cm³"
+  },
+  "113": {
+    "title": "Base Area and Prism Volume",
+    "question": "A rectangular prism has edges 2 1/2, 2 1/2, and 6 cm. Sketch it and find its volume.",
+    "steps": [
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Fractional edge lengths still multiply.",
+      "B = 5/2 × 5/2 = 25/4 cm²",
+      "V = B × 6 = 75/2 cm³.",
+      "State the result in the form requested: 75/2 cm³."
+    ],
+    "answer": "75/2 cm³"
+  },
+  "114": {
+    "title": "Packing Fractional Unit Cubes",
+    "question": "Fill a prism 3/2 × 7/2 × 5/2 units with cubes of edge 1/2 unit. How many cubes fit? Use their volumes to verify lwh.",
+    "steps": [
+      "For cubes with edge 1/n, each cube has volume 1/n^3 cubic unit.",
+      "Divide each prism edge by 1/n to count cubes along it.",
+      "Counts along edges: 3, 7, 5.",
+      "Product 105",
+      "105 × 1/8 = 105/8, also lwh.",
+      "State the result in the form requested: 105 cubes; each 1/8 cubic unit; prism 105/8 cubic units."
+    ],
+    "answer": "105 cubes; each 1/8 cubic unit; prism 105/8 cubic units"
+  },
+  "116": {
+    "title": "Drawing and Labeling Nets",
+    "question": "Draw a net for a closed 6 × 5 × 5 cm rectangular prism. Label the six faces and calculate total area.",
+    "steps": [
+      "A net unfolds all faces into a plane without overlap.",
+      "Rectangular prisms have three matching pairs of rectangles.",
+      "Add 2(30) + 2(30) + 2(25) = 170.",
+      "State the result in the form requested: 2 faces each of 6×5, 6×5, 5×5; 170 cm²."
+    ],
+    "answer": "2 faces each of 6×5, 6×5, 5×5; 170 cm²"
+  },
+  "117": {
+    "title": "Prism Surface Area",
+    "question": "A 3 cm by 2 cm base and 3 cm height form a closed box. Draw its net and find the material area. Ignore tabs and overlap.",
+    "steps": [
+      "A closed rectangular prism has two faces of area lw, two of lh, and two of wh.",
+      "Add the six face areas: SA = 2lw + 2lh + 2wh.",
+      "Closed surface area = 2(6+9+6) = 42.",
+      "State the result in the form requested: 42 cm²."
+    ],
+    "answer": "42 cm²"
+  },
+  "118": {
+    "title": "Pyramid Nets and Surface Area",
+    "question": "A square pyramid has base edge 16 cm. Each triangular face has perpendicular face height 15 cm. Draw a net and calculate total surface area.",
+    "steps": [
+      "For a square pyramid, draw one square and four triangles.",
+      "Each triangle has area base edge × face height / 2.",
+      "Base = 256",
+      "each triangle = 16 × 15 ÷ 2 = 120",
+      "add four triangles to get 736.",
+      "State the result in the form requested: 736 cm²."
+    ],
+    "answer": "736 cm²"
+  },
+  "119": {
+    "title": "Choosing Area Volume or Surface Area",
+    "question": "A 6 cm by 4 cm base and 2 cm height form a closed box. Draw its net and find the material area. Ignore tabs and overlap.",
+    "steps": [
+      "A closed rectangular prism has two faces of area lw, two of lh, and two of wh.",
+      "Add the six face areas: SA = 2lw + 2lh + 2wh.",
+      "Closed surface area = 2(24+12+8) = 88.",
+      "State the result in the form requested: 88 cm²."
+    ],
+    "answer": "88 cm²"
+  },
+  "121": {
+    "title": "Questions That Anticipate Variability",
+    "question": "Is “What are the masses, in grams, of the apples in our classroom basket?” a statistical question? Identify the group, attribute, units, and expected variability.",
+    "steps": [
+      "A statistical question anticipates different answers in a collection of data.",
+      "Name the group, the measured attribute, and the expected variation.",
+      "The question asks about a collection of apples.",
+      "Measure the same attribute, mass, for each apple in grams.",
+      "Different masses are expected, so the question anticipates variability.",
+      "State the result in the form requested: Yes. Group: the basket’s apples; attribute: mass; units: grams. Individual apples can have different masses.."
+    ],
+    "answer": "Yes. Group: the basket’s apples; attribute: mass; units: grams. Individual apples can have different masses."
+  },
+  "122": {
+    "title": "Center Spread and Shape",
+    "question": "Reading times in minutes are 2, 5, 5, 8, 8, 11. Describe a typical value, range, shape, and any striking value.",
+    "steps": [
+      "A distribution shows which values occur and how often.",
+      "Describe a typical value, how spread out the values are, and whether the shape is roughly symmetric, skewed, clustered, or has unusual values.",
+      "The values balance around the middle.",
+      "Range = 11 - 2.",
+      "State the result in the form requested: Center near 13/2 min; range 9 min; roughly symmetric; no isolated extreme."
+    ],
+    "answer": "Center near 13/2 min; range 9 min; roughly symmetric; no isolated extreme"
+  },
+  "123": {
+    "title": "Mean and Observation Counts",
+    "question": "Reading times in minutes are 8, 10, 10, 12, 12, 14. Report n, units, and mean.",
+    "steps": [
+      "The mean is a fair share: add all values and divide by the number of observations.",
+      "Report the count and measurement units.",
+      "Sum = 66",
+      "mean = 66 ÷ 6 = 11.",
+      "State the result in the form requested: n = 6; minutes; mean 11 min."
+    ],
+    "answer": "n = 6; minutes; mean 11 min"
+  },
+  "124": {
+    "title": "Medians and Unusual Values",
+    "question": "Reading times in minutes are 3, 6, 6, 9, 9, 12. Find the median. Show the middle positions.",
+    "steps": [
+      "Order the data first.",
+      "For an odd count, choose the middle value.",
+      "6 ordered values: average positions 3 and 4: (6 + 9) ÷ 2 = 15/2.",
+      "State the result in the form requested: Median 15/2 min."
+    ],
+    "answer": "Median 15/2 min"
+  },
+  "126": {
+    "title": "Quartiles and Interquartile Range",
+    "question": "Reading times in minutes are 6, 8, 8, 10, 10, 12. Find Q1, Q3, IQR, and range.",
+    "steps": [
+      "Sort the data.",
+      "Find the median, then the median of each half for Q1 and Q3.",
+      "Lower half [6, 8, 8] has median 8",
+      "upper half [10, 10, 12] has median 10.",
+      "Subtract Q1 from Q3.",
+      "State the result in the form requested: Q1 8, Q3 10; IQR 2 min; range 6 min."
+    ],
+    "answer": "Q1 8, Q3 10; IQR 2 min; range 6 min"
+  },
+  "127": {
+    "title": "Mean Absolute Deviation",
+    "question": "Reading times in minutes are 7, 9, 9, 11, 11, 13. Calculate the mean and MAD. Show all absolute deviations.",
+    "steps": [
+      "Find the mean.",
+      "Calculate each value’s distance from the mean, add those distances, then divide by the number of observations.",
+      "Distances: 3, 1, 1, 1, 1, 3",
+      "sum 10",
+      "divide by 6 = 5/3.",
+      "State the result in the form requested: Mean 10 min; MAD 5/3 min."
+    ],
+    "answer": "Mean 10 min; MAD 5/3 min"
+  },
+  "128": {
+    "title": "Choosing Measures of Center",
+    "question": "Reading times in minutes are 2, 7, 7, 12, 12, 17. Choose a center and matching variability measure. Calculate both and justify your choice.",
+    "steps": [
+      "Use the shape and context.",
+      "Mean with mean absolute deviation can describe fairly symmetric data.",
+      "Mean = 19/2, median = 19/2, IQR = 12 - 7 = 5, MAD = 25/6.",
+      "Accept another justified choice tied to shape and purpose.",
+      "State the result in the form requested: Mean 19/2 min and MAD 25/6 min; roughly symmetric data."
+    ],
+    "answer": "Mean 19/2 min and MAD 25/6 min; roughly symmetric data"
+  },
+  "129": {
+    "title": "Dot Plots on a Number Line",
+    "question": "Reading times in minutes are 4, 6, 6, 8, 8, 10. Draw a labeled dot plot. Check the number of dots.",
+    "steps": [
+      "Draw an equally spaced number line and stack one dot per observation above its value.",
+      "Repeated values stack vertically.",
+      "Each observation contributes one dot",
+      "stack repeated values at their number-line position.",
+      "State the result in the form requested: 4: 1 dot; 6: 2 dots; 8: 2 dots; 10: 1 dot; n = 6."
+    ],
+    "answer": "4: 1 dot; 6: 2 dots; 8: 2 dots; 10: 1 dot; n = 6"
+  },
+  "131": {
+    "title": "Histograms and Intervals",
+    "question": "Daily reading times in minutes: 12, 18, 0, 2, 19, 10, 13, 18, 5, 16. Draw a histogram using bins 0–4, 5–9, 10–14, and 15–19. Label axes.",
+    "steps": [
+      "Group numerical values into adjacent, nonoverlapping intervals.",
+      "Count each observation in exactly one interval, draw touching bars, and label the numerical axis and the frequency axis.",
+      "Count every value once.",
+      "Bars touch and have equal width",
+      "horizontal axis is minutes, vertical axis is frequency.",
+      "State the result in the form requested: Frequencies 2, 1, 3, 4."
+    ],
+    "answer": "Frequencies 2, 1, 3, 4"
+  },
+  "132": {
+    "title": "Box Plots and Five Number Summaries",
+    "question": "Reading times in minutes are 4, 7, 7, 10, 10, 13. Find the five-number summary and draw a labeled box plot.",
+    "steps": [
+      "Find minimum, Q1, median, Q3, and maximum.",
+      "Draw a box from Q1 to Q3 with a median line and whiskers to the endpoints.",
+      "Box runs from 7 to 10, median line at 17/2, whiskers to 4 and 13.",
+      "State the result in the form requested: (4, 7, 17/2, 10, 13)."
+    ],
+    "answer": "(4, 7, 17/2, 10, 13)"
+  },
+  "133": {
+    "title": "Comparing Data Sets",
+    "question": "Reading times (min): Group A [7, 10, 10, 13, 13, 16], Group B [9, 12, 12, 15, 15, 18]. Compare median and IQR. Which group reads longer typically? Which is more consistent?",
+    "steps": [
+      "Compute comparable measures for both groups.",
+      "Compare typical values and consistency using the same units.",
+      "Adding 2 shifts all values and the median by 2, but does not change Q3 - Q1.",
+      "State the result in the form requested: A median 23/2, B median 27/2 min; both IQR 3 min. B is typically 2 min higher; equal middle-half variability.."
+    ],
+    "answer": "A median 23/2, B median 27/2 min; both IQR 3 min. B is typically 2 min higher; equal middle-half variability."
+  },
+  "134": {
+    "title": "Writing a Complete Data Summary",
+    "question": "Reading times in minutes are 7, 12, 12, 17, 17, 22. Write a summary with count, attribute, units, center, variability, shape, and a justified choice of measures.",
+    "steps": [
+      "A useful summary names the group and attribute, units, observation count, center, variability, and shape.",
+      "Explain why the chosen center and spread fit the data and mention any striking value.",
+      "Calculate the center and spread before interpreting them in context.",
+      "Other accurate, justified summaries are acceptable.",
+      "State the result in the form requested: 6 observations of reading time in minutes. Mean 29/2 min, MAD 25/6 min; roughly symmetric, so mean/MAD are reasonable.."
+    ],
+    "answer": "6 observations of reading time in minutes. Mean 29/2 min, MAD 25/6 min; roughly symmetric, so mean/MAD are reasonable."
+  },
+  "136": {
+    "title": "Designing a School Garden",
+    "question": "A trapezoid has parallel bases 10 m and 14 m and perpendicular height 7 m. Sketch it and find its area.",
+    "steps": [
+      "Cut and move a corner of a parallelogram to make a rectangle: A = bh.",
+      "Two matching trapezoids form a parallelogram, giving A = (b1 + b2)h/2.",
+      "A = (10 + 14) × 7 ÷ 2 = 84.",
+      "State the result in the form requested: 84 m²."
+    ],
+    "answer": "84 m²"
+  },
+  "137": {
+    "title": "Planning Storage and Packaging",
+    "question": "Draw a net for a closed 3 × 3 × 4 cm rectangular prism. Label the six faces and calculate total area.",
+    "steps": [
+      "A net unfolds all faces into a plane without overlap.",
+      "Rectangular prisms have three matching pairs of rectangles.",
+      "Add 2(9) + 2(12) + 2(12) = 66.",
+      "State the result in the form requested: 2 faces each of 3×3, 3×4, 3×4; 66 cm²."
+    ],
+    "answer": "2 faces each of 3×3, 3×4, 3×4; 66 cm²"
+  },
+  "138": {
+    "title": "Reporting Class Reading Data",
+    "question": "Reading times in minutes are 3, 7, 7, 11, 11, 15. Find the five-number summary and draw a labeled box plot.",
+    "steps": [
+      "Find minimum, Q1, median, Q3, and maximum.",
+      "Draw a box from Q1 to Q3 with a median line and whiskers to the endpoints.",
+      "Box runs from 7 to 11, median line at 9, whiskers to 3 and 15.",
+      "State the result in the form requested: (3, 7, 9, 11, 15)."
+    ],
+    "answer": "(3, 7, 9, 11, 15)"
+  },
+  "139": {
+    "title": "Connecting Models and Explanations",
+    "question": "Reading times in minutes are 3, 7, 7, 11, 11, 15. Find the five-number summary and draw a labeled box plot.",
+    "steps": [
+      "Find minimum, Q1, median, Q3, and maximum.",
+      "Draw a box from Q1 to Q3 with a median line and whiskers to the endpoints.",
+      "Box runs from 7 to 11, median line at 9, whiskers to 3 and 15.",
+      "State the result in the form requested: (3, 7, 9, 11, 15)."
+    ],
+    "answer": "(3, 7, 9, 11, 15)"
+  }
+}
