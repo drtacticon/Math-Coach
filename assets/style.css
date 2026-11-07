@@ -12,3 +12,7 @@
 .course-final>.standards,.course-final>.target,.course-final>.companion-line{display:none}.course-final #practice{background:white;border:1px solid var(--line);padding:26px;border-radius:9px}.course-final .problems>li{border-bottom:1px solid #b9c4bc;padding:25px 0}@media(max-width:600px){.course-final #practice{padding:15px}}
 .day-zero-card{margin:24px 0;background:#eef3df;border-color:#acbf7c;min-height:105px}.grade-pending .day-zero-card{max-width:700px}.day-zero-card h4{font-size:18px}.day-zero-card .card-day{font-size:11px}
 .day-zero-card{display:block;width:100%}
+
+/* Math Coach fastpitch softball brand */
+.brand-mark{background:transparent url("softball-logo.svg?v=20261107") center/contain no-repeat!important;width:54px;height:54px;border-radius:50%;flex-shrink:0}.brand-mark span{display:none}@media(max-width:760px){.brand-mark{width:46px;height:46px}}@media(max-width:440px){.home-nav .brand-mark{width:42px;height:42px}}
+.brand-mark{font-size:0!important}
