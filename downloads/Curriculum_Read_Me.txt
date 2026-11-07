@@ -1,41 +1,26 @@
-ARIZONA GRADE 6 MATHEMATICS
-140 DAY CURRICULUM
+Math Coach / Grade 6 / envision-aasa-20261106
 
-START HERE
-Open Arizona_Grade_6_Teacher_Planning_Guide.pdf for daily pacing,
-standards coverage, companion-book notes, page references, and scoring.
+enVision 2021 national Grade 6 topic order adapted to 140 days; not a publisher-prescribed day-by-day pacing guide.
+Original lessons and questions. Companion alignment uses verified public topic maps and Spectrum previews; exact workbook page assignments are not asserted. AASA item numbers identify format/standard references, not copied questions. The 48-question Course Final Test is original Math Coach practice, not an official AASA test.
 
-PRINTABLE BOOKS
-Arizona_Grade_6_Student_Workbook.pdf - 275 pages
-112 lessons with two worked examples and 10 classwork problems each;
-19 five-question quizzes; nine 20-question unit tests; reusable grids.
+140 days; 130 lessons; no quizzes; 9 unit tests (20 items); Day 140 Course Final Test (48 items, full course). First 20% of each unit test reviews the previous unit, or Grade 5 readiness in Unit 1.
+All digital and printable lessons, keys, plans, and practice-help examples use this revision.
 
-Arizona_Grade_6_Answer_Key.pdf - 150 pages
-All 1,395 numbered classwork and assessment answers with solution notes.
-Worked example solutions appear directly in the student lessons.
-
-Arizona_Grade_6_Teacher_Planning_Guide.pdf - 22 pages
-Course routines, daily plans, coverage of 44 standards and substandards,
-source notes, and chapter-level Spectrum companion mapping.
-
-EDITABLE MATERIAL
-curriculum.html - readable master with expandable teacher answers
-curriculum.json - full structured curriculum content
-pacing.csv - 140-day calendar with book page references
-standards_coverage.csv - teaching and assessment evidence by standard
-
-ASSESSMENT SCHEDULE
-Quizzes occur every fifth day. On every fifteenth day through Day 135,
-a unit test replaces the quiz. Day 140 is a final-review quiz.
-The first question of each quiz and first four questions of each test
-review the immediately previous unit. Unit 1 uses Grade 5 prerequisites.
-Answers are in a separate teacher book so student copies can be printed.
-
-STANDARDS AND COMPANION
-Standards were loaded from the supplied Arizona Grade 6 standards
-placemat in 6th-math-placement.pdf. The other sixth-grade PDF is a sample
-assessment. The optional Spectrum Math Grade 6 companion mapping uses
-Carson Dellosa Education's public previews, including the 2024 edition
-ISBN 9781483872322. A complete licensed textbook was not supplied.
-All lessons, examples, problems, assessments, and layouts are original.
-The teacher guide contains verified source links and edition notes.
+Arizona Grade 6 mathematics standards (local placemat and state reference)
+https://www.azed.gov/sites/default/files/2025/04/grade-6-placemat-4-2018.pdf
+AASA Grade 6 Math sample questions and scoring guide, updated January 2026
+https://www.azed.gov/sites/default/files/2021/10/AASA-Sample%20Test%20Scoring%20Guide-Grade%206%20Math_FINAL%20v1.0.pdf
+AASA Grade 6 Mathematics Item Specifications
+https://www.azed.gov/sites/default/files/2021/10/AASA%20Math%20Item%20Specs%20Grade%206_2021.pdf
+AASA Mathematics Blueprint: Grade 6 reporting-category proportions
+https://www.azed.gov/sites/default/files/2021/10/Math%20AzM2%20Blueprint%202016%20Standards_AASA%20Oct%202021.pdf
+Arizona calculator guidance: no calculators in Grades 3–6 AASA math
+https://www.azed.gov/sites/default/files/2023/08/Achievement%20Testing%20Calculator%20Guidance.pdf
+enVision Math 2021 Grade 6 topic and standards map (Seattle Public Schools)
+https://www.seattleschools.org/wp-content/uploads/2021/07/Math-6-Priority-Standards-for-Families.pdf
+Savvas enVision Mathematics 2021 student overview
+https://mysavvastraining.com/assets/files/documents/Handout_enVision_Mathematics_Grades6%E2%80%938_2021_Student_Overview_1675202882.pdf
+Spectrum Math Grade 6 publisher preview, current edition
+https://images.carsondellosa.com/media/cd/pdfs/Activities/FR01805.pdf
+Spectrum Math Grade 6 older-edition publisher sampler
+https://images.carsondellosa.com/media/cd/pdfs/Activities/Samplers/704566_sb.pdf

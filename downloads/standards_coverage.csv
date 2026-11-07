@@ -1,45 +1,45 @@
 ﻿Standard,Summary,Instruction Days,Assessment Items
-6.RP.A.1,Describe multiplicative ratio relationships using clear labels and ratio language.,"31, 32",D35 Q2; D35 Q3; D45 Q5; D45 Q6; D45 Q17; D45 Q18; D50 Q1
-6.RP.A.2,Interpret unit rates and state what the rate per one unit means.,"46, 47",D50 Q2; D50 Q3; D60 Q5; D60 Q6; D60 Q17; D60 Q18; D65 Q1
-6.RP.A.3a,"Use tables, missing values, graphs, and comparisons of equivalent ratios.","33, 34, 36, 37, 38, 39, 41",D35 Q4; D35 Q5; D40 Q2; D40 Q3; D40 Q4; D40 Q5; D45 Q7; D45 Q8; D45 Q9; D45 Q10; D45 Q11; D45 Q12; D45 Q13; D45 Q19; D45 Q20; D55 Q1; D60 Q1; D60 Q2; D60 Q3
-6.RP.A.3b,Solve constant-speed and unit-pricing problems.,"46, 47, 48, 49, 51, 52",D50 Q2; D50 Q3; D50 Q4; D50 Q5; D55 Q2; D55 Q3; D60 Q5; D60 Q6; D60 Q7; D60 Q8; D60 Q9; D60 Q10; D60 Q17; D60 Q18; D60 Q19; D60 Q20; D65 Q1; D75 Q1; D75 Q2
-6.RP.A.3c,"Solve percent situations with the part, whole, or rate unknown.","53, 54, 56, 57, 58, 59",D55 Q4; D55 Q5; D60 Q11; D60 Q12; D60 Q13; D60 Q14; D60 Q15; D60 Q16; D70 Q1; D75 Q3; D75 Q4
-6.RP.A.3d,Convert measurements through ratio reasoning.,"42, 43, 44",D45 Q14; D45 Q15; D45 Q16; D60 Q4
-6.NS.A.1,Interpret and compute fraction quotients with equations and visual models.,"16, 17, 18, 19, 21, 22, 23, 24, 26, 27, 28, 29",D20 Q2; D20 Q3; D20 Q4; D20 Q5; D25 Q2; D25 Q3; D25 Q4; D25 Q5; D30 Q5; D30 Q6; D30 Q7; D30 Q8; D30 Q9; D30 Q10; D30 Q11; D30 Q12; D30 Q13; D30 Q14; D30 Q15; D30 Q16; D30 Q17; D30 Q18; D30 Q19; D30 Q20; D35 Q1; D40 Q1; D45 Q1; D45 Q2; D45 Q3; D45 Q4
-6.NS.B.2,Use the standard algorithm to divide multi-digit whole numbers fluently.,"1, 2, 14",D5 Q2; D5 Q3; D15 Q5; D15 Q6; D15 Q16; D15 Q17; D15 Q18; D20 Q1; D30 Q4
-6.NS.B.3,Use standard algorithms for all four operations with decimals.,"3, 4, 6, 7, 8, 9",D5 Q4; D5 Q5; D10 Q2; D10 Q3; D10 Q4; D10 Q5; D15 Q7; D15 Q8; D15 Q9; D15 Q10; D15 Q11; D15 Q12; D15 Q19; D15 Q20; D25 Q1; D30 Q1; D30 Q2
-6.NS.B.4a,Find greatest common factors with whole numbers no greater than 100.,11,D15 Q13; D30 Q3
-6.NS.B.4b,Find least common multiples with whole numbers no greater than 12.,12,D15 Q14
-6.NS.B.4c,Factor a sum using a common factor and the distributive property.,13,D15 Q15
-6.NS.C.5,Represent opposite real-world quantities with signs and explain zero.,61,D65 Q2; D75 Q5; D75 Q17
-6.NS.C.6a,"Recognize opposites, double opposites, and zero as its own opposite.",62,D65 Q3; D75 Q6; D75 Q18; D80 Q1
-6.NS.C.6b,Connect coordinate signs with quadrants and axis reflections.,"71, 72",D75 Q13; D75 Q14; D90 Q3
-6.NS.C.6c,Locate rational numbers on number lines and coordinate planes.,"63, 64, 71",D65 Q4; D65 Q5; D75 Q7; D75 Q8; D75 Q13; D75 Q19; D75 Q20; D90 Q1; D90 Q3
-6.NS.C.7a,Compare number-line positions using inequalities.,"66, 67",D70 Q2; D70 Q3; D75 Q9; D75 Q10; D90 Q2
-6.NS.C.7b,Explain order comparisons in real-world contexts.,"66, 67",D70 Q2; D70 Q3; D75 Q9; D75 Q10; D90 Q2
-6.NS.C.7c,Interpret absolute value as distance or magnitude.,"68, 69",D70 Q4; D70 Q5; D75 Q11; D75 Q12; D85 Q1
-6.NS.C.7d,Distinguish order comparisons from comparisons of magnitude.,"68, 69",D70 Q4; D70 Q5; D75 Q11; D75 Q12; D85 Q1
-6.NS.C.8,Graph in four quadrants and use coordinates to find aligned distances.,"73, 74",D75 Q15; D75 Q16; D90 Q4
-6.EE.A.1,Write and evaluate expressions with whole-number exponents.,"76, 77, 78, 79",D80 Q2; D80 Q3; D80 Q4; D80 Q5; D90 Q5; D90 Q6; D90 Q7; D90 Q8; D90 Q17; D90 Q18; D90 Q19; D90 Q20; D95 Q1; D105 Q1
-6.EE.A.2a,Translate operations involving numbers and variables into expressions.,"82, 83",D85 Q3; D85 Q4; D90 Q10; D90 Q11; D105 Q2
-6.EE.A.2b,"Name terms, sums, factors, products, quotients, and coefficients.",81,D85 Q2; D90 Q9
-6.EE.A.2c,Evaluate expressions and formulas in the correct operation order.,"78, 79, 84, 86",D80 Q4; D80 Q5; D85 Q5; D90 Q7; D90 Q8; D90 Q12; D90 Q13; D90 Q19; D90 Q20; D100 Q1; D105 Q1; D105 Q3
-6.EE.A.3,Use operation properties to generate equivalent expressions.,"87, 88",D90 Q14; D90 Q15
-6.EE.A.4,Determine and justify whether expressions are equivalent.,89,D90 Q16; D105 Q4
-6.EE.B.5,Use substitution to determine whether a value satisfies an equation or inequality.,"91, 99",D95 Q2; D100 Q5; D105 Q5; D105 Q12; D105 Q17; D115 Q1
-6.EE.B.6,Define and use variables for unknown or varying numbers in context.,"82, 83, 97",D85 Q3; D85 Q4; D90 Q10; D90 Q11; D100 Q3; D105 Q2; D105 Q10; D120 Q2
-6.EE.B.7,"Solve addition, subtraction, multiplication, and division one-step equations with nonnegative rational values.","92, 93, 94, 96, 97",D95 Q3; D95 Q4; D95 Q5; D100 Q2; D100 Q3; D105 Q6; D105 Q7; D105 Q8; D105 Q9; D105 Q10; D105 Q18; D105 Q19; D105 Q20; D110 Q1; D120 Q1; D120 Q2
-6.EE.B.8,Write and graph strict and inclusive inequalities; recognize infinitely many solutions.,"98, 99, 101",D100 Q4; D100 Q5; D105 Q11; D105 Q12; D105 Q13; D115 Q1; D120 Q3
-6.EE.C.9,"Relate two changing quantities using equations, tables, and graphs.","102, 103, 104",D105 Q14; D105 Q15; D105 Q16; D120 Q4
-6.G.A.1,Find polygon areas through composition and decomposition.,"106, 107, 108, 109, 111, 119, 136, 139",D110 Q2; D110 Q3; D110 Q4; D110 Q5; D115 Q2; D120 Q5; D120 Q6; D120 Q7; D120 Q8; D120 Q9; D120 Q17; D120 Q18; D120 Q19; D120 Q20; D125 Q1; D135 Q1; D135 Q4; D140 Q2
-6.G.A.2,Connect fractional unit-cube packing with right rectangular prism volume.,"112, 113, 114, 119, 137, 139",D115 Q3; D115 Q4; D115 Q5; D120 Q10; D120 Q11; D120 Q12; D130 Q1; D135 Q2; D140 Q3
-6.G.A.3,Draw coordinate polygons and calculate horizontal and vertical side lengths.,"111, 136",D115 Q2; D120 Q9
-6.G.A.4,Draw nets and use face areas to calculate surface area.,"116, 117, 118, 119, 137, 139",D120 Q13; D120 Q14; D120 Q15; D120 Q16; D135 Q3
-6.SP.A.1,Recognize questions that anticipate variability in collected data.,"121, 138",D125 Q2; D135 Q5; D135 Q17
-6.SP.A.2,"Describe distributions by center, spread, and overall shape.","122, 133, 139",D125 Q3; D135 Q6; D135 Q15; D135 Q18
-6.SP.A.3,Distinguish measures of center from measures of variability.,"122, 126, 138, 139",D125 Q3; D130 Q2; D135 Q6; D135 Q9; D135 Q18
-6.SP.B.4,"Construct and interpret dot plots, histograms, and box plots.","129, 131, 132, 138, 139",D130 Q5; D135 Q12; D135 Q13; D135 Q14; D140 Q1; D140 Q4
-6.SP.B.5a,Report the number of observations.,"123, 134, 138, 139",D125 Q4; D135 Q7; D135 Q16; D135 Q19; D140 Q5
-6.SP.B.5b,"Name the investigated attribute, measurement method, and units.","123, 134, 138, 139",D125 Q4; D135 Q7; D135 Q16; D135 Q19; D140 Q5
-6.SP.B.5c,Summarize center and variability and explain patterns or unusual values in context.,"123, 124, 126, 127, 132, 134, 138, 139",D125 Q4; D125 Q5; D130 Q2; D130 Q3; D135 Q7; D135 Q8; D135 Q9; D135 Q10; D135 Q14; D135 Q16; D135 Q19; D135 Q20; D140 Q4; D140 Q5
-6.SP.B.5d,Choose center and variability measures suited to the distribution and context.,"128, 133, 134, 138, 139",D130 Q4; D135 Q11; D135 Q15; D135 Q16; D140 Q5
+6.RP.A.1,Describe multiplicative ratio relationships using clear labels and ratio language.,76,D90 Q5; D90 Q19; D105 Q1; D140 Q3
+6.RP.A.2,Interpret unit rates and state what the rate per one unit means.,"83, 85",D90 Q12; D90 Q14; D140 Q19
+6.RP.A.3a,"Use tables, missing values, graphs, and comparisons of equivalent ratios.","77, 78, 79, 80, 81, 82, 89, 136",D90 Q6; D90 Q7; D90 Q8; D90 Q9; D90 Q10; D90 Q11; D90 Q20; D105 Q2; D105 Q3; D105 Q4; D140 Q10; D140 Q16
+6.RP.A.3b,Solve constant-speed and unit-pricing problems.,"83, 84, 85, 86, 89, 137",D90 Q12; D90 Q13; D90 Q14; D90 Q15; D90 Q18; D140 Q19; D140 Q25; D140 Q30
+6.RP.A.3c,"Solve percent situations with the part, whole, or rate unknown.","91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 137",D105 Q5; D105 Q6; D105 Q7; D105 Q8; D105 Q9; D105 Q10; D105 Q11; D105 Q12; D105 Q13; D105 Q14; D105 Q15; D105 Q16; D105 Q17; D105 Q18; D105 Q19; D105 Q20; D120 Q1; D120 Q2; D120 Q3; D120 Q4; D140 Q36; D140 Q41; D140 Q45
+6.RP.A.3d,Convert measurements through ratio reasoning.,"87, 88, 89",D90 Q16; D90 Q17; D140 Q33
+6.NS.A.1,Interpret and compute fraction quotients with equations and visual models.,"16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 136",D30 Q5; D30 Q6; D30 Q7; D30 Q8; D30 Q9; D30 Q10; D30 Q11; D30 Q12; D30 Q13; D30 Q14; D30 Q15; D30 Q16; D30 Q17; D30 Q18; D30 Q19; D30 Q20; D45 Q1; D45 Q2; D45 Q3; D45 Q4; D140 Q18; D140 Q21; D140 Q24; D140 Q39
+6.NS.B.2,Use the standard algorithm to divide multi-digit whole numbers fluently.,"4, 5, 6, 12, 14",D15 Q8; D15 Q9; D15 Q10; D15 Q16; D30 Q4; D140 Q7
+6.NS.B.3,Use standard algorithms for all four operations with decimals.,"1, 2, 3, 7, 8, 9, 10, 11, 13, 14",D15 Q5; D15 Q6; D15 Q7; D15 Q11; D15 Q12; D15 Q13; D15 Q14; D15 Q15; D15 Q17; D15 Q18; D15 Q19; D15 Q20; D30 Q1; D30 Q2; D30 Q3; D140 Q1; D140 Q9; D140 Q12; D140 Q15
+6.NS.B.4a,Find greatest common factors with whole numbers no greater than 100.,"48, 50",D60 Q7; D60 Q9; D75 Q3; D140 Q27
+6.NS.B.4b,Find least common multiples with whole numbers no greater than 12.,"49, 50",D60 Q8; D75 Q4
+6.NS.B.4c,Factor a sum using a common factor and the distributive property.,"51, 59",D60 Q10
+6.NS.C.5,Represent opposite real-world quantities with signs and explain zero.,"31, 37",D45 Q5; D45 Q19; D60 Q1; D140 Q4
+6.NS.C.6a,"Recognize opposites, double opposites, and zero as its own opposite.",32,D45 Q6; D45 Q20; D60 Q2
+6.NS.C.6b,Connect coordinate signs with quadrants and axis reflections.,"40, 41, 42, 44",D45 Q14; D45 Q15; D45 Q16; D45 Q18; D140 Q42
+6.NS.C.6c,Locate rational numbers on number lines and coordinate planes.,"33, 34, 35, 40, 41, 44",D45 Q7; D45 Q8; D45 Q9; D45 Q14; D45 Q15; D60 Q3; D60 Q4; D140 Q42
+6.NS.C.7a,Compare number-line positions using inequalities.,"35, 36, 37, 39, 136",D45 Q10; D45 Q11; D140 Q31
+6.NS.C.7b,Explain order comparisons in real-world contexts.,"35, 36, 37, 39, 136",D45 Q10; D45 Q11; D140 Q31
+6.NS.C.7c,Interpret absolute value as distance or magnitude.,"38, 39",D45 Q12; D45 Q13; D140 Q34
+6.NS.C.7d,Distinguish order comparisons from comparisons of magnitude.,"38, 39",D45 Q12; D45 Q13; D140 Q34
+6.NS.C.8,Graph in four quadrants and use coordinates to find aligned distances.,"43, 44, 138",D45 Q17; D140 Q46
+6.EE.A.1,Write and evaluate expressions with whole-number exponents.,"46, 47, 59",D60 Q5; D60 Q6; D60 Q19; D60 Q20; D75 Q1; D75 Q2; D140 Q2; D140 Q11
+6.EE.A.2a,Translate operations involving numbers and variables into expressions.,53,D60 Q12; D140 Q14
+6.EE.A.2b,"Name terms, sums, factors, products, quotients, and coefficients.",52,D60 Q11; D140 Q5
+6.EE.A.2c,Evaluate expressions and formulas in the correct operation order.,"47, 54, 55, 59, 136",D60 Q6; D60 Q13; D60 Q18; D60 Q20; D75 Q2; D140 Q11; D140 Q17
+6.EE.A.3,Use operation properties to generate equivalent expressions.,"55, 56, 57",D60 Q14; D60 Q15; D60 Q16; D140 Q20; D140 Q23
+6.EE.A.4,Determine and justify whether expressions are equivalent.,"58, 59, 139",D60 Q17; D140 Q26
+6.EE.B.5,Use substitution to determine whether a value satisfies an equation or inequality.,"61, 69, 70, 71, 139",D75 Q5; D75 Q13; D75 Q15; D75 Q19; D90 Q1; D140 Q40
+6.EE.B.6,Define and use variables for unknown or varying numbers in context.,"53, 67, 137",D60 Q12; D75 Q11; D140 Q14
+6.EE.B.7,"Solve addition, subtraction, multiplication, and division one-step equations with nonnegative rational values.","62, 63, 64, 65, 66, 67, 137",D75 Q6; D75 Q7; D75 Q8; D75 Q9; D75 Q10; D75 Q11; D75 Q20; D90 Q2; D90 Q3; D90 Q4; D140 Q8; D140 Q29; D140 Q32; D140 Q35
+6.EE.B.8,Write and graph strict and inclusive inequalities; recognize infinitely many solutions.,"68, 69, 70, 71, 139",D75 Q12; D75 Q13; D75 Q14; D75 Q15; D140 Q43
+6.EE.C.9,"Relate two changing quantities using equations, tables, and graphs.","72, 73, 74",D75 Q16; D75 Q17; D75 Q18; D140 Q47
+6.G.A.1,Find polygon areas through composition and decomposition.,"106, 107, 108, 109, 110, 118, 119, 138",D120 Q5; D120 Q6; D120 Q7; D120 Q8; D120 Q9; D120 Q18; D120 Q19; D120 Q20; D135 Q1; D135 Q2; D135 Q3; D135 Q4; D140 Q13; D140 Q22
+6.G.A.2,Connect fractional unit-cube packing with right rectangular prism volume.,"114, 115, 116, 117, 118, 119, 138",D120 Q13; D120 Q15; D120 Q16; D140 Q44
+6.G.A.3,Draw coordinate polygons and calculate horizontal and vertical side lengths.,"109, 110, 119, 138",D120 Q8; D120 Q9; D135 Q4
+6.G.A.4,Draw nets and use face areas to calculate surface area.,"111, 112, 113, 115, 118, 119, 138",D120 Q10; D120 Q11; D120 Q12; D120 Q14; D120 Q17; D140 Q37
+6.SP.A.1,Recognize questions that anticipate variability in collected data.,"121, 134",D135 Q5; D135 Q19; D140 Q6
+6.SP.A.2,"Describe distributions by center, spread, and overall shape.","130, 131, 133",D135 Q15; D135 Q17
+6.SP.A.3,Distinguish measures of center from measures of variability.,"127, 130, 131",D135 Q11; D135 Q15
+6.SP.B.4,"Construct and interpret dot plots, histograms, and box plots.","123, 124, 125, 126, 134",D135 Q7; D135 Q8; D135 Q9; D135 Q10; D135 Q18; D140 Q28; D140 Q38
+6.SP.B.5a,Report the number of observations.,"122, 132, 134, 139",D135 Q6; D135 Q16; D140 Q48
+6.SP.B.5b,"Name the investigated attribute, measurement method, and units.","122, 132, 134, 139",D135 Q6; D135 Q16; D140 Q48
+6.SP.B.5c,Summarize center and variability and explain patterns or unusual values in context.,"122, 124, 125, 127, 128, 132, 134, 139",D135 Q6; D135 Q8; D135 Q11; D135 Q12; D135 Q16; D135 Q20; D140 Q28; D140 Q48
+6.SP.B.5d,Choose center and variability measures suited to the distribution and context.,"129, 130, 132, 133, 134, 139",D135 Q13; D135 Q14; D135 Q16; D135 Q17; D140 Q48

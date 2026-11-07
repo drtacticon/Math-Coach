@@ -12,7 +12,7 @@
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'practice-help-button';
-    button.textContent = 'Show a similar example';
+    button.textContent = 'Show a step-by-step example';
     button.setAttribute('aria-haspopup', 'dialog');
     button.setAttribute('aria-controls', 'practice-help-dialog');
     const headingRow = document.createElement('div');
@@ -47,7 +47,7 @@
     let exampleData;
     let loading;
     const script = document.currentScript;
-    const exampleUrl = new URL('practice-examples.json?v=practice-help-20261106', script.src);
+    const exampleUrl = new URL('practice-examples.json?v=envision-aasa-20261106', script.src);
     function paragraph(text, className) {
       const p = document.createElement('p');
       p.textContent = text;
@@ -68,8 +68,13 @@
         await loading;
         const example = exampleData[lessonDay.dataset.day];
         if (!example) throw new Error('Example missing');
+        heading.textContent = example.title;
         const label = paragraph('SIMILAR QUESTION · DIFFERENT NUMBERS OR CONTEXT', 'eyebrow');
         const question = paragraph(example.question, 'practice-help-question');
+        const choices = document.createElement('div');
+        choices.className = 'practice-help-choices';
+        for (const option of example.options || []) choices.append(paragraph(`${option.label}. ${option.text}`));
+        const topic = paragraph(`${example.topic || ''} · ${example.response_type || 'Worked method'}`, 'practice-help-tip');
         const steps = document.createElement('ol');
         steps.className = 'practice-help-steps';
         for (const step of example.steps) {
@@ -79,7 +84,7 @@
         }
         const answer = paragraph(`Answer: ${example.answer}`, 'practice-help-answer');
         const tip = paragraph('Now use the same method on your classwork question.', 'practice-help-tip');
-        content.replaceChildren(label, question, steps, answer, tip);
+        content.replaceChildren(label, topic, question, choices, steps, answer, tip);
       } catch (_) {
         const retry = document.createElement('button');
         retry.type = 'button'; retry.className = 'practice-help-button'; retry.textContent = 'Try again';

@@ -1,1331 +1,3451 @@
 {
   "1": {
-    "title": "Long Division and Place Value",
-    "question": "Use long division: 8,365 ÷ 35. Show the algorithm and check.",
-    "steps": [
-      "Estimate how many digits the quotient should have. Work from the leftmost digits of the dividend.",
-      "83 ÷ 35: write 2, subtract 70, remainder 13",
-      "bring down the next digit: 136 ÷ 35: write 3, subtract 105, remainder 31",
-      "bring down the next digit: 315 ÷ 35: write 9, subtract 315, remainder 0.",
-      "Check: 35 × 239 = 8365."
+    "title": "Add Decimals with Place Value",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 2.71 + 0.36. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "407/100",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "307/100",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "207/100",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "307/10",
+        "correct": false
+      }
     ],
-    "answer": "239"
+    "steps": [
+      "Line up decimal points so tenths are under tenths and hundredths under hundredths.",
+      "Align decimal points",
+      "2.71 + 0.36 = 3.07.",
+      "Check that your response answers every requested part: B - 307/100."
+    ],
+    "answer": "B - 307/100",
+    "response_type": "Multiple choice"
   },
   "2": {
-    "title": "Quotients with Zero Digits",
-    "question": "Use long division: 11,666 ÷ 38. Show the algorithm and check.",
-    "steps": [
-      "Estimate how many digits the quotient should have. Work from the leftmost digits of the dividend.",
-      "116 ÷ 38: write 3, subtract 114, remainder 2",
-      "bring down the next digit: 26 ÷ 38: write 0, subtract 0, remainder 26",
-      "bring down the next digit: 266 ÷ 38: write 7, subtract 266, remainder 0.",
-      "Check: 38 × 307 = 11666."
+    "title": "Subtract Decimals and Check",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 9.31 - 0.4. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "791/100",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "991/100",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "891/10",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "891/100",
+        "correct": true
+      }
     ],
-    "answer": "307"
+    "steps": [
+      "Align decimal points and add placeholder zeros.",
+      "Align decimal points",
+      "9.31 - 0.4 = 8.91.",
+      "Check that your response answers every requested part: D - 891/100."
+    ],
+    "answer": "D - 891/100",
+    "response_type": "Multiple choice"
   },
   "3": {
-    "title": "Adding Decimals",
-    "question": "Use the standard algorithm: 4.89 + 8. Show your regrouping or division steps.",
-    "steps": [
-      "Line up the decimal points. Add placeholder zeros so the numbers are 4.89 and 8.00.",
-      "Column 1 from the right: 9 + 0 = 9. Write 9.",
-      "Column 2 from the right: 8 + 0 = 8. Write 8.",
-      "Column 3 from the right: 4 + 8 = 12. Write 2 and carry 1 to the next column.",
-      "Write the final carried 1 in a new leftmost column.",
-      "Bring the decimal point straight down, keeping 2 decimal places: 12.89. The simplified decimal answer is 12.89."
+    "title": "Multiply Decimals and Estimate",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 9.44 × 0.34. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4012/125",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "2631/625",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "2006/625",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "1381/625",
+        "correct": false
+      }
     ],
-    "answer": "12.89"
+    "steps": [
+      "Multiply as whole numbers using the standard algorithm.",
+      "Compute the whole-number product and restore decimal places: 9.44 × 0.34 = 3.2096.",
+      "Check that your response answers every requested part: C - 2006/625."
+    ],
+    "answer": "C - 2006/625",
+    "response_type": "Multiple choice"
   },
   "4": {
-    "title": "Subtracting Decimals",
-    "question": "Use the standard algorithm: 8.5 - 4.52. Show your regrouping or division steps.",
+    "title": "Divide Whole Numbers",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use long division: 4,229 ÷ 39. Show the algorithm and check.",
+    "options": [],
     "steps": [
-      "Line up the decimal points. Add placeholder zeros so the numbers are 8.50 and 4.52.",
-      "Column 1 from the right needs regrouping. Exchange one unit from a column to the left for ten units here, so this digit becomes 10.",
-      "Column 1 from the right: 10 − 2 = 8. Write 8.",
-      "Column 2 from the right needs regrouping. Exchange one unit from a column to the left for ten units here, so this digit becomes 14.",
-      "Column 2 from the right: 14 − 5 = 9. Write 9.",
-      "Column 3 from the right: 7 − 4 = 3. Write 3.",
-      "Bring the decimal point straight down, keeping 2 decimal places: 3.98. The simplified decimal answer is 3.98.",
-      "Check: 3.98 + 4.52 = 8.5."
+      "Estimate the quotient first.",
+      "42 ÷ 39: write 1, subtract 39, remainder 3",
+      "bring down the next digit: 32 ÷ 39: write 0, subtract 0, remainder 32",
+      "bring down the next digit: 329 ÷ 39: write 8, subtract 312, remainder 17.",
+      "Check: 39 × 108 + 17 = 4229.",
+      "Check that your response answers every requested part: 108 R 17."
     ],
-    "answer": "3.98"
+    "answer": "108 R 17",
+    "response_type": "Model and constructed response"
+  },
+  "5": {
+    "title": "Estimate and Check Whole-Number Division",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use long division: 3,348 ÷ 20. Show the algorithm and check.",
+    "options": [],
+    "steps": [
+      "Estimate the quotient first.",
+      "33 ÷ 20: write 1, subtract 20, remainder 13",
+      "bring down the next digit: 134 ÷ 20: write 6, subtract 120, remainder 14",
+      "bring down the next digit: 148 ÷ 20: write 7, subtract 140, remainder 8.",
+      "Check: 20 × 167 + 8 = 3348.",
+      "Check that your response answers every requested part: 167 R 8."
+    ],
+    "answer": "167 R 8",
+    "response_type": "Model and constructed response"
   },
   "6": {
-    "title": "Multiplying Decimals",
-    "question": "Use the standard algorithm: 4.5 × 5.5. Show your regrouping or division steps.",
+    "title": "Write Zero Digits in Quotients",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use long division: 3,748 ÷ 36. Show the algorithm and check.",
+    "options": [],
     "steps": [
-      "Estimate the size first. Treat the factors as whole numbers: 4.5 becomes 45, and 5.5 becomes 55.",
-      "Multiply the whole numbers: 45 × 55 = 2475.",
-      "Count decimal places: 1 in 4.5 plus 1 in 5.5 gives 2.",
-      "Place the decimal point 2 places from the right in 2475, adding leading zeros if necessary: 24.75. Remove only unnecessary trailing zeros."
+      "Estimate the quotient first.",
+      "37 ÷ 36: write 1, subtract 36, remainder 1",
+      "bring down the next digit: 14 ÷ 36: write 0, subtract 0, remainder 14",
+      "bring down the next digit: 148 ÷ 36: write 4, subtract 144, remainder 4.",
+      "Check: 36 × 104 + 4 = 3748.",
+      "Check that your response answers every requested part: 104 R 4."
     ],
-    "answer": "24.75"
+    "answer": "104 R 4",
+    "response_type": "Model and constructed response"
   },
   "7": {
-    "title": "Decimal Products in Context",
-    "question": "Use the standard algorithm: 9.36 × 8.5. Show your regrouping or division steps.",
-    "steps": [
-      "Estimate the size first. Treat the factors as whole numbers: 9.36 becomes 936, and 8.5 becomes 85.",
-      "Multiply the whole numbers: 936 × 85 = 79560.",
-      "Count decimal places: 2 in 9.36 plus 1 in 8.5 gives 3.",
-      "Place the decimal point 3 places from the right in 79560, adding leading zeros if necessary: 79.56. Remove only unnecessary trailing zeros."
+    "title": "Divide by a Decimal",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 1.75 ÷ 0.25. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "70",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "8",
+        "correct": false
+      }
     ],
-    "answer": "79.56"
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 100: 175 ÷ 25 = 7.",
+      "Check: 0.25 × 7 = 1.75.",
+      "Check that your response answers every requested part: A - 7."
+    ],
+    "answer": "A - 7",
+    "response_type": "Multiple choice"
   },
   "8": {
-    "title": "Dividing by Decimals",
-    "question": "Use the standard algorithm: 11.52 ÷ 3.2. Show your regrouping or division steps.",
-    "steps": [
-      "Make the divisor a whole number. Multiply BOTH numbers by 10: 11.52 ÷ 3.2 = 115.2 ÷ 32. This keeps the quotient unchanged.",
-      "32 goes into 115 3 times. Write 3; multiply 3 × 32 = 96; subtract 115 − 96 = 19.",
-      "Bring the decimal point straight up into the quotient before dividing the tenths.",
-      "Bring down the next digit, 2, to make 192. 32 goes into 192 6 times. Write 6; multiply 6 × 32 = 192; subtract 192 − 192 = 0.",
-      "Check using multiplication: 3.2 × 3.6 = 11.52. The quotient is 3.6."
+    "title": "Explain Equivalent Decimal Division",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 1.125 ÷ 0.25. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "9/2",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "45",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "11/2",
+        "correct": false
+      }
     ],
-    "answer": "3.6"
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 100: 112.5 ÷ 25 = 4.5.",
+      "Check: 0.25 × 4.5 = 1.125.",
+      "Check that your response answers every requested part: B - 9/2."
+    ],
+    "answer": "B - 9/2",
+    "response_type": "Multiple choice"
   },
   "9": {
-    "title": "Decimal Quotients and Checks",
-    "question": "Use the standard algorithm: 2.88 ÷ 1.2. Show your regrouping or division steps.",
-    "steps": [
-      "Make the divisor a whole number. Multiply BOTH numbers by 10: 2.88 ÷ 1.2 = 28.8 ÷ 12. This keeps the quotient unchanged.",
-      "12 goes into 28 2 times. Write 2; multiply 2 × 12 = 24; subtract 28 − 24 = 4.",
-      "Bring the decimal point straight up into the quotient before dividing the tenths.",
-      "Bring down the next digit, 8, to make 48. 12 goes into 48 4 times. Write 4; multiply 4 × 12 = 48; subtract 48 − 48 = 0.",
-      "Check using multiplication: 1.2 × 2.4 = 2.88. The quotient is 2.4."
+    "title": "Apply Decimal Operations",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 0.885 ÷ 0.15. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "59",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "69/10",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "49/10",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "59/10",
+        "correct": true
+      }
     ],
-    "answer": "2.4"
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 100: 88.5 ÷ 15 = 5.9.",
+      "Check: 0.15 × 5.9 = 0.885.",
+      "Check that your response answers every requested part: D - 59/10."
+    ],
+    "answer": "D - 59/10",
+    "response_type": "Multiple choice"
+  },
+  "10": {
+    "title": "Model Multi-Step Decimal Decisions",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 0.552 ÷ 0.12. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "28/5",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "46",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "18/5",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "23/5",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 100: 55.2 ÷ 12 = 4.6.",
+      "Check: 0.12 × 4.6 = 0.552.",
+      "Check that your response answers every requested part: D - 23/5."
+    ],
+    "answer": "D - 23/5",
+    "response_type": "Multiple choice"
   },
   "11": {
-    "title": "Greatest Common Factors",
-    "question": "Find the GCF of 70 and 100. Show factor pairs or prime factors.",
-    "steps": [
-      "List factor pairs or use prime factorizations.",
-      "The greatest factor shared by both numbers is the GCF.",
-      "Common factors: 1, 2, 5, 10",
-      "greatest is 10.",
-      "State the result in the form requested: 10."
+    "title": "Solve Decimal Measurement Problems",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 1.6 ÷ 0.4. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "5",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "40",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "3",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "correct": true
+      }
     ],
-    "answer": "10"
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 10: 16 ÷ 4 = 4.",
+      "Check: 0.4 × 4 = 1.6.",
+      "Check that your response answers every requested part: D - 4."
+    ],
+    "answer": "D - 4",
+    "response_type": "Multiple choice"
   },
   "12": {
-    "title": "Least Common Multiples",
-    "question": "Find the LCM of 4 and 10 by listing multiples.",
+    "title": "Interpret Whole-Number Remainders",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use long division: 4,334 ÷ 23. Show the algorithm and check.",
+    "options": [],
     "steps": [
-      "List positive multiples of both numbers.",
-      "The smallest shared multiple is the LCM.",
-      "The first positive multiple shared by 4 and 10 is 20.",
-      "State the result in the form requested: 20."
+      "Estimate the quotient first.",
+      "43 ÷ 23: write 1, subtract 23, remainder 20",
+      "bring down the next digit: 203 ÷ 23: write 8, subtract 184, remainder 19",
+      "bring down the next digit: 194 ÷ 23: write 8, subtract 184, remainder 10.",
+      "Check: 23 × 188 + 10 = 4334.",
+      "Check that your response answers every requested part: 188 R 10."
     ],
-    "answer": "20"
+    "answer": "188 R 10",
+    "response_type": "Model and constructed response"
   },
   "13": {
-    "title": "Factoring Sums",
-    "question": "Factor 32 + 48 using its GCF. Make the inside numbers relatively prime.",
-    "steps": [
-      "Find the GCF of the two addends.",
-      "Divide each addend by that factor and place the quotients inside parentheses.",
-      "GCF = 16",
-      "32 = 16 × 2 and 48 = 16 × 3.",
-      "State the result in the form requested: 16(2 + 3)."
+    "title": "Critique Decimal Calculations",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 1.408 ÷ 0.32. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "27/5",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "22/5",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "17/5",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "44",
+        "correct": false
+      }
     ],
-    "answer": "16(2 + 3)"
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 100: 140.8 ÷ 32 = 4.4.",
+      "Check: 0.32 × 4.4 = 1.408.",
+      "Check that your response answers every requested part: B - 22/5."
+    ],
+    "answer": "B - 22/5",
+    "response_type": "Multiple choice"
   },
   "14": {
-    "title": "Division with Remainders in Context",
-    "question": "Use long division: 6,403 ÷ 19. Show the algorithm and check.",
-    "steps": [
-      "Estimate how many digits the quotient should have. Work from the leftmost digits of the dividend.",
-      "64 ÷ 19: write 3, subtract 57, remainder 7",
-      "bring down the next digit: 70 ÷ 19: write 3, subtract 57, remainder 13",
-      "bring down the next digit: 133 ÷ 19: write 7, subtract 133, remainder 0.",
-      "Check: 19 × 337 = 6403."
+    "title": "Model a Rational-Number Situation",
+    "unit": 1,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Use the standard algorithm: 0.78 ÷ 0.15. Show your regrouping or division steps. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "52",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "21/5",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "26/5",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "31/5",
+        "correct": false
+      }
     ],
-    "answer": "337"
+    "steps": [
+      "Multiply both dividend and divisor by the same power of 10 so the divisor is a whole number.",
+      "Multiply both numbers by 100: 78 ÷ 15 = 5.2.",
+      "Check: 0.15 × 5.2 = 0.78.",
+      "Check that your response answers every requested part: C - 26/5."
+    ],
+    "answer": "C - 26/5",
+    "response_type": "Multiple choice"
   },
   "16": {
-    "title": "Fraction Products as Preparation",
-    "question": "Calculate 1/6 × 5/8. Simplify.",
-    "steps": [
-      "Rename the numbers as fractions: 1/6 = 1/6 and 5/8 = 5/8.",
-      "Keep multiplication and multiply the fractions: 1/6 × 5/8.",
-      "Multiply numerators and denominators: (1 × 5) / (6 × 8) = 5/48.",
-      "Simplify by dividing top and bottom by 1: 5/48.",
-      "Check the result: The product of 1/6 and 5/8 is 5/48. A positive factor below 1 makes the other positive factor smaller."
+    "title": "Multiply Fractions: Readiness",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Calculate 5/4 × 1. Simplify and explain why your answer is reasonable. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4/5",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "9/4",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "5/4",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "1/4",
+        "correct": false
+      }
     ],
-    "answer": "5/48"
+    "steps": [
+      "For a product of fractions, multiply numerators and multiply denominators, then simplify.",
+      "5/4 × 1 = 5/4.",
+      "Check that your response answers every requested part: C - 5/4."
+    ],
+    "answer": "C - 5/4",
+    "response_type": "Multiple choice"
   },
   "17": {
-    "title": "Mixed Number Products",
-    "question": "Calculate 3 1/2 × 2 1/2. Simplify.",
-    "steps": [
-      "Rename the numbers as fractions: 3 1/2 = 7/2 and 2 1/2 = 5/2.",
-      "Keep multiplication and multiply the fractions: 7/2 × 5/2.",
-      "Multiply numerators and denominators: (7 × 5) / (2 × 2) = 35/4.",
-      "Simplify by dividing top and bottom by 1: 35/4.",
-      "Check the result: The product of 7/2 and 5/2 is 35/4. A positive factor below 1 makes the other positive factor smaller."
+    "title": "Multiply Mixed Numbers: Readiness",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Calculate 1 1/4 × 1 1/4. Simplify and explain why your answer is reasonable. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "41/16",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "9/16",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "25/16",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "16/25",
+        "correct": false
+      }
     ],
-    "answer": "35/4"
+    "steps": [
+      "For a product of fractions, multiply numerators and multiply denominators, then simplify.",
+      "5/4 × 5/4 = 25/16.",
+      "Check that your response answers every requested part: C - 25/16."
+    ],
+    "answer": "C - 25/16",
+    "response_type": "Multiple choice"
   },
   "18": {
-    "title": "Equal Groups in Fraction Bars",
-    "question": "Draw a bar partitioned into 12 equal parts. Shade 4 parts. Circle groups of 2 parts. Use the model to find 1/3 ÷ 1/6.",
+    "title": "Model Fraction Division with Bars",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Draw a bar partitioned into 4 equal parts. Shade 3 parts. Circle groups of 1 parts. Use the model to find 3/4 ÷ 1/4. Explain the partial group. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "30",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "2",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "4",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "3",
+        "correct": true
+      }
+    ],
     "steps": [
       "A quotient asks how many groups of the divisor fit in the dividend.",
-      "Rename both fractions with a common denominator, draw equal parts, and count groups.",
-      "Each small part is 1/12",
-      "4 shaded parts divided into groups of 2 gives 4/2 = 2 groups.",
-      "State the result in the form requested: 2."
+      "Each small part is 1/4",
+      "3 shaded parts divided into groups of 1 gives 3/1 = 3 groups.",
+      "Check that your response answers every requested part: D - 3."
     ],
-    "answer": "2"
+    "answer": "D - 3",
+    "response_type": "Multiple choice"
   },
   "19": {
-    "title": "Partial Groups in Fraction Bars",
-    "question": "Draw a bar partitioned into 6 equal parts. Shade 4 parts. Circle groups of 1 parts. Use the model to find 2/3 ÷ 1/6.",
+    "title": "Interpret a Partial Fraction Group",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Draw a bar partitioned into 12 equal parts. Shade 8 parts. Circle groups of 2 parts. Use the model to find 2/3 ÷ 1/6. Explain the partial group. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "5",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "40",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "3",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "correct": true
+      }
+    ],
     "steps": [
       "A quotient asks how many groups of the divisor fit in the dividend.",
-      "Rename both fractions with a common denominator, draw equal parts, and count groups.",
-      "Each small part is 1/6",
-      "4 shaded parts divided into groups of 1 gives 4/1 = 4 groups.",
-      "State the result in the form requested: 4."
+      "Each small part is 1/12",
+      "8 shaded parts divided into groups of 2 gives 8/2 = 4 groups.",
+      "Check that your response answers every requested part: D - 4."
     ],
-    "answer": "4"
+    "answer": "D - 4",
+    "response_type": "Multiple choice"
   },
-  "21": {
-    "title": "Fraction Division and Reciprocals",
-    "question": "Calculate 1/3 ÷ 2. Simplify.",
-    "steps": [
-      "Rename the numbers as fractions: 1/3 = 1/3 and 2 = 2.",
-      "Keep the first fraction and multiply by the reciprocal of the second: 1/3 × 1/2.",
-      "Multiply numerators and denominators: (1 × 1) / (3 × 2) = 1/6.",
-      "Simplify by dividing top and bottom by 1: 1/6.",
-      "Check the result: 2 × 1/6 = 1/3, so the quotient is correct."
-    ],
-    "answer": "1/6"
-  },
-  "22": {
-    "title": "Checking Fraction Quotients",
-    "question": "Calculate 1/2 ÷ 5/2. Simplify.",
-    "steps": [
-      "Rename the numbers as fractions: 1/2 = 1/2 and 5/2 = 5/2.",
-      "Keep the first fraction and multiply by the reciprocal of the second: 1/2 × 2/5.",
-      "Multiply numerators and denominators: (1 × 2) / (2 × 5) = 2/10.",
-      "Simplify by dividing top and bottom by 2: 1/5.",
-      "Check the result: 5/2 × 1/5 = 1/2, so the quotient is correct."
-    ],
-    "answer": "1/5"
-  },
-  "23": {
-    "title": "Dividing Mixed Numbers",
-    "question": "Calculate 2 ÷ 2 3/5. Simplify.",
-    "steps": [
-      "Rename the numbers as fractions: 2 = 2 and 2 3/5 = 13/5.",
-      "Keep the first fraction and multiply by the reciprocal of the second: 2 × 5/13.",
-      "Multiply numerators and denominators: (2 × 5) / (1 × 13) = 10/13.",
-      "Simplify by dividing top and bottom by 1: 10/13.",
-      "Check the result: 13/5 × 10/13 = 2, so the quotient is correct."
-    ],
-    "answer": "10/13"
-  },
-  "24": {
-    "title": "Mixed Number Quotients and Checks",
-    "question": "Calculate 2 3/8 ÷ 1 1/2. Simplify.",
-    "steps": [
-      "Rename the numbers as fractions: 2 3/8 = 19/8 and 1 1/2 = 3/2.",
-      "Keep the first fraction and multiply by the reciprocal of the second: 19/8 × 2/3.",
-      "Multiply numerators and denominators: (19 × 2) / (8 × 3) = 38/24.",
-      "Simplify by dividing top and bottom by 2: 19/12.",
-      "Check the result: 3/2 × 19/12 = 19/8, so the quotient is correct."
-    ],
-    "answer": "19/12"
-  },
-  "26": {
-    "title": "Interpreting Fraction Division Stories",
-    "question": "A ribbon is 2/3 m long. Each piece is 1 m. How many piece-lengths are in the ribbon? Include any fractional piece.",
-    "steps": [
-      "Identify the total amount and the size of one group.",
-      "Use total ÷ group size for the number of groups.",
-      "2/3 ÷ 1 = 2/3 × 1 = 2/3.",
-      "State the result in the form requested: 2/3 piece-lengths."
-    ],
-    "answer": "2/3 piece-lengths"
-  },
-  "27": {
-    "title": "Full Containers and Leftovers",
-    "question": "A ribbon is 1 1/2 m long. Each piece is 1/2 m. How many piece-lengths are in the ribbon? Include any fractional piece.",
-    "steps": [
-      "Identify the total amount and the size of one group.",
-      "Use total ÷ group size for the number of groups.",
-      "3/2 ÷ 1/2 = 3/2 × 2 = 3.",
-      "State the result in the form requested: 3 piece-lengths."
-    ],
-    "answer": "3 piece-lengths"
-  },
-  "28": {
-    "title": "Missing Factors and Quotients",
-    "question": "The equation 1 × n = 5/8 represents equally sized portions. Find n, write the related division equation, and check.",
+  "20": {
+    "title": "Connect Fraction Bars and Related Equations",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "The equation 4/5 × n = 5/3 represents equally sized portions. Find n, write the related division equation, and check.",
+    "options": [],
     "steps": [
       "Division and multiplication are inverse operations.",
-      "For T ÷ s = n, the related equation is s × n = T.",
-      "5/8 ÷ 1 = 5/8 × 1 = 5/8.",
-      "Check: 1 × 5/8 = 5/8.",
-      "State the result in the form requested: n = 5/8; 5/8 ÷ 1 = 5/8."
+      "5/3 ÷ 4/5 = 5/3 × 5/4 = 25/12.",
+      "Check: 4/5 × 25/12 = 5/3.",
+      "Check that your response answers every requested part: n = 25/12; 5/3 ÷ 4/5 = 25/12."
     ],
-    "answer": "n = 5/8; 5/8 ÷ 1 = 5/8"
+    "answer": "n = 25/12; 5/3 ÷ 4/5 = 25/12",
+    "response_type": "Model and constructed response"
+  },
+  "21": {
+    "title": "Divide Fractions Using Reciprocals",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Calculate 2/3 ÷ 1/4. Simplify and explain why your answer is reasonable. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "5/3",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "3/8",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "8/3",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "11/3",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "If (a/b) ÷ (c/d) = q, then (c/d) × q = a/b.",
+      "2/3 ÷ 1/4 = 2/3 × 4 = 8/3.",
+      "Check that your response answers every requested part: C - 8/3."
+    ],
+    "answer": "C - 8/3",
+    "response_type": "Multiple choice"
+  },
+  "22": {
+    "title": "Check a Fraction Quotient",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "The equation 1/2 × n = 2 represents equally sized portions. Find n, write the related division equation, and check.",
+    "options": [],
+    "steps": [
+      "Division and multiplication are inverse operations.",
+      "2 ÷ 1/2 = 2 × 2 = 4.",
+      "Check: 1/2 × 4 = 2.",
+      "Check that your response answers every requested part: n = 4; 2 ÷ 1/2 = 4."
+    ],
+    "answer": "n = 4; 2 ÷ 1/2 = 4",
+    "response_type": "Model and constructed response"
+  },
+  "23": {
+    "title": "Divide Mixed Numbers",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Calculate 3 1/3 ÷ 2 1/4. Simplify and explain why your answer is reasonable. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "40/27",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "13/27",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "27/40",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "67/27",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Rename a mixed number as (whole × denominator + numerator)/denominator.",
+      "10/3 ÷ 9/4 = 10/3 × 4/9 = 40/27.",
+      "Check that your response answers every requested part: A - 40/27."
+    ],
+    "answer": "A - 40/27",
+    "response_type": "Multiple choice"
+  },
+  "24": {
+    "title": "Interpret Mixed-Number Quotients",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Calculate 2 1/2 ÷ 2 3/4. Simplify and explain why your answer is reasonable. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "10/11",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "11/10",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "-1/11",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "21/11",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Rename a mixed number as (whole × denominator + numerator)/denominator.",
+      "5/2 ÷ 11/4 = 5/2 × 4/11 = 10/11.",
+      "Check that your response answers every requested part: A - 10/11."
+    ],
+    "answer": "A - 10/11",
+    "response_type": "Multiple choice"
+  },
+  "25": {
+    "title": "Explain Fraction Quotients in Context",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "Calculate 3 5/8 ÷ 1 1/4. Simplify and explain why your answer is reasonable. Select one answer, then justify it with a model or calculation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "29/10",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "39/10",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "10/29",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "19/10",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Rename a mixed number as (whole × denominator + numerator)/denominator.",
+      "29/8 ÷ 5/4 = 29/8 × 4/5 = 29/10.",
+      "Check that your response answers every requested part: A - 29/10."
+    ],
+    "answer": "A - 29/10",
+    "response_type": "Multiple choice"
+  },
+  "26": {
+    "title": "Write Fraction-Division Equations",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "The equation 5/8 × n = 2/3 represents equally sized portions. Find n, write the related division equation, and check.",
+    "options": [],
+    "steps": [
+      "Division and multiplication are inverse operations.",
+      "2/3 ÷ 5/8 = 2/3 × 8/5 = 16/15.",
+      "Check: 5/8 × 16/15 = 2/3.",
+      "Check that your response answers every requested part: n = 16/15; 2/3 ÷ 5/8 = 16/15."
+    ],
+    "answer": "n = 16/15; 2/3 ÷ 5/8 = 16/15",
+    "response_type": "Model and constructed response"
+  },
+  "27": {
+    "title": "Solve Fraction-Division Stories",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "A jug contains 1 1/4 L. Each full bottle needs 2/3 L. How many full bottles can be filled, and how much liquid remains?",
+    "options": [],
+    "steps": [
+      "Identify the total amount and the size of one group.",
+      "5/4 ÷ 2/3 = 5/4 × 3/2 = 15/8.",
+      "Only whole bottles count",
+      "subtract the liquid used.",
+      "Check that your response answers every requested part: 1 bottles; 7/12 L left."
+    ],
+    "answer": "1 bottles; 7/12 L left",
+    "response_type": "Model and constructed response"
+  },
+  "28": {
+    "title": "Find Full Containers and Leftovers",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "A jug contains 3/8 L. Each full bottle needs 1/4 L. How many full bottles can be filled, and how much liquid remains?",
+    "options": [],
+    "steps": [
+      "Identify the total amount and the size of one group.",
+      "3/8 ÷ 1/4 = 3/8 × 4 = 3/2.",
+      "Only whole bottles count",
+      "subtract the liquid used.",
+      "Check that your response answers every requested part: 1 bottles; 1/8 L left."
+    ],
+    "answer": "1 bottles; 1/8 L left",
+    "response_type": "Model and constructed response"
   },
   "29": {
-    "title": "Explaining Fraction Division",
-    "question": "Calculate 7/3 ÷ 1/8. Simplify.",
+    "title": "Explain Fraction Models and Algorithms",
+    "unit": 2,
+    "topic": "Use Positive Rational Numbers",
+    "question": "A jug contains 2 L. Each full bottle needs 4/3 L. How many full bottles can be filled, and how much liquid remains?",
+    "options": [],
     "steps": [
-      "Rename the numbers as fractions: 7/3 = 7/3 and 1/8 = 1/8.",
-      "Keep the first fraction and multiply by the reciprocal of the second: 7/3 × 8.",
-      "Multiply numerators and denominators: (7 × 8) / (3 × 1) = 56/3.",
-      "Simplify by dividing top and bottom by 1: 56/3.",
-      "Check the result: 1/8 × 56/3 = 7/3, so the quotient is correct."
+      "Identify the total amount and the size of one group.",
+      "2 ÷ 4/3 = 2 × 3/4 = 3/2.",
+      "Only whole bottles count",
+      "subtract the liquid used.",
+      "Check that your response answers every requested part: 1 bottles; 2/3 L left."
     ],
-    "answer": "56/3"
+    "answer": "1 bottles; 2/3 L left",
+    "response_type": "Model and constructed response"
   },
   "31": {
-    "title": "Ratio Language and Order",
-    "question": "A tray has 16 red tiles and 10 blue tiles. Write the red-to-blue ratio in simplest form.",
-    "steps": [
-      "A ratio compares two quantities multiplicatively.",
-      "In a:b, a names the first quantity and b names the second.",
-      "Keep red first",
-      "divide 16:10 by 2.",
-      "State the result in the form requested: 8:5."
+    "title": "Represent Signed Quantities and Zero",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "A sensor is 6 meters below a reference point. Select all correct interpretations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its signed position is +6 m.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Its signed position is -6 m.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A reading of 0 m means at the reference point.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "The opposite position is 6 m below the reference.",
+        "correct": false
+      }
     ],
-    "answer": "8:5"
-  },
-  "32": {
-    "title": "Parts and the Whole",
-    "question": "A collection has 8 green and 24 yellow counters. Write the fraction that is green.",
-    "steps": [
-      "For a:b, the total is a+b equal parts.",
-      "The first part is a/(a+b) of the total; a/b compares it to the second part.",
-      "Total = 32",
-      "green fraction = 8/32 = 1/4.",
-      "State the result in the form requested: 1/4."
-    ],
-    "answer": "1/4"
-  },
-  "33": {
-    "title": "Tape Diagrams and Totals",
-    "question": "The ratio of oak trees to pine trees is 4:4. There are 24 trees altogether. Draw a tape diagram and find each count.",
-    "steps": [
-      "For a ratio a:b, draw a sections for one quantity and b sections for the other.",
-      "A total covers a+b sections.",
-      "8 equal sections total",
-      "each section is 24 ÷ 8 = 3.",
-      "State the result in the form requested: 12 oaks and 12 pines."
-    ],
-    "answer": "12 oaks and 12 pines"
-  },
-  "34": {
-    "title": "Equivalent Ratio Tables",
-    "question": "A mix uses 5 cups of oats for 2 cups of seeds. Complete the table (oats, seeds): (5, 2), (10, ___), (15, ___).",
-    "steps": [
-      "Multiply both values in a ratio by the same scale factor.",
-      "Organize pairs in a table and check that every row compares the same quantities in the same order.",
-      "Multiply both parts by 2 and by 3.",
-      "State the result in the form requested: 4; 6."
-    ],
-    "answer": "4; 6"
-  },
-  "36": {
-    "title": "Missing Values in Ratio Tables",
-    "question": "A mix uses 4 cups of oats for 7 cups of seeds. Complete the table (oats, seeds): (4, 7), (8, ___), (12, ___).",
-    "steps": [
-      "Multiply both values in a ratio by the same scale factor.",
-      "Organize pairs in a table and check that every row compares the same quantities in the same order.",
-      "Multiply both parts by 2 and by 3.",
-      "State the result in the form requested: 14; 21."
-    ],
-    "answer": "14; 21"
-  },
-  "37": {
-    "title": "Double Number Lines",
-    "question": "Draw aligned number lines for 4 liters of paint covering 3 square meters. Mark 0, one batch, and 5 batches. How much area do 20 liters cover?",
-    "steps": [
-      "Place zero on both parallel number lines.",
-      "Align a known pair above and below one tick.",
-      "20 ÷ 4 = 5 batches",
-      "5 × 3 = 15.",
-      "State the result in the form requested: 15 square meters; aligned pairs (0,0), (4,3), (20,15)."
-    ],
-    "answer": "15 square meters; aligned pairs (0,0), (4,3), (20,15)"
-  },
-  "38": {
-    "title": "Comparing Mixtures",
-    "question": "Mix A has 4 cups juice for 3 cups water. Mix B has 26 cups juice for 18 cups water. Which is stronger in juice? Show equivalent ratios.",
-    "steps": [
-      "Scale two ratios until one quantity matches, then compare the other quantity.",
-      "The larger count alone is not enough: compare the amount per equal-sized batch or per one item.",
-      "For 18 cups water, A uses 24 cups juice",
-      "B uses 26.",
-      "B has more juice per equal water amount.",
-      "State the result in the form requested: Mix B."
-    ],
-    "answer": "Mix B"
-  },
-  "39": {
-    "title": "Plotting Ratio Pairs",
-    "question": "For every 8 tickets sold, a club earns $4. Make a table for 0, 1, 2, and 6 batches. Plot (tickets, dollars), label axes, and interpret (48, 24).",
-    "steps": [
-      "Put the first quantity on the horizontal axis and the second on the vertical axis.",
-      "Build a table, label units, and plot ordered pairs.",
-      "Scale both quantities by each batch count",
-      "plot horizontal tickets and vertical dollars.",
-      "State the result in the form requested: (0,0), (8,4), (16,8), (48,24); 48 tickets earns $24."
-    ],
-    "answer": "(0,0), (8,4), (16,8), (48,24); 48 tickets earns $24"
-  },
-  "41": {
-    "title": "Ratios in Larger Batches",
-    "question": "The ratio of oak trees to pine trees is 4:3. There are 42 trees altogether. Draw a tape diagram and find each count.",
-    "steps": [
-      "For a ratio a:b, draw a sections for one quantity and b sections for the other.",
-      "A total covers a+b sections.",
-      "7 equal sections total",
-      "each section is 42 ÷ 7 = 6.",
-      "State the result in the form requested: 24 oaks and 18 pines."
-    ],
-    "answer": "24 oaks and 18 pines"
-  },
-  "42": {
-    "title": "Customary and Metric Conversions",
-    "question": "Convert 48 inches to feet. Show the conversion ratio.",
-    "steps": [
-      "Write an equality such as 1 foot = 12 inches.",
-      "Multiply to change larger units into smaller units; divide for the reverse.",
-      "48 ÷ 12 = 4",
-      "1 feet = 12 inches.",
-      "State the result in the form requested: 4 feet."
-    ],
-    "answer": "4 feet"
-  },
-  "43": {
-    "title": "Conversions with Fractional Amounts",
-    "question": "Convert 7000 milliliters to liters. Show the conversion ratio.",
-    "steps": [
-      "Write an equality such as 1 foot = 12 inches.",
-      "Multiply to change larger units into smaller units; divide for the reverse.",
-      "7000 ÷ 1000 = 7",
-      "1 liters = 1000 milliliters.",
-      "State the result in the form requested: 7 liters."
-    ],
-    "answer": "7 liters"
-  },
-  "44": {
-    "title": "Explaining Conversion Ratios",
-    "question": "Convert 6 feet to yards. Show the conversion ratio.",
-    "steps": [
-      "Write an equality such as 1 foot = 12 inches.",
-      "Multiply to change larger units into smaller units; divide for the reverse.",
-      "6 ÷ 3 = 2",
-      "1 yards = 3 feet.",
-      "State the result in the form requested: 2 yards."
-    ],
-    "answer": "2 yards"
-  },
-  "46": {
-    "title": "Unit Rates with Labels",
-    "question": "3 identical notebooks cost $6. Find the cost per notebook.",
-    "steps": [
-      "A unit rate compares an amount with one unit of another quantity.",
-      "Divide the first quantity by the second.",
-      "Unit rate = 6 ÷ 3 = 2 dollars per notebook.",
-      "State the result in the form requested: $2 per notebook."
-    ],
-    "answer": "$2 per notebook"
-  },
-  "47": {
-    "title": "Using a Unit Rate",
-    "question": "5 identical notebooks cost $25. Find the cost per notebook.",
-    "steps": [
-      "A unit rate compares an amount with one unit of another quantity.",
-      "Divide the first quantity by the second.",
-      "Unit rate = 25 ÷ 5 = 5 dollars per notebook.",
-      "State the result in the form requested: $5 per notebook."
-    ],
-    "answer": "$5 per notebook"
-  },
-  "48": {
-    "title": "Constant Speed",
-    "question": "A bus travels at 30 km/h. How long does 150 km take?",
-    "steps": [
-      "At a constant speed, distance = speed × time.",
-      "Divide distance by time to find speed, or distance by speed to find time.",
-      "Time = distance ÷ speed = 150 ÷ 30 = 5.",
-      "State the result in the form requested: 5 hours."
-    ],
-    "answer": "5 hours"
-  },
-  "49": {
-    "title": "Distance and Time",
-    "question": "A bus travels at 30 km/h. How long does 210 km take?",
-    "steps": [
-      "At a constant speed, distance = speed × time.",
-      "Divide distance by time to find speed, or distance by speed to find time.",
-      "Time = distance ÷ speed = 210 ÷ 30 = 7.",
-      "State the result in the form requested: 7 hours."
-    ],
-    "answer": "7 hours"
-  },
-  "51": {
-    "title": "Finding Unit Prices",
-    "question": "Pack A has 5 markers for $10; Pack B has 11 markers for $27.5. Find each unit price and the better buy.",
-    "steps": [
-      "Divide total cost by the number of items or units.",
-      "Compare costs for exactly one of the same unit.",
-      "Divide each price by its marker count",
-      "compare 2 with 2.5.",
-      "State the result in the form requested: A $2/marker; B $2.5/marker; A is cheaper."
-    ],
-    "answer": "A $2/marker; B $2.5/marker; A is cheaper"
-  },
-  "52": {
-    "title": "Comparing Package Sizes",
-    "question": "Pack A has 7 markers for $14; Pack B has 10 markers for $25. Find each unit price and the better buy.",
-    "steps": [
-      "Divide total cost by the number of items or units.",
-      "Compare costs for exactly one of the same unit.",
-      "Divide each price by its marker count",
-      "compare 2 with 2.5.",
-      "State the result in the form requested: A $2/marker; B $2.5/marker; A is cheaper."
-    ],
-    "answer": "A $2/marker; B $2.5/marker; A is cheaper"
-  },
-  "53": {
-    "title": "Percents Fractions and Decimals",
-    "question": "Write 30% as a simplified fraction and decimal.",
-    "steps": [
-      "Percent means per 100.",
-      "Write p% as p/100, simplify the fraction, and divide by 100 to write a decimal.",
-      "30% = 30/100 = 3/10",
-      "divide by 100 for 0.3.",
-      "State the result in the form requested: 3/10; 0.3."
-    ],
-    "answer": "3/10; 0.3"
-  },
-  "54": {
-    "title": "Finding the Percent Part",
-    "question": "Find 25% of 120.",
-    "steps": [
-      "Use part = (percent/100) × whole.",
-      "You may also find 10%, 5%, or 1% and combine equal pieces.",
-      "25/100 × 120 = 30.",
-      "State the result in the form requested: 30."
-    ],
-    "answer": "30"
-  },
-  "56": {
-    "title": "Percent Parts in Context",
-    "question": "Find 12% of 180.",
-    "steps": [
-      "Use part = (percent/100) × whole.",
-      "You may also find 10%, 5%, or 1% and combine equal pieces.",
-      "12/100 × 180 = 108/5.",
-      "State the result in the form requested: 108/5."
-    ],
-    "answer": "108/5"
-  },
-  "57": {
-    "title": "Finding the Whole",
-    "question": "20% of a number is 44. Find the number and check.",
-    "steps": [
-      "Write part = decimal rate × whole.",
-      "Divide the part by the decimal rate to find the whole.",
-      "Whole = 44 ÷ 1/5 = 220.",
-      "Check 20% × 220 = 44.",
-      "State the result in the form requested: 220."
-    ],
-    "answer": "220"
-  },
-  "58": {
-    "title": "Finding the Percent Rate",
-    "question": "6 is what percent of 120?",
-    "steps": [
-      "Divide the part by the whole, then multiply by 100.",
-      "Keep the same units in part and whole.",
-      "6 ÷ 120 × 100 = 5%",
-      "the reference whole is 120.",
-      "State the result in the form requested: 5%."
-    ],
-    "answer": "5%"
-  },
-  "59": {
-    "title": "Choosing a Percent Strategy",
-    "question": "30% of a number is 60. Find the number and check.",
-    "steps": [
-      "Write part = decimal rate × whole.",
-      "Divide the part by the decimal rate to find the whole.",
-      "Whole = 60 ÷ 3/10 = 200.",
-      "Check 30% × 200 = 60.",
-      "State the result in the form requested: 200."
-    ],
-    "answer": "200"
-  },
-  "61": {
-    "title": "Signed Quantities and Zero",
-    "question": "A marker is 21 m below sea level. Write its signed elevation and explain what elevation 0 means.",
     "steps": [
       "Choose a reference point for zero.",
-      "Opposite directions or values use opposite signs: above sea level is positive and below sea level is negative.",
-      "Sea level is the reference.",
-      "Below is negative and above is positive.",
-      "State the result in the form requested: -21 m; 0 means at sea level."
+      "Below the chosen zero is negative, so the position is -6.",
+      "Zero identifies the reference",
+      "the opposite is 6 m above it.",
+      "Check that your response answers every requested part: B, C - Its signed position is -6 m.; A reading of 0 m means at the reference point.."
     ],
-    "answer": "-21 m; 0 means at sea level"
+    "answer": "B, C - Its signed position is -6 m.; A reading of 0 m means at the reference point.",
+    "response_type": "Multiple select"
   },
-  "62": {
-    "title": "Opposites and Double Opposites",
-    "question": "Find the opposite of -8 and the opposite of that result. Locate all values on a number line.",
+  "32": {
+    "title": "Recognize Opposites",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Select all true statements about -9/2 and its opposite. Explain the role of zero.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The opposite of 0 is 1.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "The opposite of the opposite of -9/2 is -9/2.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "-9/2 and 9/2 are on the same side of zero.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "The opposite of -9/2 is 9/2.",
+        "correct": true
+      }
+    ],
     "steps": [
       "Opposites are equally far from zero on opposite sides of a number line.",
-      "The opposite of 0 is 0.",
-      "-8 and 8 are each 8 units from 0 on opposite sides.",
-      "State the result in the form requested: 8; opposite again -8."
+      "An opposite reverses direction without changing distance.",
+      "Reversing twice returns to -9/2.",
+      "Zero is its own opposite.",
+      "Check that your response answers every requested part: B, D - The opposite of the opposite of -9/2 is -9/2.; The opposite of -9/2 is 9/2.."
     ],
-    "answer": "8; opposite again -8"
+    "answer": "B, D - The opposite of the opposite of -9/2 is -9/2.; The opposite of -9/2 is 9/2.",
+    "response_type": "Multiple select"
   },
-  "63": {
-    "title": "Integers on Number Lines",
-    "question": "Draw a horizontal or vertical number line. Plot and label -1, 0, and 3/2.",
+  "33": {
+    "title": "Locate Integers on Number Lines",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "On a number line, consecutive integer ticks are 1 unit apart. Plot -13/2, -6, and 0. Part A: name the leftmost point. Part B: give the midpoint between -7 and -6.",
+    "options": [],
     "steps": [
       "Mark zero and equally spaced whole-number ticks.",
-      "Partition each interval into equal parts for the denominator.",
-      "Negative -1 is left of or below 0",
-      "3/2 is right of or above 0.",
-      "Use equal intervals.",
-      "State the result in the form requested: -1 < 0 < 3/2; use steps of 1/2."
+      "-13/2 = -6 - 1/2 lies halfway between -7 and -6, left of both -6 and 0.",
+      "Check that your response answers every requested part: Leftmost -13/2; midpoint -13/2."
     ],
-    "answer": "-1 < 0 < 3/2; use steps of 1/2"
+    "answer": "Leftmost -13/2; midpoint -13/2",
+    "response_type": "Graphing and two-part response"
   },
-  "64": {
-    "title": "Negative Fractions on Number Lines",
-    "question": "Draw a horizontal or vertical number line. Plot and label -2, 0, and 7/4.",
+  "34": {
+    "title": "Locate Negative Fractions",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "On a number line, consecutive integer ticks are 1 unit apart. Plot -5/2, -2, and 0. Part A: name the leftmost point. Part B: give the midpoint between -3 and -2.",
+    "options": [],
     "steps": [
       "Mark zero and equally spaced whole-number ticks.",
-      "Partition each interval into equal parts for the denominator.",
-      "Negative -2 is left of or below 0",
-      "7/4 is right of or above 0.",
-      "Use equal intervals.",
-      "State the result in the form requested: -2 < 0 < 7/4; use steps of 1/4."
+      "-5/2 = -2 - 1/2 lies halfway between -3 and -2, left of both -2 and 0.",
+      "Check that your response answers every requested part: Leftmost -5/2; midpoint -5/2."
     ],
-    "answer": "-2 < 0 < 7/4; use steps of 1/4"
+    "answer": "Leftmost -5/2; midpoint -5/2",
+    "response_type": "Graphing and two-part response"
   },
-  "66": {
-    "title": "Comparing Negative Values",
-    "question": "Compare -1/2 ___ -1/5 using <, >, or =. Sketch a number line to justify.",
+  "35": {
+    "title": "Order Negative Fractions with Benchmarks",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Temperatures are -8 °C and -6 °C. Select all true comparisons.",
+    "options": [
+      {
+        "label": "A",
+        "text": "-8 is warmer than -6.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "-6 lies to the right of -8 on a number line.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "-8 < -6",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "-8 > 0",
+        "correct": false
+      }
+    ],
     "steps": [
       "A number farther right is greater.",
-      "Among negative numbers, the value closer to zero is greater.",
-      "-1/2 < -1/5",
-      "greater numbers lie farther right.",
-      "State the result in the form requested: <."
+      "Among negatives, the number closer to zero is greater.",
+      "Thus -6 is warmer and is farther right.",
+      "Check that your response answers every requested part: B, C - -6 lies to the right of -8 on a number line.; -8 < -6."
     ],
-    "answer": "<"
+    "answer": "B, C - -6 lies to the right of -8 on a number line.; -8 < -6",
+    "response_type": "Multiple select"
   },
-  "67": {
-    "title": "Ordering Temperatures",
-    "question": "Compare -4 ___ -3 using <, >, or =. Sketch a number line to justify.",
+  "36": {
+    "title": "Compare and Order Rational Numbers",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Temperatures are -9 °C and -7 °C. Select all true comparisons.",
+    "options": [
+      {
+        "label": "A",
+        "text": "-9 is warmer than -7.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "-9 < -7",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "-7 lies to the right of -9 on a number line.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "-9 > 0",
+        "correct": false
+      }
+    ],
     "steps": [
       "A number farther right is greater.",
-      "Among negative numbers, the value closer to zero is greater.",
-      "-4 < -3",
-      "greater numbers lie farther right.",
-      "State the result in the form requested: <."
+      "Among negatives, the number closer to zero is greater.",
+      "Thus -7 is warmer and is farther right.",
+      "Check that your response answers every requested part: B, C - -9 < -7; -7 lies to the right of -9 on a number line.."
     ],
-    "answer": "<"
+    "answer": "B, C - -9 < -7; -7 lies to the right of -9 on a number line.",
+    "response_type": "Multiple select"
   },
-  "68": {
-    "title": "Absolute Value as Distance",
-    "question": "Find |-10| and compare it with |5/2|.",
+  "37": {
+    "title": "Interpret Order in Context",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "A sensor is 6 meters below a reference point. Select all correct interpretations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its signed position is +6 m.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Its signed position is -6 m.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A reading of 0 m means at the reference point.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "The opposite position is 6 m below the reference.",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Choose a reference point for zero.",
+      "Below the chosen zero is negative, so the position is -6.",
+      "Zero identifies the reference",
+      "the opposite is 6 m above it.",
+      "Check that your response answers every requested part: B, C - Its signed position is -6 m.; A reading of 0 m means at the reference point.."
+    ],
+    "answer": "B, C - Its signed position is -6 m.; A reading of 0 m means at the reference point.",
+    "response_type": "Multiple select"
+  },
+  "38": {
+    "title": "Understand Absolute Value",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Consider -9 and 7. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "-9 is farther from zero than 7.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "|-9| = -9",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "-9 > 7",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "|-9| = 9",
+        "correct": true
+      }
+    ],
     "steps": [
       "The absolute value |x| is the distance from x to zero, so it cannot be negative.",
-      "A larger absolute value means farther from zero, but does not necessarily mean a greater number.",
-      "-10 is 10 units from 0",
-      "distance is nonnegative.",
-      "State the result in the form requested: 10; 10 > 5/2."
+      "Absolute value measures distance: 9 versus 7.",
+      "A larger distance does not make the negative number greater.",
+      "Check that your response answers every requested part: A, D - -9 is farther from zero than 7.; |-9| = 9."
     ],
-    "answer": "10; 10 > 5/2"
+    "answer": "A, D - -9 is farther from zero than 7.; |-9| = 9",
+    "response_type": "Multiple select"
   },
-  "69": {
-    "title": "Magnitude and Order",
-    "question": "Find |-9/2| and compare it with |3/2|.",
+  "39": {
+    "title": "Compare Order and Distance from Zero",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Temperatures are -8 °C and -6 °C. Select all true comparisons.",
+    "options": [
+      {
+        "label": "A",
+        "text": "-8 is warmer than -6.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "-6 lies to the right of -8 on a number line.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "-8 < -6",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "-8 > 0",
+        "correct": false
+      }
+    ],
     "steps": [
-      "The absolute value |x| is the distance from x to zero, so it cannot be negative.",
-      "A larger absolute value means farther from zero, but does not necessarily mean a greater number.",
-      "-9/2 is 9/2 units from 0",
-      "distance is nonnegative.",
-      "State the result in the form requested: 9/2; 9/2 > 3/2."
+      "A number farther right is greater.",
+      "Among negatives, the number closer to zero is greater.",
+      "Thus -6 is warmer and is farther right.",
+      "Check that your response answers every requested part: B, C - -6 lies to the right of -8 on a number line.; -8 < -6."
     ],
-    "answer": "9/2; 9/2 > 3/2"
+    "answer": "B, C - -6 lies to the right of -8 on a number line.; -8 < -6",
+    "response_type": "Multiple select"
   },
-  "71": {
-    "title": "Points in Four Quadrants",
-    "question": "Plot P(5, 6) on a coordinate plane and name its quadrant.",
+  "40": {
+    "title": "Interpret Points on Axes and in Quadrants",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Plot P(-3, 5), Q(3, -5), and R(0, -5). Part A: name the quadrant of P and Q. Part B: explain why R is not in a quadrant.",
+    "options": [],
     "steps": [
       "Start at the origin.",
-      "Move horizontally by x, then vertically by y.",
-      "Move 5 right, then 6 up.",
-      "State the result in the form requested: Quadrant I."
+      "P has signs (-,+), so II.",
+      "Q has (+,-), so IV.",
+      "R has x = 0 and is on an axis.",
+      "Check that your response answers every requested part: P: II; Q: IV; R is on the y-axis.."
     ],
-    "answer": "Quadrant I"
+    "answer": "P: II; Q: IV; R is on the y-axis.",
+    "response_type": "Coordinate plotting and explanation"
   },
-  "72": {
-    "title": "Reflections and Coordinate Signs",
-    "question": "Plot (-8, -3), reflect it across y-axis, and give the reflected coordinates.",
+  "41": {
+    "title": "Plot Points in Four Quadrants",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Plot P(-4, 6), Q(4, -6), and R(0, -6). Part A: name the quadrant of P and Q. Part B: explain why R is not in a quadrant.",
+    "options": [],
+    "steps": [
+      "Start at the origin.",
+      "P has signs (-,+), so II.",
+      "Q has (+,-), so IV.",
+      "R has x = 0 and is on an axis.",
+      "Check that your response answers every requested part: P: II; Q: IV; R is on the y-axis.."
+    ],
+    "answer": "P: II; Q: IV; R is on the y-axis.",
+    "response_type": "Coordinate plotting and explanation"
+  },
+  "42": {
+    "title": "Reflect Points Across Axes",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Point P is (-3, 4). Select all correct reflections.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Across the y-axis: (3, 4).",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Across both axes: (-3, 4).",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Across the x-axis: (-3, -4).",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Across the x-axis: (3, 4).",
+        "correct": false
+      }
+    ],
     "steps": [
       "Across the x-axis, keep x and reverse the sign of y.",
-      "Across the y-axis, reverse x and keep y.",
-      "Reverse the x sign: (8, -3).",
-      "State the result in the form requested: (8, -3)."
+      "The x-axis reflection changes y only",
+      "the y-axis reflection changes x only.",
+      "Across both gives (3, -4).",
+      "Check that your response answers every requested part: A, C - Across the y-axis: (3, 4).; Across the x-axis: (-3, -4).."
     ],
-    "answer": "(8, -3)"
+    "answer": "A, C - Across the y-axis: (3, 4).; Across the x-axis: (-3, -4).",
+    "response_type": "Multiple select"
   },
-  "73": {
-    "title": "Horizontal and Vertical Distances",
-    "question": "Plot (-8, 5) and (4, 5). Find their distance.",
+  "43": {
+    "title": "Find Horizontal and Vertical Distance",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Plot A(-3, -2), B(4, -2), and C(-3, 2). Part A: enter AB. Part B: enter AC and explain how zero helps find each distance.",
+    "options": [],
     "steps": [
       "Plot both points.",
-      "If x-coordinates match, count the vertical units; if y-coordinates match, count horizontal units.",
-      "Only one coordinate changes.",
-      "Opposite sides of 0: 8 + 4 = 12.",
-      "State the result in the form requested: 12 units."
+      "AB is horizontal: 3 + 4 = 7.",
+      "AC is vertical: 2 + 2 = 4.",
+      "Each segment crosses an axis.",
+      "Check that your response answers every requested part: AB = 7 units; AC = 4 units."
     ],
-    "answer": "12 units"
+    "answer": "AB = 7 units; AC = 4 units",
+    "response_type": "Coordinate plotting and numeric entry"
   },
-  "74": {
-    "title": "Distances Across the Axes",
-    "question": "Plot (-4, 4) and (4, 4). Find their distance.",
+  "44": {
+    "title": "Solve Coordinate-Plane Problems",
+    "unit": 3,
+    "topic": "Integers and Rational Numbers",
+    "question": "Plot A(-2, -2), B(5, -2), and C(-2, 2). Part A: enter AB. Part B: enter AC and explain how zero helps find each distance.",
+    "options": [],
     "steps": [
       "Plot both points.",
-      "If x-coordinates match, count the vertical units; if y-coordinates match, count horizontal units.",
-      "Only one coordinate changes.",
-      "Opposite sides of 0: 4 + 4 = 8.",
-      "State the result in the form requested: 8 units."
+      "AB is horizontal: 2 + 5 = 7.",
+      "AC is vertical: 2 + 2 = 4.",
+      "Each segment crosses an axis.",
+      "Check that your response answers every requested part: AB = 7 units; AC = 4 units."
     ],
-    "answer": "8 units"
+    "answer": "AB = 7 units; AC = 4 units",
+    "response_type": "Coordinate plotting and numeric entry"
   },
-  "76": {
-    "title": "Repeated Factors and Exponents",
-    "question": "Write 8^4 as repeated multiplication and evaluate.",
+  "46": {
+    "title": "Write and Evaluate Powers",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all expressions equal to 5³.",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 × 3",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "126",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "5 × 5 × 5",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "125",
+        "correct": true
+      }
+    ],
     "steps": [
       "The base is the repeated factor and the exponent tells how many copies to multiply.",
-      "For a positive exponent, 4^3 = 4 × 4 × 4, not 4 × 3.",
-      "The exponent counts 4 factors of 8",
-      "multiply all factors.",
-      "State the result in the form requested: 8 × 8 × 8 × 8 = 4096."
+      "The exponent 3 means three factors of 5",
+      "their product is 125.",
+      "It does not mean 5 times 3.",
+      "Check that your response answers every requested part: C, D - 5 × 5 × 5; 125."
     ],
-    "answer": "8 × 8 × 8 × 8 = 4096"
+    "answer": "C, D - 5 × 5 × 5; 125",
+    "response_type": "Multiple select"
   },
-  "77": {
-    "title": "Powers and Their Values",
-    "question": "Write 6^2 as repeated multiplication and evaluate.",
-    "steps": [
-      "The base is the repeated factor and the exponent tells how many copies to multiply.",
-      "For a positive exponent, 4^3 = 4 × 4 × 4, not 4 × 3.",
-      "The exponent counts 2 factors of 6",
-      "multiply all factors.",
-      "State the result in the form requested: 6 × 6 = 36."
-    ],
-    "answer": "6 × 6 = 36"
-  },
-  "78": {
-    "title": "Order of Operations",
-    "question": "Evaluate (3 + 4) × 4^2. Show the intermediate steps.",
+  "47": {
+    "title": "Use the Order of Operations",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Evaluate 2² + 5(7 - 3). Part A: enter the value. Part B: a student begins by adding 2² and 5; explain why that changes the expression.",
+    "options": [],
     "steps": [
       "Work inside parentheses, then evaluate exponents.",
-      "Multiply and divide from left to right; then add and subtract from left to right.",
-      "Use parentheses and exponents first, then × and ÷ left to right, then + and -.",
-      "Result: 112.",
-      "State the result in the form requested: 112."
+      "Parentheses: 7 - 3 = 4.",
+      "Exponent: 2² = 4.",
+      "Multiply: 5 × 4 = 20.",
+      "Add: 4 + 20 = 24.",
+      "The product must be completed before the final sum.",
+      "Check that your response answers every requested part: 24."
     ],
-    "answer": "112"
+    "answer": "24",
+    "response_type": "Numeric entry and error analysis"
   },
-  "79": {
-    "title": "Grouping and Left to Right Operations",
-    "question": "Evaluate (5 + 3) × 4^2. Show the intermediate steps.",
+  "48": {
+    "title": "Find Greatest Common Factors",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all true statements about 12 and 18. Explain why the greatest factor fits the kit situation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 is the largest number of identical no-leftover kits from 12 pencils and 18 erasers.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "30 divides both counts.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "7 is their greatest common factor.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "6 divides both 12 and 18.",
+        "correct": true
+      }
+    ],
     "steps": [
-      "Work inside parentheses, then evaluate exponents.",
-      "Multiply and divide from left to right; then add and subtract from left to right.",
-      "Use parentheses and exponents first, then × and ÷ left to right, then + and -.",
-      "Result: 128.",
-      "State the result in the form requested: 128."
+      "List factor pairs or use prime factorizations.",
+      "GCF(12, 18) = 6.",
+      "Divide each count by 6: 2 pencils and 3 erasers per kit.",
+      "A larger shared divisor is impossible.",
+      "Check that your response answers every requested part: A, D - 6 is the largest number of identical no-leftover kits from 12 pencils and 18 erasers.; 6 divides both 12 and 18.."
     ],
-    "answer": "128"
+    "answer": "A, D - 6 is the largest number of identical no-leftover kits from 12 pencils and 18 erasers.; 6 divides both 12 and 18.",
+    "response_type": "Multiple select"
   },
-  "81": {
-    "title": "Parts of an Expression",
-    "question": "For 3x + 2y + 5, list terms, coefficients, and the constant.",
+  "49": {
+    "title": "Find Least Common Multiples",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Two signals flash together now and then every 3 and 7 seconds. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The next shared time is 22 seconds.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "They next flash together after 21 seconds.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "42 seconds is also a time they flash together.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "They next flash together after 1 seconds.",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "List positive multiples of both numbers.",
+      "List multiples or use prime factors.",
+      "The least shared positive multiple is 21",
+      "multiples of 21 are later shared times.",
+      "Check that your response answers every requested part: B, C - They next flash together after 21 seconds.; 42 seconds is also a time they flash together.."
+    ],
+    "answer": "B, C - They next flash together after 21 seconds.; 42 seconds is also a time they flash together.",
+    "response_type": "Multiple select"
+  },
+  "50": {
+    "title": "Use Factors and Multiples to Explain Structure",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Two signals flash together now and then every 3 and 7 seconds. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The next shared time is 22 seconds.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "They next flash together after 21 seconds.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "42 seconds is also a time they flash together.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "They next flash together after 1 seconds.",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "List positive multiples of both numbers.",
+      "List multiples or use prime factors.",
+      "The least shared positive multiple is 21",
+      "multiples of 21 are later shared times.",
+      "Check that your response answers every requested part: B, C - They next flash together after 21 seconds.; 42 seconds is also a time they flash together.."
+    ],
+    "answer": "B, C - They next flash together after 21 seconds.; 42 seconds is also a time they flash together.",
+    "response_type": "Multiple select"
+  },
+  "51": {
+    "title": "Factor Sums with the Distributive Property",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all expressions equal to 8 + 8.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4(2 + 2)",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "8 + 8",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "17",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "4 × 5",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Find the GCF of the two addends.",
+      "Distribute 4 to both terms: 4 × 2 + 4 × 2 = 16.",
+      "The other choices are 4 or 1 too large.",
+      "Check that your response answers every requested part: A, B - 4(2 + 2); 8 + 8."
+    ],
+    "answer": "A, B - 4(2 + 2); 8 + 8",
+    "response_type": "Multiple select"
+  },
+  "52": {
+    "title": "Identify Parts of Expressions",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "For the expression 5(x + 6) + 2, select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The entire expression is a product with 2.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "6 is the coefficient of x in the fully expanded expression.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "5 and (x + 6) are factors of the first term.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "2 is a constant term.",
+        "correct": true
+      }
+    ],
     "steps": [
       "Addition and subtraction separate terms.",
-      "A coefficient multiplies a variable; a constant has no variable.",
-      "Terms are separated by addition",
-      "coefficients multiply variables.",
-      "State the result in the form requested: Terms 3x, 2y, 5; coefficients 3, 2; constant 5."
+      "The outer sum has two terms.",
+      "The first term is a product with two factors.",
+      "Expanding gives 5x + 30 + 2, so the coefficient is 5.",
+      "Check that your response answers every requested part: C, D - 5 and (x + 6) are factors of the first term.; 2 is a constant term.."
     ],
-    "answer": "Terms 3x, 2y, 5; coefficients 3, 2; constant 5"
+    "answer": "C, D - 5 and (x + 6) are factors of the first term.; 2 is a constant term.",
+    "response_type": "Multiple select"
   },
-  "82": {
-    "title": "Words to Expressions",
-    "question": "Write an expression for 3 times the sum of x and 4.",
+  "53": {
+    "title": "Write Expressions from Words",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "A student buys x markers at $3 each and y folders at $5 each, then uses one $2 coupon. Part A: enter an expression for the total cost. Part B: explain why the coupon is subtracted only once.",
+    "options": [],
     "steps": [
       "Define the variable first.",
-      "Use parentheses for a sum or difference that must stay together.",
-      "Group the sum before multiplying.",
-      "State the result in the form requested: 3(x + 4)."
+      "Marker cost is 3x",
+      "folder cost is 5y.",
+      "Add these subtotals, then subtract the one fixed coupon of 2.",
+      "An expression does not need an equals sign.",
+      "Check that your response answers every requested part: 3x + 5y - 2."
     ],
-    "answer": "3(x + 4)"
+    "answer": "3x + 5y - 2",
+    "response_type": "Expression entry and reasoning"
   },
-  "83": {
-    "title": "Expressions for Costs",
-    "question": "Write an expression for 8 times the sum of x and 6.",
-    "steps": [
-      "Define the variable first.",
-      "Use parentheses for a sum or difference that must stay together.",
-      "Group the sum before multiplying.",
-      "State the result in the form requested: 8(x + 6)."
-    ],
-    "answer": "8(x + 6)"
-  },
-  "84": {
-    "title": "Substitution and Evaluation",
-    "question": "Evaluate x^2 + 6y for x = 6 and y = 5.",
+  "54": {
+    "title": "Evaluate Expressions and Formulas",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Let x = 3 and y = 4. Evaluate 7x + y². Part A: enter the value. Part B: show substitution and the order of operations.",
+    "options": [],
     "steps": [
       "Replace every variable with its assigned value, using parentheses.",
-      "Apply the order of operations.",
-      "Substitute first: 6^2 + 6 × 5 = 66.",
-      "State the result in the form requested: 66."
+      "Substitute: 7 × (3) + 4².",
+      "The product is 21 and the square is 16.",
+      "Add to get 37.",
+      "Check that your response answers every requested part: 37."
     ],
-    "answer": "66"
+    "answer": "37",
+    "response_type": "Numeric entry and reasoning"
   },
-  "86": {
-    "title": "Evaluating Formulas",
-    "question": "Evaluate x^2 + 7y for x = 5 and y = 4.",
+  "55": {
+    "title": "Connect Distribution and Expression Structure",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Let x = 2 and y = 3. Evaluate 3x + y². Part A: enter the value. Part B: show substitution and the order of operations.",
+    "options": [],
     "steps": [
       "Replace every variable with its assigned value, using parentheses.",
-      "Apply the order of operations.",
-      "Substitute first: 5^2 + 7 × 4 = 53.",
-      "State the result in the form requested: 53."
+      "Substitute: 3 × (2) + 3².",
+      "The product is 6 and the square is 9.",
+      "Add to get 15.",
+      "Check that your response answers every requested part: 15."
     ],
-    "answer": "53"
+    "answer": "15",
+    "response_type": "Numeric entry and reasoning"
   },
-  "87": {
-    "title": "Distributing a Factor",
-    "question": "Expand 2(7x + 2).",
+  "56": {
+    "title": "Generate Equivalent Expressions",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all expressions equivalent to 7(x + 5).",
+    "options": [
+      {
+        "label": "A",
+        "text": "35 + 7x",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "12x",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "7x + 5",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "7x + 35",
+        "correct": true
+      }
+    ],
     "steps": [
       "Multiply the factor outside parentheses by every term inside.",
-      "The two expressions have the same value for every allowed input.",
-      "Multiply the outside factor by every inside term, including the constant.",
-      "State the result in the form requested: 14x + 4."
+      "Distribute 7 to both terms to get 7x + 35.",
+      "Reversing the addends gives the same value.",
+      "The other expressions fail, for example at x = 0.",
+      "Check that your response answers every requested part: A, D - 35 + 7x; 7x + 35."
     ],
-    "answer": "14x + 4"
+    "answer": "A, D - 35 + 7x; 7x + 35",
+    "response_type": "Multiple select"
   },
-  "88": {
-    "title": "Combining Like Terms",
-    "question": "Simplify 8x + 4 + 3x + 8. Explain which terms combine.",
+  "57": {
+    "title": "Combine Like Terms",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all expressions equivalent to 6x + 4x + 5.",
+    "options": [
+      {
+        "label": "A",
+        "text": "15x",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "(6 + 4)x + 5",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "10x + 5",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "10x + 6",
+        "correct": false
+      }
+    ],
     "steps": [
       "Terms with the same variable part count the same kind of object.",
-      "Add their coefficients.",
-      "Add coefficients of x terms",
-      "add only constants to constants.",
-      "Distribute first if needed.",
-      "State the result in the form requested: 11x + 12."
+      "Combine coefficients of like x terms: 6 + 4 = 10.",
+      "The constant 5 stays separate.",
+      "Check that your response answers every requested part: B, C - (6 + 4)x + 5; 10x + 5."
     ],
-    "answer": "11x + 12"
+    "answer": "B, C - (6 + 4)x + 5; 10x + 5",
+    "response_type": "Multiple select"
   },
-  "89": {
-    "title": "Proving or Disproving Equivalence",
-    "question": "Are 6(x + 7) and 6x + 42 equivalent for every x? Use a property or a counterexample.",
+  "58": {
+    "title": "Identify Equivalent Expressions",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all expressions equivalent to 4(x + 4).",
+    "options": [
+      {
+        "label": "A",
+        "text": "16 + 4x",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "8x",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "4x + 4",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "4x + 16",
+        "correct": true
+      }
+    ],
     "steps": [
       "Use operation properties to rewrite an expression.",
-      "Matching values at one input do not prove equivalence for all inputs.",
-      "6(x + 7) = 6x + 42.",
-      "This matches.",
-      "State the result in the form requested: Yes; distribution gives 6x + 42."
+      "Distribute 4 to both terms to get 4x + 16.",
+      "Reversing the addends gives the same value.",
+      "The other expressions fail, for example at x = 0.",
+      "Check that your response answers every requested part: A, D - 16 + 4x; 4x + 16."
     ],
-    "answer": "Yes; distribution gives 6x + 42"
+    "answer": "A, D - 16 + 4x; 4x + 16",
+    "response_type": "Multiple select"
   },
-  "91": {
-    "title": "Testing Equation Solutions",
-    "question": "Does x = 3 solve 2x + 5 = 11? Show substitution.",
+  "59": {
+    "title": "Apply Expression Structure",
+    "unit": 4,
+    "topic": "Numeric and Algebraic Expressions",
+    "question": "Select all expressions equivalent to 6(x + 5).",
+    "options": [
+      {
+        "label": "A",
+        "text": "11x",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "6x + 5",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "30 + 6x",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "6x + 30",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Use operation properties to rewrite an expression.",
+      "Distribute 6 to both terms to get 6x + 30.",
+      "Reversing the addends gives the same value.",
+      "The other expressions fail, for example at x = 0.",
+      "Check that your response answers every requested part: C, D - 30 + 6x; 6x + 30."
+    ],
+    "answer": "C, D - 30 + 6x; 6x + 30",
+    "response_type": "Multiple select"
+  },
+  "61": {
+    "title": "Test Solutions by Substitution",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "Select all values of x from the list that make x + 3 > 6 true. Explain why each rejected value fails.",
+    "options": [
+      {
+        "label": "A",
+        "text": "3",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "5",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "4",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "2",
+        "correct": false
+      }
+    ],
     "steps": [
       "Replace the variable with the proposed value, compute each side, and compare.",
-      "A number is a solution only when it makes the original equation true.",
-      "2 × 3 + 5 = 11",
-      "compare with 11.",
-      "State the result in the form requested: Yes; left side = 11."
+      "Subtract 3 conceptually: x must exceed 3.",
+      "Equality at 3 fails because the inequality is strict.",
+      "Check that your response answers every requested part: B, C - 5; 4."
     ],
-    "answer": "Yes; left side = 11"
+    "answer": "B, C - 5; 4",
+    "response_type": "Multiple select"
   },
-  "92": {
-    "title": "Solving Addition Equations",
-    "question": "Solve x + 8 = 9. Check in the original equation.",
+  "62": {
+    "title": "Solve Addition Equations",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "Solve x + 5/2 = 7. Select every representation of the solution.",
+    "options": [
+      {
+        "label": "A",
+        "text": "11/2",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "18/4",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "13/2",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "9/2",
+        "correct": true
+      }
+    ],
     "steps": [
       "Subtract p from both sides to preserve equality.",
-      "Then substitute the answer into the original equation.",
-      "Subtract 8 on both sides.",
-      "Then x = 1",
-      "substitution gives 9 on each side.",
-      "State the result in the form requested: x = 1."
+      "Use the inverse operation on both sides.",
+      "The solution is 9/2",
+      "the doubled numerator and denominator name the same value.",
+      "Substitution verifies the solution.",
+      "Check that your response answers every requested part: B, D - 18/4; 9/2."
     ],
-    "answer": "x = 1"
+    "answer": "B, D - 18/4; 9/2",
+    "response_type": "Multiple select"
   },
-  "93": {
-    "title": "Solving Subtraction Equations",
-    "question": "Solve x - 3 = 3/2. Check in the original equation.",
+  "63": {
+    "title": "Solve Subtraction Equations",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "Solve x - 2 = 7/2. Select every representation of the solution.",
+    "options": [
+      {
+        "label": "A",
+        "text": "11/2",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "15/2",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "22/4",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "13/2",
+        "correct": false
+      }
+    ],
     "steps": [
       "Add p to both sides to undo subtraction.",
-      "Check by subtracting p from your answer.",
-      "Add 3 on both sides.",
-      "Then x = 9/2",
-      "substitution gives 3/2 on each side.",
-      "State the result in the form requested: x = 9/2."
+      "Use the inverse operation on both sides.",
+      "The solution is 11/2",
+      "the doubled numerator and denominator name the same value.",
+      "Substitution verifies the solution.",
+      "Check that your response answers every requested part: A, C - 11/2; 22/4."
     ],
-    "answer": "x = 9/2"
+    "answer": "A, C - 11/2; 22/4",
+    "response_type": "Multiple select"
   },
-  "94": {
-    "title": "Solving Multiplication Equations",
-    "question": "Solve 8 × x = 28. Check in the original equation.",
+  "64": {
+    "title": "Solve Multiplication Equations",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "Solve 5/2 × x = 25/4. Select every representation of the solution.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7/2",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "5/2",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "9/2",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "10/4",
+        "correct": true
+      }
+    ],
     "steps": [
       "Divide both sides by the nonzero coefficient p.",
-      "Keep the equation balanced.",
-      "Divide by 8 on both sides.",
-      "Then x = 7/2",
-      "substitution gives 28 on each side.",
-      "State the result in the form requested: x = 7/2."
+      "Use the inverse operation on both sides.",
+      "The solution is 5/2",
+      "the doubled numerator and denominator name the same value.",
+      "Substitution verifies the solution.",
+      "Check that your response answers every requested part: B, D - 5/2; 10/4."
     ],
-    "answer": "x = 7/2"
+    "answer": "B, D - 5/2; 10/4",
+    "response_type": "Multiple select"
   },
-  "96": {
-    "title": "Solving Division Equations",
-    "question": "Solve x ÷ 4 = 1/2. Check in the original equation.",
+  "65": {
+    "title": "Explain Balance and Inverse Operations",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "Solve 7/2 × x = 91/4. Select every representation of the solution.",
+    "options": [
+      {
+        "label": "A",
+        "text": "15/2",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "26/4",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "13/2",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "17/2",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Divide both sides by the nonzero coefficient p.",
+      "Use the inverse operation on both sides.",
+      "The solution is 13/2",
+      "the doubled numerator and denominator name the same value.",
+      "Substitution verifies the solution.",
+      "Check that your response answers every requested part: B, C - 26/4; 13/2."
+    ],
+    "answer": "B, C - 26/4; 13/2",
+    "response_type": "Multiple select"
+  },
+  "66": {
+    "title": "Solve Division Equations",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "Solve x ÷ 3/2 = 13/3. Select every representation of the solution.",
+    "options": [
+      {
+        "label": "A",
+        "text": "15/2",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "17/2",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "13/2",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "26/4",
+        "correct": true
+      }
+    ],
     "steps": [
       "Multiply both sides by the nonzero divisor p.",
-      "Check by dividing the solution by p.",
-      "Multiply by 4 on both sides.",
-      "Then x = 2",
-      "substitution gives 1/2 on each side.",
-      "State the result in the form requested: x = 2."
+      "Use the inverse operation on both sides.",
+      "The solution is 13/2",
+      "the doubled numerator and denominator name the same value.",
+      "Substitution verifies the solution.",
+      "Check that your response answers every requested part: C, D - 13/2; 26/4."
     ],
-    "answer": "x = 2"
+    "answer": "C, D - 13/2; 26/4",
+    "response_type": "Multiple select"
   },
-  "97": {
-    "title": "One Step Equation Models",
-    "question": "7 identical lengths of rope total 35 m. Let x be the length of one piece. Write and solve an equation, then check.",
+  "67": {
+    "title": "Write One-Step Equations from Context",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "4 identical ropes have total length 14 meters. Part A: write and solve an equation for one rope length x. Part B: show a substitution check.",
+    "options": [],
     "steps": [
       "Define the unknown quantity.",
-      "Translate the relationship into an equation before calculating.",
-      "Divide the total by 7: 35 ÷ 7 = 5.",
-      "State the result in the form requested: 7x = 35; x = 5 m."
+      "Total = number of ropes × one length.",
+      "Divide both sides by 4",
+      "14 ÷ 4 = 7/2.",
+      "Check 4 × 7/2 = 14.",
+      "Check that your response answers every requested part: 4x = 14; x = 7/2 meters."
     ],
-    "answer": "7x = 35; x = 5 m"
+    "answer": "4x = 14; x = 7/2 meters",
+    "response_type": "Equation entry and two-part response"
   },
-  "98": {
-    "title": "Writing and Graphing Inequalities",
-    "question": "Let x be any real number. Write and graph: x is more than 48. Label the endpoint and shade the solution ray.",
+  "68": {
+    "title": "Write and Graph Inequalities",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A club needs at least 20 members. Select all true statements for its membership count n.",
+    "options": [
+      {
+        "label": "A",
+        "text": "20 is an allowed membership count.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "n ≥ 20",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "19 is an allowed membership count.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "n > 20",
+        "correct": false
+      }
+    ],
     "steps": [
       "Use > or < for a strict bound and ≥ or ≤ when the endpoint is included.",
-      "Graph a strict bound with an open circle; use a closed circle for an included endpoint.",
-      "“more than” means >",
-      "exclude the endpoint. ",
-      "State the result in the form requested: x > 48; open circle at 48, shade right."
+      "At least includes the boundary, so n ≥ 20.",
+      "On a real number line use a closed point and shade right",
+      "actual member counts are whole numbers.",
+      "Check that your response answers every requested part: A, B - 20 is an allowed membership count.; n ≥ 20."
     ],
-    "answer": "x > 48; open circle at 48, shade right"
+    "answer": "A, B - 20 is an allowed membership count.; n ≥ 20",
+    "response_type": "Multiple select"
   },
-  "99": {
-    "title": "Testing Inequality Solutions",
-    "question": "Which values in {12, 13, 14} satisfy x ≤ 13? Test each by substitution.",
+  "69": {
+    "title": "Test Inequality Solutions",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A club needs at least 15 members. Select all true statements for its membership count n.",
+    "options": [
+      {
+        "label": "A",
+        "text": "n > 15",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "14 is an allowed membership count.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "n ≥ 15",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "15 is an allowed membership count.",
+        "correct": true
+      }
+    ],
     "steps": [
       "Substitute each value and decide whether the comparison is true.",
-      "A continuous number-line ray represents infinitely many real-number solutions.",
-      "Values below 13 work",
-      "the endpoint works too.",
-      "State the result in the form requested: 12, 13."
+      "At least includes the boundary, so n ≥ 15.",
+      "On a real number line use a closed point and shade right",
+      "actual member counts are whole numbers.",
+      "Check that your response answers every requested part: C, D - n ≥ 15; 15 is an allowed membership count.."
     ],
-    "answer": "12, 13"
+    "answer": "C, D - n ≥ 15; 15 is an allowed membership count.",
+    "response_type": "Multiple select"
   },
-  "101": {
-    "title": "Endpoints and Infinite Solutions",
-    "question": "Let x be any real number. Write and graph: x is less than 36. Label the endpoint and shade the solution ray.",
+  "70": {
+    "title": "Connect Constraints and Solution Sets",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A club needs at least 9 members. Select all true statements for its membership count n.",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 is an allowed membership count.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "n > 9",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "8 is an allowed membership count.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "n ≥ 9",
+        "correct": true
+      }
+    ],
     "steps": [
-      "Use > or < for a strict bound and ≥ or ≤ when the endpoint is included.",
-      "Graph a strict bound with an open circle; use a closed circle for an included endpoint.",
-      "“less than” means <",
-      "exclude the endpoint. ",
-      "State the result in the form requested: x < 36; open circle at 36, shade left."
+      "Substitute each value and decide whether the comparison is true.",
+      "At least includes the boundary, so n ≥ 9.",
+      "On a real number line use a closed point and shade right",
+      "actual member counts are whole numbers.",
+      "Check that your response answers every requested part: A, D - 9 is an allowed membership count.; n ≥ 9."
     ],
-    "answer": "x < 36; open circle at 36, shade left"
+    "answer": "A, D - 9 is an allowed membership count.; n ≥ 9",
+    "response_type": "Multiple select"
   },
-  "102": {
-    "title": "Dependent and Independent Variables",
-    "question": "A shop charges $8 for each of n notebooks plus a single $4 delivery fee. Name the independent and dependent variables and write a cost rule.",
+  "71": {
+    "title": "Interpret Endpoints and Infinitely Many Solutions",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A club needs at least 8 members. Select all true statements for its membership count n.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7 is an allowed membership count.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "n ≥ 8",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "8 is an allowed membership count.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "n > 8",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Substitute each value and decide whether the comparison is true.",
+      "At least includes the boundary, so n ≥ 8.",
+      "On a real number line use a closed point and shade right",
+      "actual member counts are whole numbers.",
+      "Check that your response answers every requested part: B, C - n ≥ 8; 8 is an allowed membership count.."
+    ],
+    "answer": "B, C - n ≥ 8; 8 is an allowed membership count.",
+    "response_type": "Multiple select"
+  },
+  "72": {
+    "title": "Identify Independent and Dependent Variables",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A machine uses 4 liters per hour. Part A: complete the (hours, liters) table: (0, __), (1, __), (4, __). Part B: choose the independent variable and write an equation for L in terms of h. Plot your pairs.",
+    "options": [],
     "steps": [
       "The independent variable is the input you choose; the dependent variable changes with it.",
-      "Define both and write the output in terms of the input.",
-      "The chosen notebook count is the input",
-      "multiply it by price and add any fixed fee to get the cost.",
-      "State the result in the form requested: Independent n = notebooks; dependent C = cost; C = 8n + 4."
+      "Hours are the input.",
+      "Multiply each hour value by 4 to obtain liters.",
+      "Graph hours horizontally and liters vertically.",
+      "Check that your response answers every requested part: (0,0), (1,4), (4,16); independent h; L = 4h."
     ],
-    "answer": "Independent n = notebooks; dependent C = cost; C = 8n + 4"
+    "answer": "(0,0), (1,4), (4,16); independent h; L = 4h",
+    "response_type": "Table completion, equation, and graph"
+  },
+  "73": {
+    "title": "Connect Rules, Tables, and Graphs",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A machine uses 4 liters per hour. Part A: complete the (hours, liters) table: (0, __), (1, __), (3, __). Part B: choose the independent variable and write an equation for L in terms of h. Plot your pairs.",
+    "options": [],
+    "steps": [
+      "Choose input values, substitute to find outputs, and write ordered pairs.",
+      "Hours are the input.",
+      "Multiply each hour value by 4 to obtain liters.",
+      "Graph hours horizontally and liters vertically.",
+      "Check that your response answers every requested part: (0,0), (1,4), (3,12); independent h; L = 4h."
+    ],
+    "answer": "(0,0), (1,4), (3,12); independent h; L = 4h",
+    "response_type": "Table completion, equation, and graph"
+  },
+  "74": {
+    "title": "Interpret Relationships in Context",
+    "unit": 5,
+    "topic": "Represent and Solve Equations and Inequalities",
+    "question": "A machine uses 7 liters per hour. Part A: complete the (hours, liters) table: (0, __), (1, __), (3, __). Part B: choose the independent variable and write an equation for L in terms of h. Plot your pairs.",
+    "options": [],
+    "steps": [
+      "Choose input values, substitute to find outputs, and write ordered pairs.",
+      "Hours are the input.",
+      "Multiply each hour value by 7 to obtain liters.",
+      "Graph hours horizontally and liters vertically.",
+      "Check that your response answers every requested part: (0,0), (1,7), (3,21); independent h; L = 7h."
+    ],
+    "answer": "(0,0), (1,7), (3,21); independent h; L = 7h",
+    "response_type": "Table completion, equation, and graph"
+  },
+  "76": {
+    "title": "Describe Ratios with Ordered Labels",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "A bag contains 24 red tiles and 8 blue tiles. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The fraction of all tiles that are red is 3/4.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "There are 33 tiles in all.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "The red-to-blue ratio is 6:2.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "The red-to-blue ratio is 6:8.",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "For a:b, the total is a+b equal parts.",
+      "Divide both color counts by 4.",
+      "For the fraction of the whole, use total 32 as denominator",
+      "red-to-blue compares just the two colors.",
+      "Check that your response answers every requested part: A, C - The fraction of all tiles that are red is 3/4.; The red-to-blue ratio is 6:2.."
+    ],
+    "answer": "A, C - The fraction of all tiles that are red is 3/4.; The red-to-blue ratio is 6:2.",
+    "response_type": "Multiple select"
+  },
+  "77": {
+    "title": "Generate Equivalent Ratios",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "A recipe uses 3 cups oats for 6 cups seeds. Select all (oats, seeds) pairs that keep this ratio.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(9, 18)",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "(6, 12)",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "(6, 13)",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "(10, 18)",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Multiply both values in a ratio by the same scale factor.",
+      "Equivalent ratios multiply both quantities by the same factor.",
+      "A uses 2",
+      "B uses 3.",
+      "C and D change only one scaled quantity.",
+      "Check that your response answers every requested part: A, B - (9, 18); (6, 12)."
+    ],
+    "answer": "A, B - (9, 18); (6, 12)",
+    "response_type": "Multiple select"
+  },
+  "78": {
+    "title": "Compare Ratios Fairly",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "Mix A uses 5 cups concentrate per 3 cups water. Mix B uses 11 per 6. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mix B is stronger.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "The mixtures have equivalent ratios.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "The larger water amount alone proves A is stronger.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "For 6 cups water, A uses 10 cups concentrate.",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Scale two ratios until one quantity matches, then compare the other quantity.",
+      "Scale A by 2 to the same water amount.",
+      "B has 1 more cup of concentrate with equal water, so B is stronger.",
+      "Check that your response answers every requested part: A, D - Mix B is stronger.; For 6 cups water, A uses 10 cups concentrate.."
+    ],
+    "answer": "A, D - Mix B is stronger.; For 6 cups water, A uses 10 cups concentrate.",
+    "response_type": "Multiple select"
+  },
+  "79": {
+    "title": "Represent Ratios with Tape Diagrams",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "The ratio of paper flags to fabric flags is 6:2. There are 24 flags. Part A: draw a tape diagram and enter each count. Part B: a student says there are 19 paper flags. Use your model to explain the error.",
+    "options": [],
+    "steps": [
+      "For a ratio a:b, draw a sections for one quantity and b sections for the other.",
+      "There are 8 equal sections.",
+      "Each is 24 ÷ 8 = 3.",
+      "Multiply the section counts by 3.",
+      "Check that your response answers every requested part: 18 paper; 6 fabric; the claim is 1 paper flag too many.."
+    ],
+    "answer": "18 paper; 6 fabric; the claim is 1 paper flag too many.",
+    "response_type": "Model and error analysis"
+  },
+  "80": {
+    "title": "Explain Equivalent Ratios in Two Models",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "The ratio of paper flags to fabric flags is 3:6. There are 18 flags. Part A: draw a tape diagram and enter each count. Part B: a student says there are 7 paper flags. Use your model to explain the error.",
+    "options": [],
+    "steps": [
+      "For a ratio a:b, draw a sections for one quantity and b sections for the other.",
+      "There are 9 equal sections.",
+      "Each is 18 ÷ 9 = 2.",
+      "Multiply the section counts by 2.",
+      "Check that your response answers every requested part: 6 paper; 12 fabric; the claim is 1 paper flag too many.."
+    ],
+    "answer": "6 paper; 12 fabric; the claim is 1 paper flag too many.",
+    "response_type": "Model and error analysis"
+  },
+  "81": {
+    "title": "Use Double Number Lines",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "Draw a double number line for 2 liters of paint covering 2 m². Part A: align 0, 1, 2, and 7 batches. Part B: enter the area covered by 14 liters and explain why the scales can be different.",
+    "options": [],
+    "steps": [
+      "Place zero on both parallel number lines.",
+      "Each aligned jump adds 2 liters and 2 m².",
+      "Both quantities scale by 7",
+      "the number lines measure different units.",
+      "Check that your response answers every requested part: Aligned pairs (0,0), (2,2), (4,4), (14,14); 14 m²."
+    ],
+    "answer": "Aligned pairs (0,0), (2,2), (4,4), (14,14); 14 m²",
+    "response_type": "Double number line and explanation"
+  },
+  "82": {
+    "title": "Represent and Graph Ratios",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "A club earns $4 for every 2 tickets. Part A: plot ordered pairs for 0, 1, 2, and 5 batches (tickets, dollars). Part B: explain the meaning of (10, 20).",
+    "options": [],
+    "steps": [
+      "Put the first quantity on the horizontal axis and the second on the vertical axis.",
+      "For each batch count, multiply both 2 and 4 by that count.",
+      "Keep tickets horizontal and dollars vertical.",
+      "Check that your response answers every requested part: (0,0), (2,4), (4,8), (10,20); 10 tickets earn $20.."
+    ],
+    "answer": "(0,0), (2,4), (4,8), (10,20); 10 tickets earn $20.",
+    "response_type": "Table, graph, and interpretation"
+  },
+  "83": {
+    "title": "Understand Rates and Unit Rates",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "2 notebooks cost $10. Select all statements at the same price per notebook.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Each notebook costs $5.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "5 notebooks cost $25.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "5 notebooks cost $26.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Each notebook costs $20.",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "A unit rate compares an amount with one unit of another quantity.",
+      "Cost per notebook = 10 ÷ 2 = 5.",
+      "Multiply $5 by the chosen notebook count.",
+      "Check that your response answers every requested part: A, B - Each notebook costs $5.; 5 notebooks cost $25.."
+    ],
+    "answer": "A, B - Each notebook costs $5.; 5 notebooks cost $25.",
+    "response_type": "Multiple select"
+  },
+  "84": {
+    "title": "Compare Unit Rates and Prices",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "Store A sells 2 notebooks for $12. Store B sells 3 notebooks for $21. Part A: enter the unit price at each store. Part B: choose the better buy and explain why package totals alone are insufficient.",
+    "options": [],
+    "steps": [
+      "Divide total cost by the number of items or units.",
+      "Divide each cost by its own notebook count: 12/2 = 6",
+      "21/3 = 7.",
+      "Compare the same one-notebook unit.",
+      "Check that your response answers every requested part: A: $6 each; B: $7 each; A is the better buy.."
+    ],
+    "answer": "A: $6 each; B: $7 each; A is the better buy.",
+    "response_type": "Two-part numeric entry and reasoning"
+  },
+  "85": {
+    "title": "Compare Rate Models and Units",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "A bicycle travels 90 km in 3 hours at constant speed. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "In 1 hour it travels 31 km.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "In 2 hours it travels 60 km.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "The speed is 93 km per hour.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "The speed is 30 km per hour.",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "At a constant speed, distance = speed × time.",
+      "Divide distance by time: 90 ÷ 3 = 30 km/h.",
+      "Multiply this unit rate by 2 for the later distance.",
+      "Check that your response answers every requested part: B, D - In 2 hours it travels 60 km.; The speed is 30 km per hour.."
+    ],
+    "answer": "B, D - In 2 hours it travels 60 km.; The speed is 30 km per hour.",
+    "response_type": "Multiple select"
+  },
+  "86": {
+    "title": "Solve Constant-Speed Problems",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "A bicycle travels 150 km in 5 hours at constant speed. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The speed is 155 km per hour.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "The speed is 30 km per hour.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "In 2 hours it travels 60 km.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "In 1 hour it travels 31 km.",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "At a constant speed, distance = speed × time.",
+      "Divide distance by time: 150 ÷ 5 = 30 km/h.",
+      "Multiply this unit rate by 2 for the later distance.",
+      "Check that your response answers every requested part: B, C - The speed is 30 km per hour.; In 2 hours it travels 60 km.."
+    ],
+    "answer": "B, C - The speed is 30 km per hour.; In 2 hours it travels 60 km.",
+    "response_type": "Multiple select"
+  },
+  "87": {
+    "title": "Convert Customary Units with Ratios",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "Use 1 feet = 12 inches. Select all statements equivalent to 5/2 feet.",
+    "options": [
+      {
+        "label": "A",
+        "text": "31 inches",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "5/24 inches",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "30 inches",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "5/2 × 12 inches",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Write an equality such as 1 foot = 12 inches.",
+      "There are 12 smaller units in each larger one.",
+      "Multiply 5/2 by 12, giving 30 inches.",
+      "The physical length does not change.",
+      "Check that your response answers every requested part: C, D - 30 inches; 5/2 × 12 inches."
+    ],
+    "answer": "C, D - 30 inches; 5/2 × 12 inches",
+    "response_type": "Multiple select"
+  },
+  "88": {
+    "title": "Convert Metric Units with Ratios",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "Use 1 meters = 100 centimeters. Select all statements equivalent to 5/2 meters.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1/40 centimeters",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "5/2 × 100 centimeters",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "250 centimeters",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "251 centimeters",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Write an equality such as 1 foot = 12 inches.",
+      "There are 100 smaller units in each larger one.",
+      "Multiply 5/2 by 100, giving 250 centimeters.",
+      "The physical length does not change.",
+      "Check that your response answers every requested part: B, C - 5/2 × 100 centimeters; 250 centimeters."
+    ],
+    "answer": "B, C - 5/2 × 100 centimeters; 250 centimeters",
+    "response_type": "Multiple select"
+  },
+  "89": {
+    "title": "Apply Ratio and Rate Reasoning",
+    "unit": 6,
+    "topic": "Understand and Use Ratios and Rates",
+    "question": "Use 1 feet = 12 inches. Select all statements equivalent to 13/2 feet.",
+    "options": [
+      {
+        "label": "A",
+        "text": "78 inches",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "79 inches",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "13/2 × 12 inches",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "13/24 inches",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Write an equality such as 1 foot = 12 inches.",
+      "There are 12 smaller units in each larger one.",
+      "Multiply 13/2 by 12, giving 78 inches.",
+      "The physical length does not change.",
+      "Check that your response answers every requested part: A, C - 78 inches; 13/2 × 12 inches."
+    ],
+    "answer": "A, C - 78 inches; 13/2 × 12 inches",
+    "response_type": "Multiple select"
+  },
+  "91": {
+    "title": "Understand Percent as a Rate per 100",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "Select all representations of 225%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "225/10",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "225/100",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "225",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "2.25",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Percent means per 100.",
+      "Percent means per 100.",
+      "Divide 225 by 100 to get 2.25",
+      "simplify 225/100 to 9/4.",
+      "Check that your response answers every requested part: B, D - 225/100; 2.25."
+    ],
+    "answer": "B, D - 225/100; 2.25",
+    "response_type": "Multiple select"
+  },
+  "92": {
+    "title": "Relate Fractions, Decimals, and Percents",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "Select all representations of 375%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "375",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "375/100",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "375/10",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "3.75",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Percent means per 100.",
+      "Percent means per 100.",
+      "Divide 375 by 100 to get 3.75",
+      "simplify 375/100 to 15/4.",
+      "Check that your response answers every requested part: B, D - 375/100; 3.75."
+    ],
+    "answer": "B, D - 375/100; 3.75",
+    "response_type": "Multiple select"
+  },
+  "93": {
+    "title": "Represent Percents Above 100",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "Select all representations of 225%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "225/10",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "225/100",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "225",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "2.25",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Percent means per 100.",
+      "Percent means per 100.",
+      "Divide 225 by 100 to get 2.25",
+      "simplify 225/100 to 9/4.",
+      "Check that your response answers every requested part: B, D - 225/100; 2.25."
+    ],
+    "answer": "B, D - 225/100; 2.25",
+    "response_type": "Multiple select"
+  },
+  "94": {
+    "title": "Use Benchmark Percents",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A poster is enlarged to 125% of its original 80 cm width. Part A: enter the new width. Part B: explain why it exceeds the original.",
+    "options": [],
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "125/100 = 5/4 > 1.",
+      "New width = 5/4 × 80 = 100 cm.",
+      "Check that your response answers every requested part: 100 cm."
+    ],
+    "answer": "100 cm",
+    "response_type": "Numeric entry and explanation"
+  },
+  "95": {
+    "title": "Connect Percent Models and Benchmarks",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A poster is enlarged to 125% of its original 120 cm width. Part A: enter the new width. Part B: explain why it exceeds the original.",
+    "options": [],
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "125/100 = 5/4 > 1.",
+      "New width = 5/4 × 120 = 150 cm.",
+      "Check that your response answers every requested part: 150 cm."
+    ],
+    "answer": "150 cm",
+    "response_type": "Numeric entry and explanation"
+  },
+  "96": {
+    "title": "Find the Percent of a Number",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A school club has 100 members; 15% take part in a project. Part A: enter the number of participants. Part B: write an equation and explain whether the answer is greater or less than the whole.",
+    "options": [],
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "Rename 15% as 3/20.",
+      "Multiply by 100 to obtain 15.",
+      "Compare the rate with 1.",
+      "Check that your response answers every requested part: 15 participants; n = (15/100) × 100; less than the whole because the percent is below 100."
+    ],
+    "answer": "15 participants; n = (15/100) × 100; less than the whole because the percent is below 100",
+    "response_type": "Numeric entry and equation"
+  },
+  "97": {
+    "title": "Use a Percent Model in Context",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A school club has 100 members; 40% take part in a project. Part A: enter the number of participants. Part B: write an equation and explain whether the answer is greater or less than the whole.",
+    "options": [],
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "Rename 40% as 2/5.",
+      "Multiply by 100 to obtain 40.",
+      "Compare the rate with 1.",
+      "Check that your response answers every requested part: 40 participants; n = (40/100) × 100; less than the whole because the percent is below 100."
+    ],
+    "answer": "40 participants; n = (40/100) × 100; less than the whole because the percent is below 100",
+    "response_type": "Numeric entry and equation"
+  },
+  "98": {
+    "title": "Find the Whole from Part and Percent",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "150 is 125% of an unknown quantity w. Select all equations that find w.",
+    "options": [
+      {
+        "label": "A",
+        "text": "w = 150 + 125",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "(125/100)w = 150",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "w = 150 × (125/100)",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "w = 150 ÷ (125/100)",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "Write part = decimal rate × whole.",
+      "The part is percent rate times whole.",
+      "Divide 150 by 5/4",
+      "w = 120.",
+      "Check by multiplication.",
+      "Check that your response answers every requested part: B, D - (125/100)w = 150; w = 150 ÷ (125/100)."
+    ],
+    "answer": "B, D - (125/100)w = 150; w = 150 ÷ (125/100)",
+    "response_type": "Multiple select"
+  },
+  "99": {
+    "title": "Check the Reference Whole",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "12 is 15% of an unknown quantity w. Select all equations that find w.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(15/100)w = 12",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "w = 12 + 15",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "w = 12 ÷ (15/100)",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "w = 12 × (15/100)",
+        "correct": false
+      }
+    ],
+    "steps": [
+      "Write part = decimal rate × whole.",
+      "The part is percent rate times whole.",
+      "Divide 12 by 3/20",
+      "w = 80.",
+      "Check by multiplication.",
+      "Check that your response answers every requested part: A, C - (15/100)w = 12; w = 12 ÷ (15/100)."
+    ],
+    "answer": "A, C - (15/100)w = 12; w = 12 ÷ (15/100)",
+    "response_type": "Multiple select"
+  },
+  "100": {
+    "title": "Explain the Reference Whole in Percent Models",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A school club has 120 members; 30% take part in a project. Part A: enter the number of participants. Part B: write an equation and explain whether the answer is greater or less than the whole.",
+    "options": [],
+    "steps": [
+      "Use part = (percent/100) × whole.",
+      "Rename 30% as 3/10.",
+      "Multiply by 120 to obtain 36.",
+      "Compare the rate with 1.",
+      "Check that your response answers every requested part: 36 participants; n = (30/100) × 120; less than the whole because the percent is below 100."
+    ],
+    "answer": "36 participants; n = (30/100) × 120; less than the whole because the percent is below 100",
+    "response_type": "Numeric entry and equation"
+  },
+  "101": {
+    "title": "Find the Unknown Percent",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A quantity changes from a reference whole of 80 to a compared amount of 12. Part A: the compared amount is what percent of the reference whole? Part B: explain which number belongs in the denominator.",
+    "options": [],
+    "steps": [
+      "Divide the part by the whole, then multiply by 100.",
+      "Percent = (12 ÷ 80) × 100 = 15%.",
+      "The denominator is the reference whole, not automatically the larger number.",
+      "Check that your response answers every requested part: 15%; denominator 80."
+    ],
+    "answer": "15%; denominator 80",
+    "response_type": "Numeric entry and explanation"
+  },
+  "102": {
+    "title": "Solve Percent Problems with Any Unknown",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A quantity changes from a reference whole of 60 to a compared amount of 18. Part A: the compared amount is what percent of the reference whole? Part B: explain which number belongs in the denominator.",
+    "options": [],
+    "steps": [
+      "Divide the part by the whole, then multiply by 100.",
+      "Percent = (18 ÷ 60) × 100 = 30%.",
+      "The denominator is the reference whole, not automatically the larger number.",
+      "Check that your response answers every requested part: 30%; denominator 60."
+    ],
+    "answer": "30%; denominator 60",
+    "response_type": "Numeric entry and explanation"
   },
   "103": {
-    "title": "Rules Tables and Graphs",
-    "question": "For y = 6x + 4, make a table for x = 0, 1, 2, 2. Plot the ordered pairs and label both axes.",
-    "steps": [
-      "Choose input values, substitute to find outputs, and write ordered pairs.",
-      "Label horizontal input and vertical output axes.",
-      "Substitute each input into y = 6x + 4",
-      "x is horizontal and y vertical.",
-      "State the result in the form requested: (0, 4); (1, 10); (2, 16)."
+    "title": "Explain and Critique Percent Reasoning",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "36 is 60% of an unknown quantity w. Select all equations that find w.",
+    "options": [
+      {
+        "label": "A",
+        "text": "w = 36 × (60/100)",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "w = 36 ÷ (60/100)",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "w = 36 + 60",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "(60/100)w = 36",
+        "correct": true
+      }
     ],
-    "answer": "(0, 4); (1, 10); (2, 16)"
+    "steps": [
+      "Write part = decimal rate × whole.",
+      "The part is percent rate times whole.",
+      "Divide 36 by 3/5",
+      "w = 60.",
+      "Check by multiplication.",
+      "Check that your response answers every requested part: B, D - w = 36 ÷ (60/100); (60/100)w = 36."
+    ],
+    "answer": "B, D - w = 36 ÷ (60/100); (60/100)w = 36",
+    "response_type": "Multiple select"
   },
   "104": {
-    "title": "Interpreting Input Output Patterns",
-    "question": "For y = 6x + 2, make a table for x = 0, 1, 2, 5. Plot the ordered pairs and label both axes.",
+    "title": "Model a Percent Situation",
+    "unit": 7,
+    "topic": "Understand and Use Percent",
+    "question": "A quantity changes from a reference whole of 100 to a compared amount of 75. Part A: the compared amount is what percent of the reference whole? Part B: explain which number belongs in the denominator.",
+    "options": [],
     "steps": [
-      "Choose input values, substitute to find outputs, and write ordered pairs.",
-      "Label horizontal input and vertical output axes.",
-      "Substitute each input into y = 6x + 2",
-      "x is horizontal and y vertical.",
-      "State the result in the form requested: (0, 2); (1, 8); (2, 14); (5, 32)."
+      "Divide the part by the whole, then multiply by 100.",
+      "Percent = (75 ÷ 100) × 100 = 75%.",
+      "The denominator is the reference whole, not automatically the larger number.",
+      "Check that your response answers every requested part: 75%; denominator 100."
     ],
-    "answer": "(0, 2); (1, 8); (2, 14); (5, 32)"
+    "answer": "75%; denominator 100",
+    "response_type": "Numeric entry and explanation"
   },
   "106": {
-    "title": "Triangle Areas by Decomposition",
-    "question": "Sketch a triangle with base 8 cm and perpendicular height 2 cm. Find its area.",
+    "title": "Find Triangle Area",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A triangle has base 4 cm and perpendicular height 6 cm. Select all expressions that give its area in cm².",
+    "options": [
+      {
+        "label": "A",
+        "text": "(4 + 6) ÷ 2",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "2 × 6",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "(4 × 6) ÷ 2",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "4 × 6",
+        "correct": false
+      }
+    ],
     "steps": [
       "Two matching triangles form a parallelogram, so A = (base × perpendicular height)/2.",
-      "A slanted side is not necessarily the height.",
-      "A = bh/2 = 8 × 2 ÷ 2 = 8.",
-      "Two such triangles make a parallelogram.",
-      "State the result in the form requested: 8 cm²."
+      "Triangle area is half the matching parallelogram: (4 × 6)/2 = 12 cm².",
+      "Multiplying half the base by the height gives the same result.",
+      "Check that your response answers every requested part: B, C - 2 × 6; (4 × 6) ÷ 2."
     ],
-    "answer": "8 cm²"
+    "answer": "B, C - 2 × 6; (4 × 6) ÷ 2",
+    "response_type": "Multiple select"
   },
   "107": {
-    "title": "Triangle Heights and Fractional Measures",
-    "question": "Sketch a triangle with base 16 cm and perpendicular height 4 cm. Find its area.",
+    "title": "Find Parallelogram and Trapezoid Area",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A trapezoid has parallel bases 12 m and 16 m, and perpendicular height 3 m. Part A: enter its area. Part B: a student multiplies the longer base by the height; explain why that overcounts.",
+    "options": [],
     "steps": [
-      "Two matching triangles form a parallelogram, so A = (base × perpendicular height)/2.",
-      "A slanted side is not necessarily the height.",
-      "A = bh/2 = 16 × 4 ÷ 2 = 32.",
-      "Two such triangles make a parallelogram.",
-      "State the result in the form requested: 32 cm²."
+      "Cut and move a corner of a parallelogram to make a rectangle: A = bh.",
+      "Use average base × height: (12 + 16)/2 × 3 = 42.",
+      "A full rectangle at the longer base includes extra corner regions.",
+      "Check that your response answers every requested part: 42 m²."
     ],
-    "answer": "32 cm²"
+    "answer": "42 m²",
+    "response_type": "Numeric entry and error analysis"
   },
   "108": {
-    "title": "Parallelograms and Trapezoids",
-    "question": "A trapezoid has parallel bases 6 m and 12 m and perpendicular height 2 m. Sketch it and find its area.",
-    "steps": [
-      "Cut and move a corner of a parallelogram to make a rectangle: A = bh.",
-      "Two matching trapezoids form a parallelogram, giving A = (b1 + b2)h/2.",
-      "A = (6 + 12) × 2 ÷ 2 = 18.",
-      "State the result in the form requested: 18 m²."
-    ],
-    "answer": "18 m²"
-  },
-  "109": {
-    "title": "Composite Polygon Areas",
-    "question": "An L-shaped garden is a 12 m by 8 m rectangle with an 6 m by 2 m corner rectangle removed. Sketch and find the garden area.",
+    "title": "Decompose Composite Polygons",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A 9 m by 9 m rectangle has a right-triangle corner removed with perpendicular legs 4 m and 5 m. Part A: enter the removed area. Part B: enter the remaining area and justify subtraction.",
+    "options": [],
     "steps": [
       "Sketch the figure and label every given length.",
-      "Split the region into nonoverlapping rectangles and triangles, or subtract a cutout from a larger rectangle.",
-      "Outer area 96 minus cutout 12 = 84.",
-      "State the result in the form requested: 84 m²."
+      "Outer area = 81.",
+      "Triangle = 4 × 5/2 = 10.",
+      "Subtract the removed region exactly once.",
+      "Check that your response answers every requested part: Removed 10 m²; remaining 71 m²."
     ],
-    "answer": "84 m²"
+    "answer": "Removed 10 m²; remaining 71 m²",
+    "response_type": "Two-part numeric entry"
   },
-  "111": {
-    "title": "Polygons on the Coordinate Plane",
-    "question": "Plot and connect (-4,-5), (6,-5), (6,6), (-4,6). Find the side lengths and area.",
+  "109": {
+    "title": "Use Coordinates to Find Polygon Lengths and Area",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A rectangle has vertices (-3, -5), (4, -5), (4, 5), and (-3, 5). Plot and connect them. Part A: find its side lengths. Part B: enter its area in square units.",
+    "options": [],
     "steps": [
       "Plot vertices in order and connect them, including the last to the first.",
-      "Equal x-values make a vertical side; equal y-values make a horizontal side.",
-      "Horizontal length 6 - (-4) = 10",
-      "vertical length 6 - (-5) = 11",
-      "area = 10 × 11.",
-      "State the result in the form requested: Sides 10 and 11; area 110 square units."
+      "Horizontal length = 3 + 4",
+      "vertical length = 5 + 5.",
+      "Multiply 7 × 10 = 70.",
+      "Check that your response answers every requested part: 7 by 10 units; area 70 square units."
     ],
-    "answer": "Sides 10 and 11; area 110 square units"
+    "answer": "7 by 10 units; area 70 square units",
+    "response_type": "Coordinate plotting and two-part response"
+  },
+  "110": {
+    "title": "Justify Polygon Area with Coordinates",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A 12 m by 10 m rectangle has a right-triangle corner removed with perpendicular legs 5 m and 5 m. Part A: enter the removed area. Part B: enter the remaining area and justify subtraction.",
+    "options": [],
+    "steps": [
+      "Sketch the figure and label every given length.",
+      "Outer area = 120.",
+      "Triangle = 5 × 5/2 = 25/2.",
+      "Subtract the removed region exactly once.",
+      "Check that your response answers every requested part: Removed 25/2 m²; remaining 215/2 m²."
+    ],
+    "answer": "Removed 25/2 m²; remaining 215/2 m²",
+    "response_type": "Two-part numeric entry"
+  },
+  "111": {
+    "title": "Build and Interpret Nets",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A closed rectangular prism is 3 cm by 2 cm by 3 cm. Select all true descriptions of its net.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two faces are 3 by 2.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Its net contains exactly four triangles.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Adding just the three distinct face areas counts every face.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Two faces are 3 by 3 and two are 2 by 3.",
+        "correct": true
+      }
+    ],
+    "steps": [
+      "A net unfolds all faces into a plane without overlap.",
+      "A closed rectangular prism has 6 rectangular faces in 3 matching pairs.",
+      "Count both copies of each face.",
+      "Check that your response answers every requested part: A, D - Two faces are 3 by 2.; Two faces are 3 by 3 and two are 2 by 3.."
+    ],
+    "answer": "A, D - Two faces are 3 by 2.; Two faces are 3 by 3 and two are 2 by 3.",
+    "response_type": "Multiple select"
   },
   "112": {
-    "title": "Volume with Fractional Edges",
-    "question": "A rectangular prism has edges 4, 2, and 4 cm. Sketch it and find its volume.",
+    "title": "Find Prism Surface Area",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A closed box is 3 cm by 3 cm by 3 cm. Part A: enter its surface area. Part B: the 3-by-3 top is removed; enter the remaining surface area and explain.",
+    "options": [],
     "steps": [
-      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
-      "Fractional edge lengths still multiply.",
-      "B = 4 × 2 = 8 cm²",
-      "V = B × 4 = 32 cm³.",
-      "State the result in the form requested: 32 cm³."
+      "A closed rectangular prism has two faces of area lw, two of lh, and two of wh.",
+      "Closed area = 2(9+9+9) = 54.",
+      "Subtract exactly one top face, 9, for the open box.",
+      "Check that your response answers every requested part: 54 cm²; open box 45 cm²."
     ],
-    "answer": "32 cm³"
+    "answer": "54 cm²; open box 45 cm²",
+    "response_type": "Two-part numeric entry"
   },
   "113": {
-    "title": "Base Area and Prism Volume",
-    "question": "A rectangular prism has edges 2 1/2, 2 1/2, and 6 cm. Sketch it and find its volume.",
-    "steps": [
-      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
-      "Fractional edge lengths still multiply.",
-      "B = 5/2 × 5/2 = 25/4 cm²",
-      "V = B × 6 = 75/2 cm³.",
-      "State the result in the form requested: 75/2 cm³."
-    ],
-    "answer": "75/2 cm³"
-  },
-  "114": {
-    "title": "Packing Fractional Unit Cubes",
-    "question": "Fill a prism 3/2 × 7/2 × 5/2 units with cubes of edge 1/2 unit. How many cubes fit? Use their volumes to verify lwh.",
-    "steps": [
-      "For cubes with edge 1/n, each cube has volume 1/n^3 cubic unit.",
-      "Divide each prism edge by 1/n to count cubes along it.",
-      "Counts along edges: 3, 7, 5.",
-      "Product 105",
-      "105 × 1/8 = 105/8, also lwh.",
-      "State the result in the form requested: 105 cubes; each 1/8 cubic unit; prism 105/8 cubic units."
-    ],
-    "answer": "105 cubes; each 1/8 cubic unit; prism 105/8 cubic units"
-  },
-  "116": {
-    "title": "Drawing and Labeling Nets",
-    "question": "Draw a net for a closed 6 × 5 × 5 cm rectangular prism. Label the six faces and calculate total area.",
-    "steps": [
-      "A net unfolds all faces into a plane without overlap.",
-      "Rectangular prisms have three matching pairs of rectangles.",
-      "Add 2(30) + 2(30) + 2(25) = 170.",
-      "State the result in the form requested: 2 faces each of 6×5, 6×5, 5×5; 170 cm²."
-    ],
-    "answer": "2 faces each of 6×5, 6×5, 5×5; 170 cm²"
-  },
-  "117": {
-    "title": "Prism Surface Area",
-    "question": "A 3 cm by 2 cm base and 3 cm height form a closed box. Draw its net and find the material area. Ignore tabs and overlap.",
-    "steps": [
-      "A closed rectangular prism has two faces of area lw, two of lh, and two of wh.",
-      "Add the six face areas: SA = 2lw + 2lh + 2wh.",
-      "Closed surface area = 2(6+9+6) = 42.",
-      "State the result in the form requested: 42 cm²."
-    ],
-    "answer": "42 cm²"
-  },
-  "118": {
-    "title": "Pyramid Nets and Surface Area",
-    "question": "A square pyramid has base edge 16 cm. Each triangular face has perpendicular face height 15 cm. Draw a net and calculate total surface area.",
+    "title": "Find Pyramid Surface Area",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A square pyramid net has base side 8 cm and four triangular faces, each with perpendicular face height 4 cm. Part A: enter one triangular face area. Part B: enter the entire surface area.",
+    "options": [],
     "steps": [
       "For a square pyramid, draw one square and four triangles.",
-      "Each triangle has area base edge × face height / 2.",
-      "Base = 256",
-      "each triangle = 16 × 15 ÷ 2 = 120",
-      "add four triangles to get 736.",
-      "State the result in the form requested: 736 cm²."
+      "One face = (8 × 4)/2 = 16.",
+      "Four faces total 64.",
+      "Add square base area 64.",
+      "Check that your response answers every requested part: Face 16 cm²; total 128 cm²."
     ],
-    "answer": "736 cm²"
+    "answer": "Face 16 cm²; total 128 cm²",
+    "response_type": "Net reasoning and numeric entry"
+  },
+  "114": {
+    "title": "Find Volume with Fractional Edge Lengths",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A prism measures 11/2 m by 3 m by 2 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
+    "steps": [
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Multiply edges: 11/2 × 3 × 2 = 33.",
+      "The edge counts are 11, 6, 4, giving 264 cubes.",
+      "Each cube is 1/8 m³",
+      "264/8 = 33.",
+      "Check that your response answers every requested part: 33 m³; 264 cubes."
+    ],
+    "answer": "33 m³; 264 cubes",
+    "response_type": "Numeric entry and model reasoning"
+  },
+  "115": {
+    "title": "Connect Surface Area and Volume Models",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A prism measures 9/2 m by 1 m by 1 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
+    "steps": [
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Multiply edges: 9/2 × 1 × 1 = 9/2.",
+      "The edge counts are 9, 2, 2, giving 36 cubes.",
+      "Each cube is 1/8 m³",
+      "36/8 = 9/2.",
+      "Check that your response answers every requested part: 9/2 m³; 36 cubes."
+    ],
+    "answer": "9/2 m³; 36 cubes",
+    "response_type": "Numeric entry and model reasoning"
+  },
+  "116": {
+    "title": "Connect Fractional Unit Cubes and Volume",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A prism measures 9/2 m by 5/2 m by 2 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
+    "steps": [
+      "For cubes with edge 1/n, each cube has volume 1/n^3 cubic unit.",
+      "Multiply edges: 9/2 × 5/2 × 2 = 45/2.",
+      "The edge counts are 9, 5, 4, giving 180 cubes.",
+      "Each cube is 1/8 m³",
+      "180/8 = 45/2.",
+      "Check that your response answers every requested part: 45/2 m³; 180 cubes."
+    ],
+    "answer": "45/2 m³; 180 cubes",
+    "response_type": "Numeric entry and model reasoning"
+  },
+  "117": {
+    "title": "Use Base Area to Find Prism Volume",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A prism measures 7/2 m by 3/2 m by 5/2 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
+    "steps": [
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Multiply edges: 7/2 × 3/2 × 5/2 = 105/8.",
+      "The edge counts are 7, 3, 5, giving 105 cubes.",
+      "Each cube is 1/8 m³",
+      "105/8 = 105/8.",
+      "Check that your response answers every requested part: 105/8 m³; 105 cubes."
+    ],
+    "answer": "105/8 m³; 105 cubes",
+    "response_type": "Numeric entry and model reasoning"
+  },
+  "118": {
+    "title": "Distinguish Area, Surface Area, and Volume",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A prism measures 5/2 m by 5/2 m by 1 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
+    "steps": [
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Multiply edges: 5/2 × 5/2 × 1 = 25/4.",
+      "The edge counts are 5, 5, 2, giving 50 cubes.",
+      "Each cube is 1/8 m³",
+      "50/8 = 25/4.",
+      "Check that your response answers every requested part: 25/4 m³; 50 cubes."
+    ],
+    "answer": "25/4 m³; 50 cubes",
+    "response_type": "Numeric entry and model reasoning"
   },
   "119": {
-    "title": "Choosing Area Volume or Surface Area",
-    "question": "A 6 cm by 4 cm base and 2 cm height form a closed box. Draw its net and find the material area. Ignore tabs and overlap.",
+    "title": "Model a Geometry Design",
+    "unit": 8,
+    "topic": "Solve Area, Surface Area, and Volume Problems",
+    "question": "A prism measures 9/2 m by 3/2 m by 2 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
     "steps": [
-      "A closed rectangular prism has two faces of area lw, two of lh, and two of wh.",
-      "Add the six face areas: SA = 2lw + 2lh + 2wh.",
-      "Closed surface area = 2(24+12+8) = 88.",
-      "State the result in the form requested: 88 cm²."
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Multiply edges: 9/2 × 3/2 × 2 = 27/2.",
+      "The edge counts are 9, 3, 4, giving 108 cubes.",
+      "Each cube is 1/8 m³",
+      "108/8 = 27/2.",
+      "Check that your response answers every requested part: 27/2 m³; 108 cubes."
     ],
-    "answer": "88 cm²"
+    "answer": "27/2 m³; 108 cubes",
+    "response_type": "Numeric entry and model reasoning"
   },
   "121": {
-    "title": "Questions That Anticipate Variability",
-    "question": "Is “What are the masses, in grams, of the apples in our classroom basket?” a statistical question? Identify the group, attribute, units, and expected variability.",
+    "title": "Recognize Statistical Questions",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "A class studies a collection of runners. Select all statistical questions, and identify the expected variability.",
+    "options": [
+      {
+        "label": "A",
+        "text": "How does race time vary among the runners?",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "What is 5 + 5?",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "How many centimeters are in 5 meters?",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "What is the race time in seconds of each of the runners?",
+        "correct": true
+      }
+    ],
     "steps": [
       "A statistical question anticipates different answers in a collection of data.",
-      "Name the group, the measured attribute, and the expected variation.",
-      "The question asks about a collection of apples.",
-      "Measure the same attribute, mass, for each apple in grams.",
-      "Different masses are expected, so the question anticipates variability.",
-      "State the result in the form requested: Yes. Group: the basket’s apples; attribute: mass; units: grams. Individual apples can have different masses.."
+      "Different runners can have different race time.",
+      "The questions anticipate variation across a collection.",
+      "The conversion and arithmetic questions have fixed answers.",
+      "Check that your response answers every requested part: A, D - How does race time vary among the runners?; What is the race time in seconds of each of the runners?."
     ],
-    "answer": "Yes. Group: the basket’s apples; attribute: mass; units: grams. Individual apples can have different masses."
+    "answer": "A, D - How does race time vary among the runners?; What is the race time in seconds of each of the runners?",
+    "response_type": "Multiple select"
   },
   "122": {
-    "title": "Center Spread and Shape",
-    "question": "Reading times in minutes are 2, 5, 5, 8, 8, 11. Describe a typical value, range, shape, and any striking value.",
-    "steps": [
-      "A distribution shows which values occur and how often.",
-      "Describe a typical value, how spread out the values are, and whether the shape is roughly symmetric, skewed, clustered, or has unusual values.",
-      "The values balance around the middle.",
-      "Range = 11 - 2.",
-      "State the result in the form requested: Center near 13/2 min; range 9 min; roughly symmetric; no isolated extreme."
+    "title": "Summarize Data with Mean and Median",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 4, 7, 7, 10, 10, 13. Select all true statements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The median is 19/2 minutes.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "The median is always the largest observation.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "The median is the average of the 3rd and 4th ordered values.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "The median is 17/2 minutes.",
+        "correct": true
+      }
     ],
-    "answer": "Center near 13/2 min; range 9 min; roughly symmetric; no isolated extreme"
-  },
-  "123": {
-    "title": "Mean and Observation Counts",
-    "question": "Reading times in minutes are 8, 10, 10, 12, 12, 14. Report n, units, and mean.",
-    "steps": [
-      "The mean is a fair share: add all values and divide by the number of observations.",
-      "Report the count and measurement units.",
-      "Sum = 66",
-      "mean = 66 ÷ 6 = 11.",
-      "State the result in the form requested: n = 6; minutes; mean 11 min."
-    ],
-    "answer": "n = 6; minutes; mean 11 min"
-  },
-  "124": {
-    "title": "Medians and Unusual Values",
-    "question": "Reading times in minutes are 3, 6, 6, 9, 9, 12. Find the median. Show the middle positions.",
     "steps": [
       "Order the data first.",
-      "For an odd count, choose the middle value.",
-      "6 ordered values: average positions 3 and 4: (6 + 9) ÷ 2 = 15/2.",
-      "State the result in the form requested: Median 15/2 min."
+      "Six ordered observations have middle positions 3 and 4, so median = (7 + 10)/2 = 17/2.",
+      "Check that your response answers every requested part: C, D - The median is the average of the 3rd and 4th ordered values.; The median is 17/2 minutes.."
     ],
-    "answer": "Median 15/2 min"
+    "answer": "C, D - The median is the average of the 3rd and 4th ordered values.; The median is 17/2 minutes.",
+    "response_type": "Multiple select"
   },
-  "126": {
-    "title": "Quartiles and Interquartile Range",
-    "question": "Reading times in minutes are 6, 8, 8, 10, 10, 12. Find Q1, Q3, IQR, and range.",
-    "steps": [
-      "Sort the data.",
-      "Find the median, then the median of each half for Q1 and Q3.",
-      "Lower half [6, 8, 8] has median 8",
-      "upper half [10, 10, 12] has median 10.",
-      "Subtract Q1 from Q3.",
-      "State the result in the form requested: Q1 8, Q3 10; IQR 2 min; range 6 min."
-    ],
-    "answer": "Q1 8, Q3 10; IQR 2 min; range 6 min"
-  },
-  "127": {
-    "title": "Mean Absolute Deviation",
-    "question": "Reading times in minutes are 7, 9, 9, 11, 11, 13. Calculate the mean and MAD. Show all absolute deviations.",
-    "steps": [
-      "Find the mean.",
-      "Calculate each value’s distance from the mean, add those distances, then divide by the number of observations.",
-      "Distances: 3, 1, 1, 1, 1, 3",
-      "sum 10",
-      "divide by 6 = 5/3.",
-      "State the result in the form requested: Mean 10 min; MAD 5/3 min."
-    ],
-    "answer": "Mean 10 min; MAD 5/3 min"
-  },
-  "128": {
-    "title": "Choosing Measures of Center",
-    "question": "Reading times in minutes are 2, 7, 7, 12, 12, 17. Choose a center and matching variability measure. Calculate both and justify your choice.",
-    "steps": [
-      "Use the shape and context.",
-      "Mean with mean absolute deviation can describe fairly symmetric data.",
-      "Mean = 19/2, median = 19/2, IQR = 12 - 7 = 5, MAD = 25/6.",
-      "Accept another justified choice tied to shape and purpose.",
-      "State the result in the form requested: Mean 19/2 min and MAD 25/6 min; roughly symmetric data."
-    ],
-    "answer": "Mean 19/2 min and MAD 25/6 min; roughly symmetric data"
-  },
-  "129": {
-    "title": "Dot Plots on a Number Line",
-    "question": "Reading times in minutes are 4, 6, 6, 8, 8, 10. Draw a labeled dot plot. Check the number of dots.",
+  "123": {
+    "title": "Display and Interpret Dot Plots",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "A frequency table records books read: 0 books: 3 students; 1: 3; 2: 5; 3: 1. Part A: draw a dot plot. Part B: enter the observation count and explain how to verify it.",
+    "options": [],
     "steps": [
       "Draw an equally spaced number line and stack one dot per observation above its value.",
-      "Repeated values stack vertically.",
-      "Each observation contributes one dot",
-      "stack repeated values at their number-line position.",
-      "State the result in the form requested: 4: 1 dot; 6: 2 dots; 8: 2 dots; 10: 1 dot; n = 6."
+      "Place one dot per student, not one per distinct value.",
+      "Total dots = 3 + 3 + 5 + 1 = 12.",
+      "Label the number line books read.",
+      "Check that your response answers every requested part: 12 students; stacks at 0, 1, 2, 3 have 3, 3, 5, 1 dots.."
     ],
-    "answer": "4: 1 dot; 6: 2 dots; 8: 2 dots; 10: 1 dot; n = 6"
+    "answer": "12 students; stacks at 0, 1, 2, 3 have 3, 3, 5, 1 dots.",
+    "response_type": "Data display and numeric entry"
   },
-  "131": {
-    "title": "Histograms and Intervals",
-    "question": "Daily reading times in minutes: 12, 18, 0, 2, 19, 10, 13, 18, 5, 16. Draw a histogram using bins 0–4, 5–9, 10–14, and 15–19. Label axes.",
+  "124": {
+    "title": "Display Data in Box Plots",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 6, 9, 9, 12, 12, 15. Part A: draw a box plot and label its five-number summary. Part B: enter the IQR.",
+    "options": [],
+    "steps": [
+      "Find minimum, Q1, median, Q3, and maximum.",
+      "Minimum and maximum anchor whiskers.",
+      "Box ends are 9, 12",
+      "median line is 21/2.",
+      "IQR = 12 - 9.",
+      "Check that your response answers every requested part: (6, 9, 21/2, 12, 15); IQR 3 min."
+    ],
+    "answer": "(6, 9, 21/2, 12, 15); IQR 3 min",
+    "response_type": "Box plot and numeric entry"
+  },
+  "125": {
+    "title": "Connect Data Values and Data Displays",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 4, 6, 6, 8, 8, 10. Part A: draw a box plot and label its five-number summary. Part B: enter the IQR.",
+    "options": [],
+    "steps": [
+      "Find minimum, Q1, median, Q3, and maximum.",
+      "Minimum and maximum anchor whiskers.",
+      "Box ends are 6, 8",
+      "median line is 7.",
+      "IQR = 8 - 6.",
+      "Check that your response answers every requested part: (4, 6, 7, 8, 10); IQR 2 min."
+    ],
+    "answer": "(4, 6, 7, 8, 10); IQR 2 min",
+    "response_type": "Box plot and numeric entry"
+  },
+  "126": {
+    "title": "Use Frequency Tables and Histograms",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Reading-time frequencies (minutes) are 0–4: 1, 5–9: 1, 10–14: 5, 15–19: 2. Part A: draw a histogram. Part B: enter the observation count and name every highest-frequency interval.",
+    "options": [],
     "steps": [
       "Group numerical values into adjacent, nonoverlapping intervals.",
-      "Count each observation in exactly one interval, draw touching bars, and label the numerical axis and the frequency axis.",
-      "Count every value once.",
-      "Bars touch and have equal width",
-      "horizontal axis is minutes, vertical axis is frequency.",
-      "State the result in the form requested: Frequencies 2, 1, 3, 4."
+      "Use four equal-width touching bars with heights 1, 1, 5, 2.",
+      "Frequencies sum to 9.",
+      "Include every interval with frequency 5.",
+      "Check that your response answers every requested part: 9 observations; highest intervals 10–14."
     ],
-    "answer": "Frequencies 2, 1, 3, 4"
+    "answer": "9 observations; highest intervals 10–14",
+    "response_type": "Data display and explanation"
+  },
+  "127": {
+    "title": "Find Quartiles and Interquartile Range",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 4, 9, 9, 14, 14, 19. Part A: enter Q1 and Q3. Part B: enter IQR and explain which portion of the data it describes.",
+    "options": [],
+    "steps": [
+      "Sort the data.",
+      "Lower-half median is 9",
+      "upper-half median is 14.",
+      "IQR = 14 - 9 = 5, the span of the middle half of the ordered data.",
+      "Check that your response answers every requested part: Q1 = 9; Q3 = 14; IQR = 5 min."
+    ],
+    "answer": "Q1 = 9; Q3 = 14; IQR = 5 min",
+    "response_type": "Multi-field numeric entry and explanation"
+  },
+  "128": {
+    "title": "Find Mean Absolute Deviation",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 3, 5, 5, 7, 7, 9. Part A: enter the mean. Part B: enter the MAD and interpret it in minutes.",
+    "options": [],
+    "steps": [
+      "Find the mean.",
+      "Mean = 36/6 = 6.",
+      "Absolute deviations: 3, 1, 1, 1, 1, 3.",
+      "Their sum divided by 6 is 5/3.",
+      "This is the average distance from the mean.",
+      "Check that your response answers every requested part: Mean 6 min; MAD 5/3 min."
+    ],
+    "answer": "Mean 6 min; MAD 5/3 min",
+    "response_type": "Numeric entry and interpretation"
+  },
+  "129": {
+    "title": "Choose Appropriate Statistical Measures",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 3, 8, 8, 13, 13, 26. Part A: describe center and spread using appropriate measures. Part B: describe shape, count, units, and any striking value; justify the chosen measures.",
+    "options": [],
+    "steps": [
+      "Use the shape and context.",
+      "Order the observations.",
+      "Middle positions give median 21/2 and half medians give IQR 5.",
+      "Mean is 71/6",
+      "averaging distances gives MAD 11/2.",
+      "Tie the chosen summary to the displayed shape and context.",
+      "Check that your response answers every requested part: 6 observations; minutes; median 21/2, IQR 5; mean 71/6, MAD 11/2. A high value makes median/IQR a useful choice.."
+    ],
+    "answer": "6 observations; minutes; median 21/2, IQR 5; mean 71/6, MAD 11/2. A high value makes median/IQR a useful choice.",
+    "response_type": "Statistical reasoning and explanation"
+  },
+  "130": {
+    "title": "Critique Statistical Summaries",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 5, 8, 8, 11, 11, 22. Part A: describe center and spread using appropriate measures. Part B: describe shape, count, units, and any striking value; justify the chosen measures.",
+    "options": [],
+    "steps": [
+      "A distribution shows which values occur and how often.",
+      "Order the observations.",
+      "Middle positions give median 19/2 and half medians give IQR 3.",
+      "Mean is 65/6",
+      "averaging distances gives MAD 23/6.",
+      "Tie the chosen summary to the displayed shape and context.",
+      "Check that your response answers every requested part: 6 observations; minutes; median 19/2, IQR 3; mean 65/6, MAD 23/6. A high value makes median/IQR a useful choice.."
+    ],
+    "answer": "6 observations; minutes; median 19/2, IQR 3; mean 65/6, MAD 23/6. A high value makes median/IQR a useful choice.",
+    "response_type": "Statistical reasoning and explanation"
+  },
+  "131": {
+    "title": "Describe Center, Spread, and Shape",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 6, 9, 9, 12, 12, 23. Part A: describe center and spread using appropriate measures. Part B: describe shape, count, units, and any striking value; justify the chosen measures.",
+    "options": [],
+    "steps": [
+      "A distribution shows which values occur and how often.",
+      "Order the observations.",
+      "Middle positions give median 21/2 and half medians give IQR 3.",
+      "Mean is 71/6",
+      "averaging distances gives MAD 23/6.",
+      "Tie the chosen summary to the displayed shape and context.",
+      "Check that your response answers every requested part: 6 observations; minutes; median 21/2, IQR 3; mean 71/6, MAD 23/6. A high value makes median/IQR a useful choice.."
+    ],
+    "answer": "6 observations; minutes; median 21/2, IQR 3; mean 71/6, MAD 23/6. A high value makes median/IQR a useful choice.",
+    "response_type": "Statistical reasoning and explanation"
   },
   "132": {
-    "title": "Box Plots and Five Number Summaries",
-    "question": "Reading times in minutes are 4, 7, 7, 10, 10, 13. Find the five-number summary and draw a labeled box plot.",
-    "steps": [
-      "Find minimum, Q1, median, Q3, and maximum.",
-      "Draw a box from Q1 to Q3 with a median line and whiskers to the endpoints.",
-      "Box runs from 7 to 10, median line at 17/2, whiskers to 4 and 13.",
-      "State the result in the form requested: (4, 7, 17/2, 10, 13)."
-    ],
-    "answer": "(4, 7, 17/2, 10, 13)"
-  },
-  "133": {
-    "title": "Comparing Data Sets",
-    "question": "Reading times (min): Group A [7, 10, 10, 13, 13, 16], Group B [9, 12, 12, 15, 15, 18]. Compare median and IQR. Which group reads longer typically? Which is more consistent?",
-    "steps": [
-      "Compute comparable measures for both groups.",
-      "Compare typical values and consistency using the same units.",
-      "Adding 2 shifts all values and the median by 2, but does not change Q3 - Q1.",
-      "State the result in the form requested: A median 23/2, B median 27/2 min; both IQR 3 min. B is typically 2 min higher; equal middle-half variability.."
-    ],
-    "answer": "A median 23/2, B median 27/2 min; both IQR 3 min. B is typically 2 min higher; equal middle-half variability."
-  },
-  "134": {
-    "title": "Writing a Complete Data Summary",
-    "question": "Reading times in minutes are 7, 12, 12, 17, 17, 22. Write a summary with count, attribute, units, center, variability, shape, and a justified choice of measures.",
+    "title": "Summarize Data in Context",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 5, 8, 8, 11, 11, 22. Part A: describe center and spread using appropriate measures. Part B: describe shape, count, units, and any striking value; justify the chosen measures.",
+    "options": [],
     "steps": [
       "A useful summary names the group and attribute, units, observation count, center, variability, and shape.",
-      "Explain why the chosen center and spread fit the data and mention any striking value.",
-      "Calculate the center and spread before interpreting them in context.",
-      "Other accurate, justified summaries are acceptable.",
-      "State the result in the form requested: 6 observations of reading time in minutes. Mean 29/2 min, MAD 25/6 min; roughly symmetric, so mean/MAD are reasonable.."
+      "Order the observations.",
+      "Middle positions give median 19/2 and half medians give IQR 3.",
+      "Mean is 65/6",
+      "averaging distances gives MAD 23/6.",
+      "Tie the chosen summary to the displayed shape and context.",
+      "Check that your response answers every requested part: 6 observations; minutes; median 19/2, IQR 3; mean 65/6, MAD 23/6. A high value makes median/IQR a useful choice.."
     ],
-    "answer": "6 observations of reading time in minutes. Mean 29/2 min, MAD 25/6 min; roughly symmetric, so mean/MAD are reasonable."
+    "answer": "6 observations; minutes; median 19/2, IQR 3; mean 65/6, MAD 23/6. A high value makes median/IQR a useful choice.",
+    "response_type": "Statistical reasoning and explanation"
+  },
+  "133": {
+    "title": "Compare Data Distributions",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 7, 12, 12, 17, 17, 22. A second group has every corresponding time 3 minutes larger. Part A: compare medians. Part B: compare IQRs and justify without listing all new data.",
+    "options": [],
+    "steps": [
+      "Compute comparable measures for both groups.",
+      "Adding 3 shifts every position and both quartiles by 3.",
+      "The median increases by 3",
+      "Q3 - Q1 remains 5.",
+      "Check that your response answers every requested part: First median 29/2; second 35/2 min; both IQR 5 min.."
+    ],
+    "answer": "First median 29/2; second 35/2 min; both IQR 5 min.",
+    "response_type": "Two-part comparison and reasoning"
+  },
+  "134": {
+    "title": "Plan and Explain a Statistical Investigation",
+    "unit": 9,
+    "topic": "Display, Describe, and Summarize Data",
+    "question": "Six students recorded reading times (minutes): 6, 11, 11, 16, 16, 29. Part A: describe center and spread using appropriate measures. Part B: describe shape, count, units, and any striking value; justify the chosen measures.",
+    "options": [],
+    "steps": [
+      "A useful summary names the group and attribute, units, observation count, center, variability, and shape.",
+      "Order the observations.",
+      "Middle positions give median 27/2 and half medians give IQR 5.",
+      "Mean is 89/6",
+      "averaging distances gives MAD 11/2.",
+      "Tie the chosen summary to the displayed shape and context.",
+      "Check that your response answers every requested part: 6 observations; minutes; median 27/2, IQR 5; mean 89/6, MAD 11/2. A high value makes median/IQR a useful choice.."
+    ],
+    "answer": "6 observations; minutes; median 27/2, IQR 5; mean 89/6, MAD 11/2. A high value makes median/IQR a useful choice.",
+    "response_type": "Statistical reasoning and explanation"
   },
   "136": {
-    "title": "Designing a School Garden",
-    "question": "A trapezoid has parallel bases 10 m and 14 m and perpendicular height 7 m. Sketch it and find its area.",
-    "steps": [
-      "Cut and move a corner of a parallelogram to make a rectangle: A = bh.",
-      "Two matching trapezoids form a parallelogram, giving A = (b1 + b2)h/2.",
-      "A = (10 + 14) × 7 ÷ 2 = 84.",
-      "State the result in the form requested: 84 m²."
+    "title": "Connect Rational Numbers, Expressions, and Ratios",
+    "unit": 10,
+    "topic": "Cumulative application",
+    "question": "A recipe uses 6 cups oats for 5 cups seeds. Select all (oats, seeds) pairs that keep this ratio.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(13, 10)",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "(12, 11)",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "(12, 10)",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "(18, 15)",
+        "correct": true
+      }
     ],
-    "answer": "84 m²"
+    "steps": [
+      "Multiply both values in a ratio by the same scale factor.",
+      "Equivalent ratios multiply both quantities by the same factor.",
+      "A uses 2",
+      "B uses 3.",
+      "C and D change only one scaled quantity.",
+      "Check that your response answers every requested part: C, D - (12, 10); (18, 15)."
+    ],
+    "answer": "C, D - (12, 10); (18, 15)",
+    "response_type": "Multiple select"
   },
   "137": {
-    "title": "Planning Storage and Packaging",
-    "question": "Draw a net for a closed 3 × 3 × 4 cm rectangular prism. Label the six faces and calculate total area.",
+    "title": "Connect Equations, Rates, and Percent",
+    "unit": 10,
+    "topic": "Cumulative application",
+    "question": "A quantity changes from a reference whole of 120 to a compared amount of 36. Part A: the compared amount is what percent of the reference whole? Part B: explain which number belongs in the denominator.",
+    "options": [],
     "steps": [
-      "A net unfolds all faces into a plane without overlap.",
-      "Rectangular prisms have three matching pairs of rectangles.",
-      "Add 2(9) + 2(12) + 2(12) = 66.",
-      "State the result in the form requested: 2 faces each of 3×3, 3×4, 3×4; 66 cm²."
+      "Divide the part by the whole, then multiply by 100.",
+      "Percent = (36 ÷ 120) × 100 = 30%.",
+      "The denominator is the reference whole, not automatically the larger number.",
+      "Check that your response answers every requested part: 30%; denominator 120."
     ],
-    "answer": "2 faces each of 3×3, 3×4, 3×4; 66 cm²"
+    "answer": "30%; denominator 120",
+    "response_type": "Numeric entry and explanation"
   },
   "138": {
-    "title": "Reporting Class Reading Data",
-    "question": "Reading times in minutes are 3, 7, 7, 11, 11, 15. Find the five-number summary and draw a labeled box plot.",
+    "title": "Connect Coordinates and Geometry Models",
+    "unit": 10,
+    "topic": "Cumulative application",
+    "question": "A prism measures 7/2 m by 1 m by 1 m. Part A: enter its volume. Part B: how many cubes with edge 1/2 m fill it? Explain why the cube count differs from the cubic-meter volume.",
+    "options": [],
     "steps": [
-      "Find minimum, Q1, median, Q3, and maximum.",
-      "Draw a box from Q1 to Q3 with a median line and whiskers to the endpoints.",
-      "Box runs from 7 to 11, median line at 9, whiskers to 3 and 15.",
-      "State the result in the form requested: (3, 7, 9, 11, 15)."
+      "A rectangular prism has volume V = lwh = Bh, where B is base area.",
+      "Multiply edges: 7/2 × 1 × 1 = 7/2.",
+      "The edge counts are 7, 2, 2, giving 28 cubes.",
+      "Each cube is 1/8 m³",
+      "28/8 = 7/2.",
+      "Check that your response answers every requested part: 7/2 m³; 28 cubes."
     ],
-    "answer": "(3, 7, 9, 11, 15)"
+    "answer": "7/2 m³; 28 cubes",
+    "response_type": "Numeric entry and model reasoning"
   },
   "139": {
-    "title": "Connecting Models and Explanations",
-    "question": "Reading times in minutes are 3, 7, 7, 11, 11, 15. Find the five-number summary and draw a labeled box plot.",
+    "title": "Explain Data and Critique Mathematical Claims",
+    "unit": 10,
+    "topic": "Cumulative application",
+    "question": "Six students recorded reading times (minutes): 3, 6, 6, 9, 9, 12. Part A: enter the mean. Part B: enter the MAD and interpret it in minutes.",
+    "options": [],
     "steps": [
-      "Find minimum, Q1, median, Q3, and maximum.",
-      "Draw a box from Q1 to Q3 with a median line and whiskers to the endpoints.",
-      "Box runs from 7 to 11, median line at 9, whiskers to 3 and 15.",
-      "State the result in the form requested: (3, 7, 9, 11, 15)."
+      "Find the mean.",
+      "Mean = 45/6 = 15/2.",
+      "Absolute deviations: 9/2, 3/2, 3/2, 3/2, 3/2, 9/2.",
+      "Their sum divided by 6 is 5/2.",
+      "This is the average distance from the mean.",
+      "Check that your response answers every requested part: Mean 15/2 min; MAD 5/2 min."
     ],
-    "answer": "(3, 7, 9, 11, 15)"
+    "answer": "Mean 15/2 min; MAD 5/2 min",
+    "response_type": "Numeric entry and interpretation"
   }
 }
