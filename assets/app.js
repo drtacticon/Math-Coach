@@ -11,7 +11,15 @@
     button.textContent = 'Show a similar example';
     button.setAttribute('aria-haspopup', 'dialog');
     button.setAttribute('aria-controls', 'practice-help-dialog');
-    practice.querySelector('h2').after(button);
+    const headingRow = document.createElement('div');
+    headingRow.className = 'practice-heading-row';
+    const headingTitle = document.createElement('div');
+    headingTitle.className = 'practice-heading-title';
+    const sectionLabel = practice.querySelector('.section-label');
+    const practiceHeading = practice.querySelector('h2');
+    practice.insertBefore(headingRow, sectionLabel);
+    headingTitle.append(sectionLabel, practiceHeading);
+    headingRow.append(headingTitle, button);
 
     const dialog = document.createElement('dialog');
     dialog.id = 'practice-help-dialog';
