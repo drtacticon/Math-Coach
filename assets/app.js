@@ -61,12 +61,13 @@
       content.replaceChildren(paragraph('Loading your worked example…', 'practice-help-status'));
       content.setAttribute('aria-busy', 'true');
       try {
-        if (!loading) loading = fetch(exampleUrl).then(response => {
+        const embedded = document.getElementById('worked-example-data');
+        if (!embedded && !loading) loading = fetch(exampleUrl).then(response => {
           if (!response.ok) throw new Error('Example unavailable');
           return response.json();
         }).then(data => { exampleData = data; }).catch(error => { loading = null; throw error; });
         await loading;
-        const example = exampleData[lessonDay.dataset.day];
+        const example = embedded ? JSON.parse(embedded.textContent) : exampleData[lessonDay.dataset.day];
         if (!example) throw new Error('Example missing');
         heading.textContent = example.title;
         const label = paragraph('SIMILAR QUESTION · DIFFERENT NUMBERS OR CONTEXT', 'eyebrow');
